@@ -451,10 +451,10 @@ citizenship_purge = {
 
 	allow = {
 		hidden_trigger = { exists = from }
-		NAND = {
-			from = { is_assimilator = yes }
-			has_trait = trait_pc_assimilated_preference
-		}
+		#NAND = {
+		#	from = { is_assimilator = yes }
+		#	has_trait = trait_pc_assimilated_preference
+		#}
 		
 		custom_tooltip = {
 			fail_text = "HIVE_MIND_MAIN_SPECIES_ALWAYS_CITIZEN"
