@@ -1770,7 +1770,13 @@ population_control_yes = {
 	token = population_control_yes
 
 	potential = {
-		from = { NOR = { has_ethic = ethic_gestalt_consciousness has_ethic = ethic_cybernetic_consciousness is_borg_empire = yes } }
+		from = {
+			NOR = {
+				has_ethic = ethic_gestalt_consciousness
+				has_ethic = ethic_cybernetic_consciousness
+				is_borg_empire = yes
+			}
+		}
 	}
 
 	pop_modifier = {
