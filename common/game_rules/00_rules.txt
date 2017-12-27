@@ -200,10 +200,10 @@ can_release_vassal = {
 		fail_text = default
 		NOT = { has_valid_civic = civic_fanatic_purifiers }
 	}
-	custom_tooltip = {
-		fail_text = default
-		NOT = { is_assimilator = yes }
-	}
+#	custom_tooltip = {
+#		fail_text = default
+#		NOT = { is_assimilator = yes }
+#	}
 	custom_tooltip = {
 		fail_text = default
 		NOT = { has_valid_civic = civic_machine_terminator }
