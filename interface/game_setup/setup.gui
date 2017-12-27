@@ -1,0 +1,718 @@
+guiTypes = {
+	@spinnerOverlayPosX = -2
+	@spinnerOverlayPosY = -4
+	@spinnerOverlaySizeX = 311
+	@spinnerOverlaySizeY = 34
+						
+	containerWindowType = {
+		name = "gamesetup_setupview"
+		position = { x=-400 y = -355 }
+		size = { width=800 height = 660 }
+		orientation = center
+
+		containerWindowType = {
+			name = "leader_frame_box"
+			size = { width = 100% height = 100%	}
+			position = { x = 0 y = 0 }
+
+			background = {
+				name = "leader_frame"
+				spriteType = "GFX_tile_large_bg_plain"
+			}
+		}
+
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = -5 y = -5 }
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "empire_header_line"
+			quadTextureSprite = "GFX_line_long"
+			position = { x = 10 y = 40 }
+		}
+
+		instantTextBoxType={
+			name = "load_label"
+			font = "large_title_font"
+			position = { x= 26 y= 8 }
+			maxWidth = 400
+			maxHeight = 59
+			text =	 "GAMESETUP_TAB_DETAILS"
+			orientation = "UPPER_LEFT"
+			format = left
+			alwaysTransparent = yes
+		}
+
+		buttonType = {
+			name = "back_button"
+			quadTextureSprite = "GFX_select_button"
+			position = { x = -1 y = -64	}
+			shortcut = "ESCAPE"
+			orientation = "LOWER_LEFT"
+			clicksound = back_click
+			oversound = menu_over_01
+			actionShortCut = "cancel"
+		}
+
+		instantTextBoxType = {
+			name = "back_button_label"
+			font = "malgun_goth_24"
+			text = "FRONT_BACK"
+			position = { x = -1 y = -42 }
+			borderSize = {x = 0 y = 0}
+			maxWidth = 314
+			maxHeight = 60
+			fixedSize = yes
+			format = center
+			alwaysTransparent = yes
+			orientation = "LOWER_LEFT"
+		}
+
+		buttonType = {
+			id = "next_button"
+			name = "next_button"
+			quadTextureSprite = "GFX_select_button"
+			position = { x = -314 y = -64 }
+			orientation = LOWER_RIGHT
+			buttonFont = "malgun_goth_24"
+			buttonText = "PLAY"
+			shortcut = "RETURN"
+			oversound = menu_over_01
+			actionShortcut = "start"
+		}
+		
+		instantTextBoxType = {
+			name = "next_button_gamepad_indicator"
+			format = center
+			position = { x = -250 y = -40 }
+			orientation = LOWER_RIGHT
+			maxWidth = 180
+			maxHeight = 20
+			font = "malgun_goth_24"
+			text = "PLAY_GAMEPAD_INDICATOR"
+		}
+		
+		instantTextBoxType = {
+			name = "back_button_gamepad_indicator"
+			format = center
+			position = { x = 60 y = -40	}
+			orientation = LOWER_LEFT
+			maxWidth = 180
+			maxHeight = 20
+			font = "malgun_goth_24"
+			text = "FRONT_BACK_GAMEPAD_INDICATOR"
+		}
+		
+		instantTextBoxType = {
+			name = "apply_button_gamepad_indicator"
+			format = center
+			position = { x = 270 y = -40  }
+			orientation = LOWER_LEFT
+			maxWidth = 180
+			maxHeight = 20
+			font = "malgun_goth_24"
+			text = "MODIFY_GAMEPAD_INDICATOR"
+		}
+###############################
+		containerWindowType = {
+			name = "game_setup_bar1_box"
+			size = { width = 745 height = 85 }
+			position = { x = 30 y = 80 }
+
+			background = {
+				name = "game_setup_bar1"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+
+		containerWindowType = {
+			name = "game_setup_bar3_box"
+			size = { width = 745 height = 40 }
+			position = { x = 30 y = 176 }
+
+			background = {
+				name = "game_setup_bar3"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+
+		containerWindowType = {
+			name = "game_setup_bar4_box"
+			size = { width = 745 height = 150 }
+			position = { x = 30 y = 225 }
+
+			background = {
+				name = "game_setup_bar3"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+
+
+		containerWindowType = {
+			name = "game_setup_bar9_box"
+			size = { width = 745 height = 36 }
+			position = { x = 30 y = 540 }
+
+			background = {
+				name = "game_setup_bar3"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+
+
+		containerWindowType = {
+			name = "game_setup_bar11_box"
+			size = { width = 745 height = 36 }
+			position = { x = 30 y = 380 }
+
+			background = {
+				name = "game_setup_bar3"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+
+		containerWindowType = {
+			name = "game_setup_bar12_box"
+			size = { width = 745 height = 36 }
+			position = { x = 30 y = 420 }
+
+			background = {
+				name = "game_setup_bar3"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+
+		containerWindowType = {
+			name = "game_setup_bar13_box"
+			size = { width = 745 height = 36 }
+			position = { x = 30 y = 460 }
+
+			background = {
+				name = "game_setup_bar3"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		
+		containerWindowType = {
+			name = "game_setup_bar14_box"
+			size = { width = 745 height = 36 }
+			position = { x = 30 y = 500 }
+
+			background = {
+				name = "game_setup_bar3"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}		
+
+
+###############################
+		instantTextBoxType = {
+			name = "randomize_label"
+			position = { x = 10000 y = 45 }
+			font = "malgun_goth_24"
+			maxWidth = 100
+			maxHeight = 52
+			format = left
+			orientation = "UPPER_LEFT"
+			text = "FE_RANDOMIZE"
+			tooltip_mode_enabled = yes
+		}		
+
+		# Size
+		containerWindowType = {
+			id = "pick_size"
+			name = "pick_size"
+			position = { x = -500 y = 85 }
+
+			instantTextBoxType = {
+				name = "pick_size_label"
+				position = { x = 540 y = 0 }
+				font = "malgun_goth_24"
+				maxWidth = 400
+				maxHeight = 52
+				alwaystransparent = yes
+				text = "GALAXY_SIZE"
+				orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "pick_size_label2"
+				position = { x = 540 y = 97 }
+				font = "malgun_goth_24"
+				maxWidth = 400
+				maxHeight = 52
+				alwaystransparent = yes
+				text = "GALAXY_TYPE"
+				orientation = "UPPER_LEFT"
+			}
+
+            instantTextBoxType = {
+                name = "pick_size_label3"
+                position = { x = 540 y = 200 }
+                font = "malgun_goth_24"
+                maxWidth = 400
+                maxHeight = 52
+                alwaystransparent = yes
+                text = "GALAXY_DESCRIPTION"
+                orientation = "UPPER_LEFT"
+            }
+
+			instantTextBoxType = {
+				name = "pick_size_text"
+				position = { x = 690 y = 0 }
+				font = "malgun_goth_24"
+				text = "SIZE_NORMAL"
+				maxWidth = 500
+				maxHeight = 300
+				fixedSize = yes
+				format = center
+				alwaystransparent = yes
+				orientation = "UPPER_LEFT"
+			}
+
+			spinnerType = {
+				id = "galaxy_size_spinner"
+				name = "galaxy_size_spinner"
+				leftbutton = "spinner_upButton"
+				rightbutton = "spinner_downButton"
+				size = {x = 310 y = 30 }
+				position = {x= 787 y =20}
+				priority = 100
+				borderSize = {x =16 y = 16}
+				horizontal = 1
+				maxValue = 100
+				startValue = 0
+	 			defaultSelection = yes
+
+				guiButtonType = {
+					name = "spinner_upButton"
+					quadTextureSprite = "scrollbar_leftbutton"
+					position = { x=30 y =0}
+				}
+				guiButtonType = {
+					name = "spinner_downButton"
+					quadTextureSprite = "scrollbar_rightbutton"
+					position = { x=30 y =120}
+				}
+				
+				overlay = {
+					name = "selected_overlay"
+					spriteType = "GFX_glow_tile_orange_no_padding"
+					overSprite = "GFX_glow_tile_line"
+					position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+					size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+				}
+				
+				navDown = "galaxy_shape_spinner"
+			}
+		}
+
+
+
+
+
+###### Lower slider and game settings: 
+
+		### Habitable Worlds
+		containerWindowType = {
+			name = "num_habitable_worlds"
+			position = { x = 50 y = 240 }
+
+			instantTextBoxType = {
+				name = "habitable_worlds_label"
+				position = { x = -10 y = 145 }
+				font = "malgun_goth_24"
+				maxWidth = 404
+				maxHeight = 52
+				orientation = "UPPER_LEFT"
+				text = "NUM_HABITABLE_WORLDS"
+				pdx_tooltip = "FE_HABITABLE_WORLDS_TOOLTIP"
+				tooltip_mode_enabled = yes
+			}
+
+			instantTextBoxType = {
+				name = "pick_amount_value"
+				position = { x = 350 y = 145 }
+				font = "malgun_goth_24"
+				maxWidth = 50
+				maxHeight = 52
+				format = right
+				#alwaystransparent = yes
+				orientation = "UPPER_LEFT"
+				text = "5"
+			}
+
+			scrollbarType = {
+				id = "num_habitable_worlds_slider"
+				name = "amount_slider"
+				slider = "scrollbar_SliderButton"
+				track= "scrollbar_TrackButton"
+				leftbutton = "scrollbar_upButton"
+				rightbutton = "scrollbar_downButton"
+				size = {x = 307 y = 30 }
+				position = {x= 410 y =145}
+				priority = 100
+				borderSize = {x =16 y = 16}
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+				horizontal = 1
+
+				guiButtonType = {
+					name = "scrollbar_SliderButton"
+					quadTextureSprite = "GFX_settings_scroll_drager"
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+					position = { x=30 y =0}
+				}
+				guiButtonType = {
+					name = "scrollbar_TrackButton"
+					quadTextureSprite = "scrollbar_background"
+					position = { x=30 y =20}
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+				}
+				guiButtonType = {
+					name = "scrollbar_upButton"
+					quadTextureSprite = "scrollbar_leftbutton"
+					position = { x=30 y =0}
+				}
+				guiButtonType = {
+					name = "scrollbar_downButton"
+					quadTextureSprite = "scrollbar_rightbutton"
+					position = { x=30 y =120}
+				}
+				overlay = {
+					name = "selected_overlay"
+					spriteType = "GFX_glow_tile_orange_no_padding"
+					overSprite = "GFX_glow_tile_line"					
+					position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+					size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+				}
+				
+				navUp = "num_fallen_empires_slider"
+				navDown = "aggressiveness_spinner"
+			}
+		}
+
+		### Primitives
+		containerWindowType = {
+			name = "num_primitive_worlds"
+			position = { x = 50 y = 280 }
+
+			instantTextBoxType = {
+				name = "primitive_worlds_label"
+				position = { x = -10 y = 145 }
+				font = "malgun_goth_24"
+				maxWidth = 404
+				maxHeight = 52
+				orientation = "UPPER_LEFT"
+				text = "FE_PRIMITIVE_WORLDS"
+				pdx_tooltip = "FE_PRIMITIVE_WORLDS_TOOLTIP"
+				tooltip_mode_enabled = yes
+			}
+
+			instantTextBoxType = {
+				name = "pick_amount_value"
+				position = { x = 350 y = 145 }
+				font = "malgun_goth_24"
+				maxWidth = 50
+				maxHeight = 52
+				format = right
+				#alwaystransparent = yes
+				orientation = "UPPER_LEFT"
+				text = "5"
+			}
+
+			scrollbarType = {
+				id = "num_primitive_worlds_slider"
+				name = "amount_slider"
+				slider = "scrollbar_SliderButton"
+				track= "scrollbar_TrackButton"
+				leftbutton = "scrollbar_upButton"
+				rightbutton = "scrollbar_downButton"
+				size = {x = 307 y = 30 }
+				position = {x= 410 y =145}
+				priority = 100
+				borderSize = {x =16 y = 16}
+				maxValue = 100
+				minValue = 0
+				stepSize =1
+				startValue = 20
+				horizontal = 1
+
+				guiButtonType = {
+					name = "scrollbar_SliderButton"
+					quadTextureSprite = "GFX_settings_scroll_drager"
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+					position = { x=30 y =0}
+				}
+				guiButtonType = {
+					name = "scrollbar_TrackButton"
+					quadTextureSprite = "scrollbar_background"
+					position = { x=30 y =20}
+					tooltip = ""
+					tooltipText =""
+					delayedTooltipText = ""
+				}
+				guiButtonType = {
+					name = "scrollbar_upButton"
+					quadTextureSprite = "scrollbar_leftbutton"
+					position = { x=30 y =0}
+				}
+				guiButtonType = {
+					name = "scrollbar_downButton"
+					quadTextureSprite = "scrollbar_rightbutton"
+					position = { x=30 y =120}
+				}
+				overlay = {
+					name = "selected_overlay"
+					spriteType = "GFX_glow_tile_orange_no_padding"
+					overSprite = "GFX_glow_tile_line"					
+					position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+					size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+				}
+				
+				navUp = "num_fallen_empires_slider"
+				navDown = "aggressiveness_spinner"
+			}
+		}
+		
+
+		# Aggressiveness
+		containerWindowType = {
+			name = "aggressiveness"
+			position = { x = 50 y = 505 }
+
+			instantTextBoxType = {
+				name = "aggressiveness_label"
+				position = { x = -10 y = 0 }
+				font = "malgun_goth_24"
+				maxWidth = 204
+				maxHeight = 52
+				orientation = "UPPER_LEFT"
+				text = "FE_AGGRESSIVENESS"
+				pdx_tooltip = "FE_AGGRESSIVENESS_TOOLTIP"
+				tooltip_mode_enabled = yes
+			}
+
+			instantTextBoxType={
+				name = "value"
+				font = "malgun_goth_24"
+				text = "AGGRESSIVENESS_NORMAL"
+				position = { x = 457 y = 0 }
+				maxWidth = 220
+				maxHeight = 35
+				fixedSize = yes
+				format = center
+			}
+
+			spinnerType = {
+				id = "aggressiveness_spinner"
+				name = "aggressiveness_spinner"
+				leftbutton = "spinner_upButton"
+				rightbutton = "spinner_downButton"
+				size = {x = 307 y = 30 }
+				position = {x= 410 y =0}
+				priority = 100
+				borderSize = {x =16 y = 16}
+				horizontal = 1
+				maxValue = 100
+				startValue = 0
+
+				guiButtonType = {
+					name = "spinner_upButton"
+					quadTextureSprite = "scrollbar_leftbutton"
+					position = { x=30 y =0}
+				}
+				guiButtonType = {
+					name = "spinner_downButton"
+					quadTextureSprite = "scrollbar_rightbutton"
+					position = { x=30 y =120}
+				}
+				
+				overlay = {
+					name = "selected_overlay"
+					spriteType = "GFX_glow_tile_orange_no_padding"
+					overSprite = "GFX_glow_tile_line"					
+					position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+					size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+				}
+
+				navUp = "num_habitable_worlds_slider"
+				navDown = "galaxy_difficulty_spinner"
+			}
+		}
+
+		# Difficulty
+		containerWindowType = {
+			id = "difficulty"
+			name = "difficulty"
+			position = { x = 50 y = 465}
+
+			instantTextBoxType = {
+				name = "difficulty_label"
+				position = { x = -10 y = 0 }
+				font = "malgun_goth_24"
+				maxWidth = 204
+				maxHeight = 52
+				orientation = "UPPER_LEFT"
+				text = "FE_DIFFICULTY"
+				pdx_tooltip = "FE_DIFFICULTY_TOOLTIP"
+				tooltip_mode_enabled = yes
+			}
+
+			instantTextBoxType={
+				name = "value"
+				font = "malgun_goth_24"
+				text = "DIFFICULTY_NORMAL"
+				position = { x = 457 y = 0 }
+				maxWidth = 220
+				maxHeight = 35
+				fixedSize = yes
+				format = center
+			}
+
+			spinnerType = {
+				id = "galaxy_difficulty_spinner"
+				name = "galaxy_difficulty_spinner"
+				leftbutton = "spinner_upButton"
+				rightbutton = "spinner_downButton"
+				size = {x = 307 y = 30 }
+				position = {x= 410 y =0}
+				priority = 100
+				borderSize = {x =16 y = 16}
+				horizontal = 1
+				maxValue = 100
+				startValue = 0
+
+				guiButtonType = {
+					name = "spinner_upButton"
+					quadTextureSprite = "scrollbar_leftbutton"
+					position = { x=30 y =0}
+				}
+				guiButtonType = {
+					name = "spinner_downButton"
+					quadTextureSprite = "scrollbar_rightbutton"
+					position = { x=30 y =120}
+				}
+				
+				overlay = {
+					name = "selected_overlay"
+					spriteType = "GFX_glow_tile_orange_no_padding"
+					overSprite = "GFX_glow_tile_line"					
+					position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+					size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+				}
+
+				navUp = "aggressiveness_spinner"
+				navDown = "galaxy_ftl_spinner"
+			}
+		}
+
+		# Ironman
+		containerWindowType = {
+			id = "ironman"
+			name = "ironman"
+			position = { x = 50 y = 545 }
+
+			iconType = {
+				name = "ironman_icon"
+				spriteType = "GFX_ironman_icon"
+				position = { x = 380 y = -6 }
+			}
+
+			instantTextBoxType = {
+				name = "ironman_label"
+				position = { x = -10 y = 0 }
+				font = "malgun_goth_24"
+				maxWidth = 400
+				maxHeight = 52
+				orientation = "UPPER_LEFT"
+				text = "FE_IRONMAN"
+				pdx_tooltip = "FE_IRONMAN_TOOLTIP"
+				tooltip_mode_enabled = yes
+			}
+
+			instantTextBoxType={
+				name = "value"
+				font = "malgun_goth_24"
+				text = "SETTINGS_TUTORIAL_ON"
+				position = { x = 457 y = 0 }
+				maxWidth = 220
+				maxHeight = 35
+				fixedSize = yes
+				format = center
+			}
+
+			spinnerType = {
+				id = "ironman_spinner"
+				name = "ironman_spinner"
+				leftbutton = "spinner_upButton"
+				rightbutton = "spinner_downButton"
+				size = {x = 307 y = 30 }
+				position = {x= 410 y =0}
+				priority = 100
+				borderSize = {x =16 y = 16}
+				horizontal = 1
+				maxValue = 100
+				startValue = 0
+
+				guiButtonType = {
+					name = "spinner_upButton"
+					quadTextureSprite = "scrollbar_leftbutton"
+					position = { x=30 y =0}
+				}
+				guiButtonType = {
+					name = "spinner_downButton"
+					quadTextureSprite = "scrollbar_rightbutton"
+					position = { x=30 y =120}
+				}
+				
+				overlay = {
+					name = "selected_overlay"
+					spriteType = "GFX_glow_tile_orange_no_padding"
+					overSprite = "GFX_glow_tile_line"					
+					position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+					size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+				}
+
+				navUp = "galaxy_crises_spinner"
+			}
+		}
+		
+		instantTextBoxType = {
+			name = "achievement"
+			position = { x = -175 y = 1010 }
+			font = "malgun_goth_24"
+			maxWidth = 400
+			maxHeight = 52
+			orientation = "CENTER"
+			text = "ACHIEVEMENT"
+			pdx_tooltip = "ACHIEVEMENT_TOOLTIP"
+			tooltip_mode_enabled = yes
+		}
+
+		listboxType = {
+			name ="pick_size_list"
+			position = { x = 832 y = 111 }
+			size = { x= 337 y =400 }
+			scrollbartype = "standardlistbox_slider"
+		}
+
+		listboxType = {
+			name ="pick_shape_list"
+			position = { x = 832 y = 151 }
+			size = { x= 204 y =400 }
+			scrollbartype = "standardlistbox_slider"
+		}
+	}
+}

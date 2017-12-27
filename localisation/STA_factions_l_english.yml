@@ -1,0 +1,216 @@
+﻿############
+# Star Trek Factions (STA) mod
+# Author: EHKodiak
+############
+
+l_english:
+
+
+#Faction Additions
+ 
+ IMPERIALIST_FRONTIER_OUTPOSTS:0 "Border Expansion"
+ IMPERIALIST_FRONTIER_OUTPOSTS_DESC:1 "Constructing a §YFrontier Outpost§! to expand our territory will please the [Root.GetName] for a time."
+ IMPERIALIST_NO_RECENT_FRONTIER_OUTPOSTS:0 "$IMPERIALIST_FRONTIER_OUTPOSTS$"
+ IMPERIALIST_FORMFED:0 "Formed Federation of Planets"
+ IMPERIALIST_FEDERATIONOFPLANETS:0 "$IMPERIALIST_FORMFED$"
+ IMPERIALIST_FORMFED_DESC:0 "Allowing the [Root.Owner.GetName] to be exploited by alien interests by §Ycreating the Federation of Planets§! displeases the [Root.GetName]."
+ ISOLATIONIST_PURITY_TRADITION:0 "Traditional Purity"
+ ISOLATIONIST_NO_PURITY_TRADITION:0 "$ISOLATIONIST_PURITY_TRADITION$"
+ ISOLATIONIST_PURITY_TRADITION_DESC:0 "Adopting any Traditions emphasizing §YPurity§! will please the [Root.GetName]."
+ PROGRESSIVE_DIPLOMACY_TRADITION:0 "Traditional Diplomacy"
+ PROGRESSIVE_NO_DIPLOMACY_TRADITION:0 "$PROGRESSIVE_DIPLOMACY_TRADITION$"
+ PROGRESSIVE_DIPLOMACY_TRADITION_DESC:0 "Adopting any Traditions emphasizing §YDiplomacy§! will please the [Root.GetName]."
+
+ PROGRESSIVE_FREEEDUCATION:0 "Free Education"
+ PROGRESSIVE_NO_FREEEDUCATION:0 "$PROGRESSIVE_FREEEDUCATION$"
+ PROGRESSIVE_FREEEDUCATION_DESC:0 "Citizens do not like to pay for their education. Making education free for all our citizens will please [Root.GetName]"
+
+ PROGRESSIVE_FREEHEALTH:0 "Universal Healthcare"
+ PROGRESSIVE_NO_FREEHEALTH:0 "$PROGRESSIVE_FREEHEALTH$"
+ PROGRESSIVE_FREEHEALTH_DESC:0 "Citizens do not like to pay for their healthcare. Having a universal health care policy for all our citizens will please [Root.GetName]"
+
+ PROSPERITY_PAIDEDUCATION:0 "Private Schools"
+ PROSPERITY_NO_PAIDEDUCATION:0 "$PROSPERITY_PAIDEDUCATION$"
+ PROSPERITY_PAIDEDUCATION_DESC:0 "The private sector does it best. Enabling private schools to operate pleases [Root.GetName]"
+
+ PROSPERITY_PAIDHEALTH:0 "Private Healthcare"
+ PROSPERITY_NO_PAIDHEALTH:0 "$PROSPERITY_PAIDHEALTH$"
+ PROSPERITY_PAIDHEALTH_DESC:0 "The best healthcare goes to those with the most resources. Enabling private healthcare will please [Root.GetName]"
+
+ TECHNOLOGIST_UNIVHEALTH:0 "Healthcare Research"
+ TECHNOLOGIST_NO_UNIVHEALTH:0 "$TECHNOLOGIST_UNIVHEALTH$"
+ TECHNOLOGIST_UNIVHEALTH_DESC:0 "Combining our healthcare facilities in a learning environment teaches us many things, and will please [Root.GetName]"
+
+ TECHNOLOGIST_ACCELEDUCATION:0 "Best and Brightest"
+ TECHNOLOGIST_NO_ACCELEDUCATION:0 "$TECHNOLOGIST_ACCELEDUCATION$"
+ TECHNOLOGIST_ACCELEDUCATION_DESC:0 "Accelerating our education studies through additional funding to schools and universities will please [Root.GetName]"
+
+ TECHNOLOGIST_IMPHIGHTECH:0 "Alternative Tech"
+ TECHNOLOGIST_NO_IMPHIGHTECH:0 "$TECHNOLOGIST_IMPHIGHTECH$"
+ TECHNOLOGIST_IMPHIGHTECH_DESC:0 "Importing strange new high tech alien goods will please [Root.GetName]"
+
+ TECHNOLOGIST_LIVINGACADEMIC:0 "Academic Bliss"
+ TECHNOLOGIST_NO_LIVINGACADEMIC:0 "$TECHNOLOGIST_LIVINGACADEMIC$"
+ TECHNOLOGIST_LIVINGACADEMIC_DESC:0 "With our many prosperous resources, we should set up some of our citizens in Academic Bliss which would please [Root.GetName]"
+
+ TRADITIONALIST_RELIGIOUSEDU:0 "Religious Schooling"
+ TRADITIONALIST_NO_RELIGIOUSEDU:0 "$TRADITIONALIST_RELIGIOUSEDU$"
+ TRADITIONALIST_RELIGIOUSEDU_DESC:0 "We must show our students the true way, so that they cannot be corrupted by outside influence"
+
+ TRADITIONALIST_RELIGIOUSIMPORT:0 "Cultural Artifacts"
+ TRADITIONALIST_NO_RELIGIOUSIMPORT:0 "$TRADITIONALIST_RELIGIOUSIMPORT$"
+ TRADITIONALIST_RELIGIOUSIMPORT_DESC:0 "Importing cultural artifacts from offworld to examine their traditions would please [Root.GetName]"
+
+ TRADITIONALIST_LIVINGGAIA:0 "Ancient Paradise"
+ TRADITIONALIST_NO_LIVINGGAIA:0 "$TRADITIONALIST_LIVINGGAIA$"
+ TRADITIONALIST_LIVINGGAI_DESC:0 "Our prosperous civilisation is one to last the ages. We should set up some citizens in an ancient paradise of our people, to please [Root.GetName]"
+
+ XENOIST_PRESERVATION_TRADITION:0 "Preserving Cultures"
+ XENOIST_NO_PRESERVATION_TRADITION:0 "$XENOIST_PRESERVATION_TRADITION$"
+ XENOIST_PRESERVATION_TRADITION_DESC:0 "Adopting any Traditions emphasizing §YPreservation§! will please the [Root.GetName]."
+
+ ISOLATIONIST_CHANGELINGDET:0 "Changeling Detection"
+ ISOLATIONIST_NO_CHANGELINGDET:0 "$ISOLATIONIST_CHANGELINGDET$"
+ ISOLATIONIST_CHANGELINGDET_DESC:0 "Changelings could be infiltrating our worlds at the highest levels. Weak §Ychangeling detection§! policies will displease [Root.GetName]"
+
+ PROGRESSIVE_CHANGELINGDET:0 "Changeling Screening"
+ PROGRESSIVE_NO_CHANGELINGDET:0 "$PROGRESSIVE_CHANGELINGDET$"
+ PROGRESSIVE_CHANGELINGDET_DESC:0 "Searching everybody and disrupting their lives is exactly what the changelings want. We should just go about our business as normal. Changeling security measures will displease [Root.GetName]"
+
+ TOTALITARIAN_CHANGELINGDET1:0 "Mandatory Screening"
+ TOTALITARIAN_NO_CHANGELINGDET1:0 "$TOTALITARIAN_CHANGELINGDET1$"
+ TOTALITARIAN_CHANGELINGDET1_DESC:0 "To combat the evil changeling infiltrators our citizens should undergo mandatory screening procedures. Improved security and control §Ypolicies§! to detect changelings will please [Root.GetName]"
+
+ TOTALITARIAN_CHANGELINGDET2:0 "Mandatory Screening"
+ TOTALITARIAN_NO_CHANGELINGDET2:0 "$TOTALITARIAN_CHANGELINGDET2$"
+ TOTALITARIAN_CHANGELINGDET2_DESC:0 "To combat the evil changeling infiltrators our citizens should undergo mandatory screening procedures. Improved security and control §Ypolicies§! to detect changelings will please [Root.GetName]"
+
+ TOTALITARIAN_CHANGELINGDET3:0 "Mandatory Screening"
+ TOTALITARIAN_NO_CHANGELINGDET3:0 "$TOTALITARIAN_CHANGELINGDET3$"
+ TOTALITARIAN_CHANGELINGDET3_DESC:0 "To combat the evil changeling infiltrators our citizens should undergo mandatory screening procedures. Improved security and control §Ypolicies§! to detect changelings will please [Root.GetName]"
+ 
+ XENOIST_CHANGELINGDET:0 "Changeling Screening"
+ XENOIST_NO_CHANGELINGDET:0 "Racial Profiling"
+ XENOIST_CHANGELINGDET_DESC:0 "Searching everybody and disrupting their lives is exactly what the changelings want. We should just go about our business as normal. Changeling security measures will displease [Root.GetName]"
+
+ SUPREMACIST_DOMINATION_TRADITION:0 "Tradition of Dominance" 
+ SUPREMACIST_NO_DOMINATION_TRADITION:0 "$SUPREMACIST_DOMINATION_TRADITION$"
+ SUPREMACIST_DOMINATION_TRADITION_DESC:0 "Adopting any Traditions emphasizing §YDomination§! will please the [Root.GetName]."
+
+ TECHNOLOGIST_NORELIGIOUSINTERFERENCE:0 "No Religious Interference"
+ TECHNOLOGIST_RELIGIOUSINTERFERENCE:0 "$TECHNOLOGIST_NORELIGIOUSINTERFERENCE$"
+ TECHNOLOGIST_NORELIGIOUSINTERFERENCE_DESC:0 "Having any Traditions emphasizing §YDoctrine§! will greatly displease the [Root.GetName]."
+ 
+ TOTALITARIAN_PROPAGANDAEDUCATION:0 "Youth Propaganda"
+ TOTALITARIAN_NO_PROPAGANDAEDUCATION:0 "$TOTALITARIAN_PROPAGANDAEDUCATION$"
+ TOTALITARIAN_PROPAGANDAEDUCATION_DESC:0 "Having an education system preaching the benefits of our government will please the [Root.GetName]."
+ 
+ TOTALITARIAN_DRONEDEACT:0 "Drone Security Risk"
+ TOTALITARIAN_NO_DRONEDEACT:0 "$TOTALITARIAN_DRONEDEACT$"
+ TOTALITARIAN_DRONEDEACT_DESC:0 "We can never be sure that ex Borg drones won't harbour a longing to return to the Collective. Attempting to deassimilate drones back into citizens will displease the [Root.GetName]."
+ 
+ ISOLATIONIST_DRONEDEACT:0 "Drone Deactivation"
+ ISOLATIONIST_NO_DRONEDEACT:0 "$ISOLATIONIST_DRONEDEACT$"
+ ISOLATIONIST_DRONEDEACT_DESC:0 "Drones have been forever tainted by their ordeals in the Collective. Deactivating these drones is the safest and best option and will please [Root.GetName]."
+ 
+ PROGRESSIVE_DRONEDEASS:0 "Drones are People"
+ PROGRESSIVE_NO_DRONEDEASS:0 "$PROGRESSIVE_DRONEDEASS$"
+ PROGRESSIVE_DRONEDEASS_DESC:0 "Drones are people too, we must do everything we can to save them. Attempting to de-assimilate rather then deactivating ex Borg drones will please [Root.GetName]."
+ 
+ PROGRESSIVE_DRONEDEASS2:0 "Drones are People"
+ PROGRESSIVE_NO_DRONEDEASS2:0 "$PROGRESSIVE_DRONEDEASS$"
+ PROGRESSIVE_DRONEDEASS2_DESC:0 "Drones are people too, we must do everything we can to save them. Attempting to de-assimilate rather then deactivating ex Borg drones will please [Root.GetName]."
+ 
+ PROGRESSIVE_DRONEDEASS3:0 "Drones are People"
+ PROGRESSIVE_NO_DRONEDEASS3:0 "$PROGRESSIVE_DRONEDEASS$"
+ PROGRESSIVE_DRONEDEASS3_DESC:0 "Drones are people too, we must do everything we can to save them. Attempting to de-assimilate rather then deactivating ex Borg drones will please [Root.GetName]."
+ 
+ IMPERIALIST_KLINGONGLORY_TRADITION:0 "Glory of the Empire"
+ IMPERIALIST_NO_KLINGONGLORY_TRADITION:0 "$IMPERIALIST_KLINGONGLORY_TRADITION$"
+ IMPERIALIST_KLINGONGLORY_TRADITION_DESC:0 "Our history tells of the great glory of the Empire. Adopting Traditions emphasizing §YGlory§! will please the [Root.GetName]."
+
+ SUPREMACIST_ROMULANCUNNING_TRADITION:0 "Shrewd Traditions"
+ SUPREMACIST_NO_ROMULANCUNNING_TRADITION:0 "$SUPREMACIST_ROMULANCUNNING_TRADITION$"
+ SUPREMACIST_ROMULANCUNNING_TRADITION_DESC:0 "Our history is filled with stories of guile and cleverness. Adopting Traditions emphasizing §YCunning§! will please the [Root.GetName]."
+
+ TECHNOLOGIST_VULLOGIC_TRADITION:0 "Tradition of Logic"
+ TECHNOLOGIST_NO_VULLOGIC_TRADITION:0 "Illogical Traditions"
+ TECHNOLOGIST_VULLOGIC_TRADITION_DESC:0 "Our history speaks of the important of following logic and reason. Adopting Traditions emphasizing §YLogic§! will please the [Root.GetName]."
+
+ TECHNOLOGIST_CARORDER_TRADITION:0 "Tradition of Order" 
+ TECHNOLOGIST_NO_CARORDER_TRADITION:0 "$TECHNOLOGIST_CARORDER_TRADITION$"
+ TECHNOLOGIST_CARORDER_TRADITION_DESC:0 "Our Union was founded on Order - the will of many being better than it's individual parts. Adopting Traditions emphasizing §YOrder§! will please the [Root.GetName]."
+
+ TRADITIONALIST_BAJPROPHECY_TRADITION:0 "Bajoran Prophecy"
+ TRADITIONALIST_NO_BAJPROPHECY_TRADITION:0 "$TRADITIONALIST_BAJPROPHECY_TRADITION$"
+ TRADITIONALIST_BAJPROPHECY_TRADITION_DESC:0 "Our history tells us of the past, and prophecy speaks of the future. Adopting Traditions emphasizing §YProphecy§! will please the [Root.GetName]. Perhaps further study will grant us more enlightenment"
+
+ TRADITIONALIST_BAJPROPHECY2_TRADITION:0 "Great Bajoran Prophecies" 
+ TRADITIONALIST_NO_BAJPROPHECY2_TRADITION:0 "$TRADITIONALIST_BAJPROPHECY_TRADITION$"
+ TRADITIONALIST_BAJPROPHECY2_TRADITION_DESC:0 "Deep spiritual traditions on the power of prophecy have granted many of our people great enlightment and greatly please [Root.GetName]" 
+
+ TRADITIONALIST_TAMTANAGRA_TRADITION:0 "Darmok and Jalad at Tanagra"
+ TRADITIONALIST_NO_TAMTANAGRA_TRADITION:0 "Darmok on the ocean"
+ TRADITIONALIST_TAMTANAGRA_TRADITION_DESC:0 "The spirit of cooperation is important to our people. Adopting Traditions emphasizing §YTanagra§! will please the [Root.GetName]"
+
+ TRADITIONALIST_KDFHONOR_TRADITION:0 "Klingon Honour"
+ TRADITIONALIST_NO_KDFHONOR_TRADITION:0 "Klingon Dishonour"
+ TRADITIONALIST_KDFHONOR_TRADITION_DESC:0 "Nothing is more honorable than victory. Adopting Traditions emphasizing §YHonour§! will please the [Root.GetName]"
+
+ TRADITIONALIST_KDFHONOR2_TRADITION:0 "Mighty Klingon Honour" 
+ TRADITIONALIST_NO_KDFHONOR2_TRADITION:0 "$TRADITIONALIST_NO_KDFHONOR_TRADITION$"
+ TRADITIONALIST_KDFHONOR2_TRADITION_DESC:0 "Honour is now engrained deeply within our might Empire, from the low-born to the Great Houses, which greatly pleases [Root.GetName]"
+ 
+ TRADITIONALIST_FALLHERITAGE_TRADITION:0 "Ancient Heritage"
+ TRADITIONALIST_NO_FALLHERITAGE_TRADITION:0 "Forgotten Past"
+ TRADITIONALIST_FALLHERITAGE_TRADITION_DESC:0 "Our glory was long ago, but we can remember once again. Adopting Traditions emphasizing §YHeritage§! will please the [Root.GetName]"
+
+ XENOIST_FERGREED_TRADITION:0 "Exploiting Greed"
+ XENOIST_NO_FERGREED_TRADITION:0 "$XENOIST_FERGREED_TRADITION$"
+ XENOIST_FERGREED_TRADITION_DESC:0 "Exploiting §YGreed§! within our alliance will please the [Root.GetName]" 
+
+ XENOIST_FEDFEDERATION_TRADITION:0 "Federation Traditions" 
+ XENOIST_NO_FEDFEDERATION_TRADITION:0 "$XENOIST_FEDFEDERATION_TRADITION$"
+ XENOIST_FEDFEDERATION_TRADITION_DESC:0 "Since First Contact with the Vulcans in 2063, the drive to create a Federation of Planets is strong. Adopting §YFederation§! traditions will please [Root.GetName]" 
+
+ XENOIST_FEDFEDERATION2_TRADITION:0 "The United Federation of Planets"
+ XENOIST_NO_FEDFEDERATION2_TRADITION:0 "$XENOIST_FEDFEDERATION_TRADITION$"
+ XENOIST_FEDFEDERATION2_TRADITION_DESC:0 "From First Contact with the Vulcans in 2063 to the present day, the drive to seek out new life and new civilizations has never been more engrained in our people. This greatly pleases [Root.GetName]" 
+ 
+ PROSPERITY_NOMADIC_TRADITION:0 "Nomadic Traditions"
+ PROSPERITY_NO_NOMADIC_TRADITION:0 "$PROSPERITY_NOMADIC_TRADITION$"
+ PROSPERITY_NOMADIC_TRADITION_DESC:0 "Adopting any §YNomadic§! Traditions will please the [Root.GetName]."
+
+ PROSPERITY_EXPANSION_TRADITION:0 "Expansion Traditions"
+ PROSPERITY_NO_EXPANSION_TRADITION:0 "$PROSPERITY_EXPANSION_TRADITION$"
+ PROSPERITY_EXPANSION_DESC:0 "Adopting any §YExpansion§! Traditions will please the [Root.GetName]."
+
+ SUPREMACIST_STRENGTH_TRADITION:0 "Strength Traditions"
+ SUPREMACIST_NO_STRENGTH_TRADITION:0 "$SUPREMACIST_STRENGTH_TRADITION$"
+ SUPREMACIST_STRENGTH_TRADITION_DESC:0 "Adopting any Traditions emphasizing §YStrength§! will please the [Root.GetName]."
+
+ TECHNOLOGIST_INNOVATION_TRADITION:0 "Innovation Traditions"
+ TECHNOLOGIST_NO_INNOVATION_TRADITION:0 "$TECHNOLOGIST_INNOVATION_TRADITION$"
+ TECHNOLOGIST_INNOVATION_TRADITION_DESC:0 "Adopting any Traditions emphasizing §YInnovation§! will please the [Root.GetName]."
+
+ XENOIST_DIVERSITY_TRADITION:0 "Diversity Traditions"
+ XENOIST_NO_DIVERSITY_TRADITION:0 "$XENOIST_DIVERSITY_TRADITION$"
+ XENOIST_DIVERSITY_TRADITION_DESC:0 "Adopting any Traditions emphasizing §YDiversity§! will please the [Root.GetName]."
+
+ 
+ ISOLATIONIST_IME:0 "Medical Exchange Spies"
+ ISOLATIONIST_NO_IME:0 "$ISOLATIONIST_IME$"
+ ISOLATIONIST_IME_DESC:0 "Being part of the Interstellar Medical Exchange allows the potential for infiltrators into our empire. This displeases the [Root.GetName]"
+
+ ISOLATIONIST_KLINGONOPERA:0 "Klingon Operatic Society"
+ ISOLATIONIST_NO_KLINGONOPERA:0 "$ISOLATIONIST_KLINGONOPERA$"
+ ISOLATIONIST_KLINGONOPERA_DESC:0 "Our great ballads prove we do not need outsiders in our society. These operas please the [Root.GetName]"
+
+ TRADITIONALIST_SWORDKAHLESS:0 "Sword of Kahless"
+ TRADITIONALIST_NO_SWORDKAHLESS:0 "$TRADITIONALIST_SWORDKAHLESS$"
+ TRADITIONALIST_SWORDKAHLESS_DESC:0 "The Sword of Kahless unifies our traditions like never before. This especially please the [Root.GetName]"
+
+ ISOLATIONIST_STRONG_FLEET:0 "The Fleet is our Wall" 
+ ISOLATIONIST_NO_STRONG_FLEET:0 "$ISOLATIONIST_STRONG_FLEET$"
+ ISOLATIONIST_STRONG_FLEET_DESC:0 "A strong fleet protects our borders from interlopers. Having a more powerful fleet than other Empires will please members of the [Root.GetName]" 
+ 

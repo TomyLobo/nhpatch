@@ -1,0 +1,181 @@
+﻿############
+# Star Trek Anomalies (STA) mod
+# Author: Doot Doot
+############
+
+l_french:
+
+ SILENCE_PROJECT: "Observer le Vide"
+ SILENCE_PROJECT_DESC: "Concentrer l'attention de la planète mère pour essayer de comprendre pourquoi le vide existe."
+ 
+#Anomaly Catagories
+ 
+ STA_innerLight_category: "La Lumière Intérieure"
+ STA_innerLight_category_desc: "Nous venons de détecter un vaisseau alien que nos scans préliminaires n'ont pas pu identifier".
+ 
+ STA_silence_category: "Où le Silence Domine"
+ STA_silence_category_desc: "Les tentatives pour scanner ce trou noir ont échouées car il ne semble ni contenir de matière, ni rejeter une quelconque forme de radiation." 
+
+ 
+ STA_secondChance_LEADERNAME: "[Root.GetLeaderName] II" 
+#########
+#Events
+#########
+
+ #Inner Light
+
+ STA_innerLight_event.1.name: "Danger?"
+ STA_innerLight_event.1.desc: "La vaisseau alien au-dessus de [From.GetName] se met en marche alors que les scanners à courte portée débutent. Le drone émet un rayon nucléonique qui vient toucher directement le capitaine [Root.GetLeaderName] qui tombe immédiatement sur le sol. Le numéro un lance l'alerte rouge et une équipe médicale se rue vers le pont. \n\nDe premier abord [Root.GetLeaderName] semble juste être inconscient, mais le médecin en Chef réalise rapidement que le Capitaine est en réalité en train de dormir dans un profond cycle REM. \n[Root.GetLeaderName] génère des neurotransmetteurs à un niveau sans précédent et semble être sujet à des rêves très frappants!"
+ STA_innerLight_event.1.a: "Mettre en place un bouclier pour couper le rayon". 
+ STA_innerLight_event.1.b: "Verrouiller les armes sur le vaisseau alien et le détruire."
+ STA_innerLight_event.1.c: "Tenter de se mettre hors de portée du drone."
+ 
+ STA_innerLight_event.2.name: "Réponse Médicale"
+ STA_innerLight_event.2.desc: "Le médecin en Chef pense que couper le rayon n'est pas une bonne idée... après tout vous n'avez aucune idée des conséquences que cela pourrait avoir sur le Capitaine."
+ STA_innerLight_event.2.a: "Nous devons faire quelque chose ! Activez les boucliers."
+ STA_innerLight_event.2.b: "Vous avez raison, nous allons essayer de nous mettre hors de portée de ce drone."
+
+ STA_innerLight_event.3.name: "Vaisseau Alien Détruit"
+ STA_innerLight_event.3.desc: "Le vaisseau scientifique verrouille ses maigres armes sur le drone et tire. \n\nAvec une explosion silencieuse le drone disparait dans un nuage de débris, mettant fin au rayon nucléonique. Le Capitaine reste endormi pendant encore une minute avant de crier soudainement et d'être sujet à de violents spasmes sur le sol. \n\nL'équipe médicale tente de l'immobiliser mais ils craignent le pire car aucun de leur traitement ne montre d'effet !  \n\nAprès 10 épouvantables minutes de tourment supplémentaire, [Root.GetLeaderName] laisse échapper un soupir et meurt." 
+ STA_innerLight_event.3.a: "Nous ne devrions pas interagir avec des choses que nous ne comprenons pas."
+ STA_innerLight_event.3.b: "Une tragédie inévitable."
+ 
+ STA_innerLight_event.4.name: "Le Drone Suit"
+ STA_innerLight_event.4.desc: "Le pilote entraine le vaisseau loin du drone, mais même à vitesse maximum ce dernier parvient à se maintenir et continue à tirer son rayon nucléonique à l'encontre de [Root.GetLeaderName]."
+ STA_innerLight_event.4.a: "Nous ne pouvons pas attendre plus longtemps ! Nous devons activer les boucliers."
+ STA_innerLight_event.4.b: "Le Capitaine semble dans un état stable donc il ne reste qu'à attendre et observer."
+
+ 
+ STA_innerLight_event.5.name: "Activation des Boucliers"
+ STA_innerLight_event.5.desc: "Les boucliers ont permis de désactiver le rayon, et pendant un court instant le Capitaine semble aller bien. \n\nSoudainement [Root.GetLeaderName] se met à crier et est parcouru de violents spasmes. Le médecin en Chef vous implore de désactiver les boucliers avant qu'il ne soit trop tard pour le Capitaine."
+ STA_innerLight_event.5.a: "Désactivez les boucliers, nous ne pouvons rien faire d'autre qu'attendre."
+ STA_innerLight_event.5.b: "Détruisez le drone ! Verrouillez les armes et feu!"
+ 
+ STA_innerLight_event.6.name: "Vaisseau Alien Détruit"
+ STA_innerLight_event.6.desc: "Le vaisseau scientifique verrouille ses maigres armes sur le drone et tire. \n\nAvec une explosion silencieuse le drone disparait dans un nuage de débris. Au sol, l'agonie du Capitaine continue.\n\nL'équipe médicale tente de l'immobiliser mais ils craignent le pire car aucun de leur traitement ne montre d'effet !  \n\nAprès 10 épouvantables minutes de tourment supplémentaire, [Root.GetLeaderName] laisse échapper un soupir et meurt."
+ STA_innerLight_event.6.a: "Nous ne devrions pas interagir avec des choses que nous ne comprenons pas."
+ STA_innerLight_event.6.b: "Une tragédie inévitable."
+ 
+ STA_innerLight_event.7.name: "L'Attente..."
+ STA_innerLight_event.7.desc: "15 minutes ont passés et le capitaine semble dormir paisiblement. L'équipage est inquiet au sujet de laisser un vaisseau alien paralyser si aisément [Root.GetLeaderName]."
+ STA_innerLight_event.7.a: "Nous devons attendre, nous ignorons tout de ce rayon."
+ STA_innerLight_event.7.b: "Nous ne pouvons pas rester à attendre, détruisez le drone!"
+ 
+ STA_innerLight_event.8.name: "Rêves Eveillés"
+ STA_innerLight_event.8.desc: "Après 10 nouvelles longues minutes, le drone éteint enfin son rayon nucléonique. [Root.GetLeaderName] revient lentement à lui, encadré par l'équipe médicale. Le Capitaine regarde autour de lui comme s'il voyait le pont pour la première fois, récitant les noms des membres d'équipages comme s'il s'agissait de souvenirs distants. \n\nL'équipage informe [Root.GetLeaderName] de ce qu'il s'est passé et le Capitaine reste stupéfait d'apprendre qu'il n'est resté endormi que durant 25 minutes. Il a en effet connu toute une vie de souvenirs, expérimentant une simulation de vie sur une planète morte depuis longtemps. Le drone alien a créé cette simulation comme moyen de garder vivace la mémoire de leur civilisation.\n\n[Root.GetLeaderName] ordonne qu'un rayon tracteur soit verrouillé sur le drone et emmené dans la soute pour des études avancées. \n\nL'examen du drone alien livre une vieille flute qui semble avoir un sens spécial pour [Root.GetLeaderName]. Le Capitaine a gagné en sagesse grâce aux années passées dans la simulation."
+ STA_innerLight_event.8.a: "Nous sommes heureux de votre retour parmi nous [Root.GetLeaderName]."
+ 
+# Where Silence Has Lease
+
+ STA_silence_event.1.name: "Un Trou dans l'Espace"
+ STA_silence_event.1.desc: "Le Capitaine [Root.GetLeaderName] et l'équipage du [Root.GetName] tentent de scanner le trou noir mais ne parviennent pas à obtenir de données lisibles des scanners du vaisseau." 
+ STA_silence_event.1.a: "Envoyez une sonde dans le secteur."
+
+ STA_silence_event.2.name: "Rien"
+ STA_silence_event.2.desc: "La sonde disparait alors qu'elle passe au seuil du trou noir et le signal s'éteint. Jusqu'à ce moment la sonde n'avait rien détecté d'extraordinaire. \n\nA Vos officiers de bord sont pris d'un frisson alors qu'une voix retentit et raconte à [Root.GetLeaderName] une légende au sujet d'une créature gigantesque qui dévore les vaisseaux."
+ STA_silence_event.2.a: "Nous ne croyons pas dans les légendes, approchez le vaisseau."
+ STA_silence_event.2.b: "Activez les boucliers, il pourrait s'agir d'une entité hostile."
+ STA_silence_event.2.c: "C'est effrayant, étudions cela de plus loin."
+
+ STA_silence_event.3.name: "Boucliers Activés"
+ STA_silence_event.3.desc: "Après quelques minutes le vide ne présente toujours aucun changement. L'officier de bord est embarrassé et regarde nerveusement autour de lui mais reste silencieux. De nouvelles minutes s'écoulent et l'équipage cesse d'être en alerte élevé."
+ STA_silence_event.3.a: "Approchez le vaisseau plus près".
+ STA_silence_event.3.b: "Envoyez une autre sonde, on ne saurait être trop prudent."
+ 
+ STA_silence_event.4.name: "Enveloppé"
+ STA_silence_event.4.desc: "Le vaisseau se met en route grâce aux propulseurs et se dirige vers l'endroit où la sonde a disparu. Soudain, les ténèbres s'étendent et enveloppent rapidement le [Root.GetName]. \n\nLe vaisseau ne semble pas endommagé mais lorsque l'équipage tente de scanner les environs, rien ne se passe.".
+ STA_silence_event.4.a: "Préparez un parcours pour revenir d'où nous venons."
+ STA_silence_event.4.b: "Activez les boucliers et alerte rouge ! Ce doit être cette entité!"
+
+ STA_silence_event.5.name: "Rien..."
+ STA_silence_event.5.desc: "Une fois de plus la sonde disparait sans donner aucune indication d'utile jusqu'à la disparition du signal."
+ STA_silence_event.5.a: "Nous ne croyons pas dans les légendes, approchez le vaisseau."
+ STA_silence_event.5.b: "C'est effrayant, étudions cela de plus loin."
+ 
+ STA_silence_event.6.name: "Contact"
+ STA_silence_event.6.desc: "Après 10 minutes avec le réglage le plus élevé, l'équipe reste incapable de détecter quoi que ce soit des scanners. \n\nAu moins les scanners ont repéré une autre entité : un vaisseau ennemi en passe de nous intercepter!"
+ STA_silence_event.6.a: "Activez les boucliers et alerte rouge !"
+ STA_silence_event.6.b: "Envoyez un signal de salut."
+ 
+ STA_silence_event.7.name: "Prêt à Tout"
+ STA_silence_event.7.desc: "Un vaisseau ennemi approche mais le [Root.GetName] est prêt. Dès que le vaisseau est à portée il commence à tirer sur le [Root.GetName]. \n\nAprès la première salve, les boucliers tombent à 94%. Cela ne ressemble en rien à une menace."
+ STA_silence_event.7.a: "Ripostez mais avec un tir unique pour tester leurs capacités."
+ STA_silence_event.7.b: "Ripostez avec notre puissance maximum pour détruire ces agresseurs.""
+ STA_silence_event.7.c: "Essayez d'envoyer un signal de salut."
+ 
+ STA_silence_event.8.name: "Pas de réponse"
+ STA_silence_event.8.desc: "Le vaisseau ennemi ne répond pas à notre appel et tire sur le [Root.GetName]. Il semble clair qu'il est hostile et qu'on ne peut pas le raisonner."
+ 
+ STA_silence_event.9.name: "Boom"
+ STA_silence_event.9.desc: "A la seconde où le tir touche le vaisseau ennemi, ce dernier se désintègre dans une gigantesque explosion. Pourtant [Root.GetLeaderName] note qu'un vaisseau de ce type aurait du pouvoir encaisser beaucoup plus de tirs de ce genre."
+ STA_silence_event.9.a: "Peut-être était-il déjà endommagé par quelque chose..."
+ STA_silence_event.9.b: "Cela ne semble pas normal..."
+ 
+ STA_silence_event.10.name: "Boom!"
+ STA_silence_event.10.desc: "Alors que l'Officier militaire avait préparé de nombreux tirs pour faire feu sur le vaisseau ennemi, ce dernier explose dès l'impact du premier tir et les salves suivantes ne servent qu'à éparpiller les débris. Pourtant [Root.GetLeaderName] note qu'un vaisseau de ce type aurait du pouvoir encaisser beaucoup plus de tirs de ce genre."
+
+ STA_silence_event.11.name: "Une sortie"
+ STA_silence_event.11.desc: "Avec le vaisseau ennemi réduit à un tas de débris, quelques minutes plus tard une issue apparaît du côté gauche. L'équipage peut détecter le reste de l'univers sur une petite parcelle du trou noir. \n\n[Root.GetLeaderName] demande à l'équipage de préparer un parcours vers cette sortie et prépare le « warp drive ».  \n\nAu moment où [Root.GetName] approche de la sortie, les étoiles se voilent pour laisser une nouvelle fois place aux ténèbres. Les débris du vaisseau ennemis ont disparus des radars et le vaisseau scientifique est maintenant complètement seul.\n\nQuelques minutes plus tard une nouvelle issue apparaît du côté droit!"
+ STA_silence_event.11.a: "Préparez un parcours vers cette nouvelle sortie."
+ STA_silence_event.11.b: "Aucun intérêt, stop."
+ 
+ STA_silence_event.12.name: "Fuite!"
+ STA_silence_event.12.desc: "Le vaisseau s'approche de la nouvelle sortie lorsque, comme précédemment, la lumière laisse place aux ténèbres. De nouveau une issue apparaît, plus proche que la distance qui vient juste d'être parcourue par le vaisseau."
+ STA_silence_event.12.a: "Préparez un parcours fait cette nouvelle sortie, nous devons nous enfuir!"
+
+ STA_silence_event.13.name: "Des Rats dans un Labyrinthe"
+ STA_silence_event.13.desc: "Votre équipage est mal à l’aise alors que la sensation d'être observée s'intensifie. L'Officier de bord déclare qu'ils doivent être en train de faire face à une entité légendaire du vide et qu'elle doit être en train de jouer avec eux."
+ STA_silence_event.13.a: "Nous ne nous ferons pas manipuler ! Répondez-nous!"
+ STA_silence_event.13.b: "Arrêtez de répondre à ces provocations, nous ne sommes pas des jouets."
+
+ STA_silence_event.14.name: "Nagilum"
+ STA_silence_event.14.desc: "Emergeant des ténèbres une face disjointe apparaît, devant le [Root.GetName]. Elle se décrit elle-même comme une entité curieuse, s'interrogeant sur comment les espèces mortelles vivent et continuent à survivre. [Root.GetLeaderName] explique à l'entité les concepts de vie et de mort pour les espèces [Root.Owner.GetSpeciesName] et comment se déroule leur existence. \n\nVous existez et soudain vous cessez d'exister. On appelle cela... la mort. \n\nUn de vos officiers de bord commence à trembler violement. Il se tient la tête dans un vain effort pour se Controller, mais tombe de son siège en criant. Il roule sur le sol en position fœtale, ses yeux toujours ouverts. \n\nL'équipage est choqué par la mort soudaine d'un de ses membres. L'entité, fascinée par la mort, raconte qu'elle expérimentera sur eux différentes formes de mort jusqu'à la comprendre entièrement." 
+ STA_silence_event.14.a: "Nous ne pouvons pas nous laisser faire, activer les boucliers et ouvrez le feu sur cette entité!"
+ STA_silence_event.14.b: "Nous devons rester calme, que personne ne réagisse!"
+ STA_silence_event.14.c: "Ordonnez un rassemblement immédiat dans le salon."
+ 
+ STA_silence_event.15.name: "Mort"
+ STA_silence_event.15.desc: "Vos armes n'ont aucun effet sur l'entité et les boucliers ne peuvent empêcher les meurtres. A tous les niveaux des morts sont répertoriés. Amusée par la démonstration de force, l'entité tue le Capitaine [Root.GetLeaderName] pour observer la réaction de l'équipage. \n\nLes meurtres continuent, rien de ce que l'équipage tente n'a d'effet. n\nLa dernière survivante regarde les cadavres autour d'elles une dernière fois avant d'être assassinée lentement, son sang étant porté à ébullition."
+ STA_silence_event.15.a: "..."
+ 
+ STA_silence_event.16.name: "Ennui"
+ STA_silence_event.16.desc: "Les membres d'équipage tombent comme des mouches. L'entité semble capable d'étudier plusieurs morts à la fois, à des ponts différents. Elle remarque que vous êtes des espèces intéressantes, n'essayant même pas d'arrêter cette violence absurde. \n\nAprès avoir mis fin aux jours des deux tiers de l'équipage, l'entité se désole de l'ennui profonds de vos espèces. Le néant se retire lentement et l'équipage restant du [Root.GetName] est laissé sain et sauf."
+ STA_silence_event.16.a: "Quelle créature terrible..."
+ 
+ STA_silence_event.17.name: "Rencontre"
+ STA_silence_event.17.desc: "[Root.GetLeaderName] rassemble les officiers expérimentés du [Root.GetName] pour discuter d'un nouveau plan pour arrêter les meurtres de l'équipage par l'entité. Une résistance directe est discutée mais rapidement écartée comme étant futile, l'entité semblant surclasser le maigre arsenal du [Root.GetName] en rendant possible la création d'un vide si énorme. \n\nDifférents plans sont discutés, un membre d'équipage suggère d'essayer de raisonner l'entité et de négocier l'expérimentation de la mort sur seulement une partie de l'équipage. \n\nUn autre membre propose qu'ils puissent créer une représentation « holodeck » des différentes sortes de mort pour que l'entité fasse ses expériences dessus. \n\nUn plan radical proposé par [Root.GetLeaderName] est de déclencher un compte à rebours d'autodestruction du vaisseau pour empêcher la créature de continuer ses expérimentations sur l'équipage. Ainsi l'entité devra libérer le vaisseau ou sa curiosité demeurera insatisfaite."
+ STA_silence_event.17.a: "Tenter de négocier moins de meurtres."
+ STA_silence_event.17.b: "Que l'équipage créé une représentation « holodeck » de la mort."
+ STA_silence_event.17.c: "Déclencher la séquence d'autodestruction du [Root.GetName]."
+
+ STA_silence_event.18.name: " Un Marché"
+ STA_silence_event.18.desc: "Le Capitaine [Root.GetLeaderName] et les membres d'équipage discutent une fois de plus avec l'entité. Ils tentent de réduire le nombre de vies que l'entité prendra pour qu'au moins quelques membres survivent. \n\nL'entité est intéressée par cette réaction et s'engage à tuer méthodiquement les trois quart du membre de l'équipage, en laissant suffisamment pour que le vaisseau scientifique puisse repartir."
+ STA_silence_event.18.a: "C'est le maximum que nous avons pu obtenir..."
+
+ STA_silence_event.19.name: "Echec des Négociations"
+ STA_silence_event.19.desc: "Le marché ne s'est pas déroulé comme prévu. L'entité a tout pouvoir dans cette négociation, et continue à tuer autant de [Root.Owner.GetSpeciesNamePlural] qu'il lui semble nécessaire. n\nLa dernière survivante regarde les cadavres autour d'elles une dernière fois avant d'être assassinée lentement, son sang étant porté à ébullition."
+ STA_silence_event.19.a: "..."
+ 
+ STA_silence_event.20.name: "Imaginaire"
+ STA_silence_event.20.desc: "L'équipage présente un « holodeck » recréant la mort à l'entité. Malheureusement, l'entité ne trouve pas cela comme dépeignant de façon adéquate la vraie réaction à la mort de [Root.Owner.GetSpeciesName], comme vous le savez, ce n'est pas réel. \n\nL'entité continue à tuer autant de [Root.Owner.GetSpeciesNamePlural] qu'il lui semble nécessaire. \n\nLes meurtres continuent, rien de ce que l'équipage tente n'a d'effet. n\nLa dernière survivante regarde les cadavres autour d'elles une dernière fois avant d'être assassinée lentement, son sang étant porté à ébullition."
+ STA_silence_event.20.a: "..."
+ 
+ STA_silence_event.21.name: "Séquence d'Auto-Destruction"
+ STA_silence_event.21.desc: "[Root.GetLeaderName] déclenche la séquence d'autodestruction sur 20 minutes lors de la réunion. L'équipage appréhende la mort approchante avec des émotions diverses, au moins ils périront selon leurs propres termes. \n\n19 minutes passent. Alors que le compte à rebours atteint les 30 dernières secondes, le néant qui entourait le [Root.GetName] commence à disparaitre. Cependant [Root.GetLeaderName] attends et le compte à rebours atteint les 10 dernières secondes..."
+ STA_silence_event.21.a: "Ordinateur, annule la séquence d'autodestruction".
+ STA_silence_event.21.b: "Cela doit être une ruse..."
+ 
+ STA_silence_event.22.name: "Abandon!"
+ STA_silence_event.22.desc: "Le Capitaine [Root.GetLeaderName] donne l'ordre d'annuler la séquence d'autodestruction. Lorsque l'ordinateur demande au Second Officier d'approuver, il répond \n\n Oui! Absolument! Je suis en effet d'accord de tout mon cœur!. \n\nUn simple oui aurait suffi mais il n'était pas prêt à courir le moindre risque. \n\nLe vaste néant est parti et le vaisseau se retrouve près de [From.GetName], maintenant ressemblant à un trou noir ordinaire."  
+ STA_silence_event.22.a: "Nous devons être forts pour survivre."
+ 
+ STA_silence_event.23.name: "3...2...1...."
+ STA_silence_event.23.desc: "La séquence d'autodestruction se termine, l'équipage acceptant la mort certaine. Le [From.GetName] explose, mettant fin à toute vie à bord." 
+ STA_silence_event.23.a: "Une mort rapide est une bénédiction."
+
+ STA_silence_event.100.name: "Rien"
+ STA_silence_event.100.desc: "Après des mois de recherche sur la planète mère, les meilleurs scientifiques [Root.Owner.GetSpeciesAdj] sont incapables d'expliquer les causes de ce vide."
+ STA_silence_event.100.a: "Certains phénomènes sont inexplicables."
+ STA_silence_event.100.b: "Approchez le [Root.GetName] plus près du vide."
+
+ 

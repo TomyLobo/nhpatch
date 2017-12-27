@@ -1,0 +1,649 @@
+#########################################
+#
+# Galactic Features Events
+#
+# Written by Walshicus
+#
+#########################################
+
+namespace = STH_galactic_features
+
+#Doomsday
+country_event = {
+	id = STH_galactic_features.1
+	title = "STH_galactic_features.1.name"
+	desc = "STH_galactic_features.1.desc"
+	picture = sth_GFX_evt_doomsday_1
+	location = event_target:doomsdayMachinePlanet
+	trigger = {
+		NOT = { has_global_flag = doomsday_machine }
+		is_ai = no
+		OR = {
+			original_series_era = yes
+			wrath_of_khan_era = yes
+		}
+	}
+	mean_time_to_happen = {	months = 240 }
+	immediate = {
+		set_global_flag = doomsday_machine
+		random_system = {
+			limit = {
+				NOT = { any_planet = { is_capital = yes } }
+				any_planet = {
+					NOR = {
+						exists = owner
+						is_planet_class = "pc_asteroid"
+						is_planet_class = "pc_planet_remnant"
+						is_star = yes
+					}
+				}
+				distance = {
+					source = root.capital_scope.solar_system
+					min_distance = 25
+					max_distance = 75
+				}
+			}
+			save_global_event_target_as = doomsdayMachineSystem
+			random_system_planet = {
+				limit = {
+					NOR = {
+						exists = owner
+						is_planet_class = "pc_asteroid"
+						is_planet_class = "pc_planet_remnant"
+						is_star = yes
+					}
+				}
+				save_global_event_target_as = doomsdayMachinePlanet
+				create_doomsday_country = yes
+				event_target:doomsday_country = {
+					create_fleet = {
+						settings = { spawn_debris = no is_boss = yes }
+						name = "Alien Vessel"
+						effect = {
+							set_owner = event_target:doomsday_country
+							create_ship = {
+								name = ""
+								design = "Doomsday Machine"
+							}
+							set_location = event_target:doomsdayMachinePlanet
+							set_fleet_stance = aggressive
+							set_aggro_range_measure_from = self
+							set_aggro_range = 150
+						}
+					}
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				any_owned_planet = {
+					distance = {
+						source = event_target:doomsdayMachinePlanet
+						max_distance = 100
+					}
+				}
+				NOT = { is_same_value = Root }
+			}
+			country_event = { id = STH_galactic_features.2 }
+		}
+	}
+	option = {
+		name = STH_galactic_features.1.a
+		hidden_effect = { }
+	}
+}
+
+country_event = {
+	id = STH_galactic_features.2
+	title = "STH_galactic_features.2.name"
+	desc = "STH_galactic_features.2.desc"
+	picture = sth_GFX_evt_doomsday_1
+	is_triggered_only = yes
+	immediate = { }
+	option = {
+		name = STH_galactic_features.2.a
+		hidden_effect = { }
+	}
+}
+
+
+fleet_event = {
+	id = STH_galactic_features.3
+	hide_window = yes
+	trigger = {
+		owner = { has_country_flag = doomsday_country }
+		NOT = { is_in_combat = yes }
+	}
+	mean_time_to_happen = { months = 12 }
+	immediate = {
+			orbit = {
+				random_list = {
+					10 = { change_variable = { which = "doomsday_consumption" value = 15 } }
+					10 = { change_variable = { which = "doomsday_consumption" value = 25 } }
+					10 = { change_variable = { which = "doomsday_consumption" value = 35 } }
+				}
+				save_event_target_as = doomsdayMachineConsumingPlanet
+			}
+			if = {
+				limit = {
+					orbit = {
+						check_variable = { which = "doomsday_consumption"  value > 0 }
+						check_variable = { which = "doomsday_consumption"  value < 50 }
+						NOT = { is_planet_class = "pc_barren_broken" }
+						NOT = { is_planet_class = "pc_barren" }
+					}
+				}
+				orbit = {
+					destroy_colony = { keep_buildings = no }
+					change_pc = "pc_barren"
+					orbital_deposit_tile = { clear_deposits = yes }
+				}
+				every_country = {
+					limit = { any_owned_planet = { distance = { source = event_target:doomsdayMachinePlanet max_distance = 100 } } }
+					country_event = { id = STH_galactic_features.4 }
+				}
+			}
+			if = {
+				limit = {
+					orbit = {
+						check_variable = { which = "doomsday_consumption"  value > 49 }
+						check_variable = { which = "doomsday_consumption"  value < 100 }
+						NOT = { is_planet_class = "pc_barren_broken" }
+					}
+				}
+				orbit = {
+					destroy_colony = { keep_buildings = no }
+					change_pc = "pc_barren_broken"
+					orbital_deposit_tile = { clear_deposits = yes }
+				}
+				every_country = {
+					limit = { any_owned_planet = { distance = { source = event_target:doomsdayMachinePlanet max_distance = 100 } } }
+					country_event = { id = STH_galactic_features.5 }
+				}
+			}
+			if = {
+				limit = {
+					orbit = {
+						check_variable = { which = "doomsday_consumption"  value > 100 }
+						NOT = { is_planet_class = "pc_planet_remnant" }
+					}
+				}
+				orbit = {
+					destroy_colony = { keep_buildings = no }
+					change_pc = "pc_planet_remnant"
+					orbital_deposit_tile = { clear_deposits = yes }
+				}
+				every_country = {
+					limit = { any_owned_planet = { distance = { source = event_target:doomsdayMachinePlanet max_distance = 100 } } }
+					country_event = { id = STH_galactic_features.6 }
+				}
+			}
+
+
+
+		queue_actions = {
+			find_closest_planet = {
+				trigger = {
+					id = "STH_galactic_features.3.trigger.1"
+					NOR = {
+						is_planet_class = "pc_asteroid"
+						is_planet_class = "pc_planet_remnant"
+						is_star = yes
+					}
+				}
+				found_planet = { orbit_planet = THIS }
+			}
+		}
+
+	}
+}
+
+
+country_event = {
+	id = STH_galactic_features.4
+	title = "STH_galactic_features.4.name"
+	location = from
+	desc = {
+		trigger = { has_country_flag = encounteredDoomsday }
+		text = STH_galactic_features.4.desc_01
+	}
+	desc = {
+		trigger = { NOT = { has_country_flag = encounteredDoomsday } }
+		text = STH_galactic_features.4.desc_02
+	}
+	picture = sth_GFX_evt_doomsday_lifeless
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		NOT = { has_country_flag = ignore_doomsday }
+	}
+	option = {
+		name = STH_galactic_features.4.a
+		hidden_effect = { }
+	}
+	option = {
+		name = STH_galactic_features.4.b
+		hidden_effect = { set_timed_country_flag = { flag = ignore_doomsday days = 3650 } }
+	}
+}
+
+country_event = {
+	id = STH_galactic_features.5
+	title = "STH_galactic_features.5.name"
+	desc = {
+		trigger = { has_country_flag = encounteredDoomsday }
+		text = STH_galactic_features.5.desc_01
+	}
+	desc = {
+		trigger = { NOT = { has_country_flag = encounteredDoomsday } }
+		text = STH_galactic_features.5.desc_02
+	}
+	picture = sth_GFX_evt_doomsday_fragment
+	location = from
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		NOT = { has_country_flag = ignore_doomsday }
+	}
+	option = {
+		name = STH_galactic_features.5.a
+		hidden_effect = { }
+	}
+	option = {
+		name = STH_galactic_features.5.b
+		hidden_effect = { set_timed_country_flag = { flag = ignore_doomsday days = 3650 } }
+	}
+}
+
+country_event = {
+	id = STH_galactic_features.6
+	title = "STH_galactic_features.6.name"
+	desc = {
+		trigger = { has_country_flag = encounteredDoomsday }
+		text = STH_galactic_features.6.desc_01
+	}
+	desc = {
+		trigger = { NOT = { has_country_flag = encounteredDoomsday } }
+		text = STH_galactic_features.6.desc_02
+	}
+	picture = sth_GFX_evt_doomsday_remnant
+	is_triggered_only = yes
+	trigger = { NOT = { has_country_flag = ignore_doomsday } }
+	option = {
+		name = STH_galactic_features.6.a
+		hidden_effect = { }
+	}
+	option = {
+		name = STH_galactic_features.6.b
+		hidden_effect = { set_timed_country_flag = { flag = ignore_doomsday days = 3650 } }
+	}
+}
+
+
+# Doomsday Destroyed
+country_event = {
+	id = STH_galactic_features.7
+	title = "STH_galactic_features.7.name"
+	desc = "STH_galactic_features.7.desc"
+	picture = sth_GFX_evt_doomsday_4
+	is_triggered_only = yes
+	trigger = {
+		exists = from
+		from = { has_country_flag = doomsday_country }
+	}
+	immediate = {
+		set_country_flag = destroyed_doomsday
+		save_event_target_as = destroyed_doomsday_country
+		every_country = {
+			limit = {
+				any_owned_planet = { distance = { source = event_target:doomsdayMachinePlanet max_distance = 100 } }
+				NOT = { is_same_value = root }
+			}
+			country_event = { id = STH_galactic_features.8 }
+		}
+	}
+	option = {
+		name = STH_galactic_features.7.a
+		add_minerals = 5000
+		add_energy = 5000
+		add_engineering_research = 2000
+		hidden_effect = {  }
+	}
+}
+
+country_event = {
+	id = STH_galactic_features.8
+	title = "STH_galactic_features.8.name"
+	desc = {
+		trigger = { has_country_flag = encounteredDoomsday }
+		text = STH_galactic_features.8.desc_01
+	}
+	desc = {
+		trigger = { NOT = { has_country_flag = encounteredDoomsday } }
+		text = STH_galactic_features.8.desc_02
+	}
+	picture = sth_GFX_evt_doomsday_1
+	is_triggered_only = yes
+	trigger = { NOT = { has_country_flag = ignore_doomsday } }
+	option = {
+		name = STH_galactic_features.8.a
+		hidden_effect = { }
+	}
+}
+
+
+country_event = {
+	id = STH_galactic_features.10
+	title = "STH_galactic_features.10.name"
+	desc = "STH_galactic_features.10.desc"
+	picture = sth_GFX_evt_doomsday_2
+	location = FROMFROMFROM
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			is_country_type = default
+			is_country_type = minorRace
+		}
+		exists = capital_scope
+		FROM = { is_country_type = doomsday }
+	}
+	immediate = { set_country_flag = encounteredDoomsday }
+	option = { name = "STH_galactic_features.10.a" }
+}
+
+###Altamid Events
+
+#Check if Franklin between systems
+fleet_event = {
+	id = STH_galactic_features.100
+	hide_window = yes
+	trigger = {
+		OR = {
+			has_fleet_flag = "USS_Franklin"
+			has_fleet_flag = "ISS_Franklin"
+		}
+		NOT = { exists = solar_system }
+		NOT = { has_global_flag = altamidStart }
+		years_passed > 10
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {	months = 2 }
+	immediate = {
+		leader = {
+			add_trait = leader_trait_immortal
+			add_trait = leader_trait_unyielding
+			save_global_event_target_as = altamidLeader
+			exile_leader_as = altamidLeader
+		}
+		delete_fleet = this
+		set_global_flag = altamidStart
+		owner = {
+			country_event = { id = STH_galactic_features.102 }
+			country_event = { id = STH_galactic_features.103 days = 18000 random = 3600 }
+		}
+	}
+}
+#Notify Ship Lost
+country_event = {
+	id = STH_galactic_features.102
+	title = "STH_galactic_features.102.name"
+	desc = {
+		trigger = { NOT = { has_country_flag = terran_empire } }
+		text = "STH_galactic_features.102.desc_01"
+	}
+	desc = {
+		trigger = { has_country_flag = terran_empire }
+		text = "STH_galactic_features.102.desc_02"
+	}
+	picture = sth_GFX_evt_altamid_1
+	is_triggered_only = yes
+	option = { name = "STH_galactic_features.102.a" }
+}
+#Loop to check for starbase
+country_event = {
+	id = STH_galactic_features.103
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = { any_owned_planet = { is_starbase_planet = yes } }
+			random_owned_planet = {
+				limit = { is_starbase_planet = yes }
+				planet_event = { id = STH_galactic_features.104 }
+			}
+			else = { country_event = { id = STH_galactic_features.103 days = 90 } }
+		}
+	}
+}
+#Message from alien to go to system
+planet_event = {
+	id = STH_galactic_features.104
+	title = "STH_galactic_features.104.name"
+	desc = "STH_galactic_features.104.desc"
+	diplomatic = yes
+	location = root
+	picture_event_data = { portrait = event_target:altamidWarner room = generic_science_room }
+	is_triggered_only = yes
+	immediate = {
+		owner = {
+			set_country_flag = altamidMessageReceived
+			save_global_event_target_as = altamidPlayerCountry
+		}
+		create_species = { name = "Unknown Alien" class = RANDOMTREK portrait = random traits = random }
+		create_country = {
+			name = "Unknown Alien"
+			type = altamid
+			species = last_created_species
+			name_list = "MAM2"
+			flag = random
+		}
+		last_created_country = {
+			save_global_event_target_as = altamidCountry
+			create_leader = {
+				type = admiral
+				species = owner_main_species
+				name = random
+				skill = 100
+			}
+			last_created_leader = { save_event_target_as = altamidWarner }
+		}
+	}
+	option = {
+		name = "STH_galactic_features.104.a"
+		response_text = STH_galactic_features.104.a.response
+	}
+	option = {
+		name = "STH_galactic_features.104.b"
+		response_text = STH_galactic_features.104.b.response
+	}
+	after = { spawn_system = { min_distance = 30 max_distance = 50 initializer = "altamid_system_event_spawn" } }
+}
+
+
+#Entering Orbit of Altamid
+fleet_event = {
+	id = STH_galactic_features.105
+	title = "STH_galactic_features.105.name"
+	desc = {
+		trigger = { exists = leader }
+		text = "STH_galactic_features.105.desc_01"
+	}
+	desc = {
+		trigger = { NOT = { exists = leader } }
+		text = "STH_galactic_features.105.desc_02"
+	}
+	picture = sth_GFX_evt_altamid_2
+	is_triggered_only = yes
+	# looks like fire_only_once not work here
+	fire_only_once = yes
+	trigger = {
+		not = {
+			has_global_flag = sth_has_event_sth_galactic_features.105
+		}
+		exists = event_target:altamid_planet
+		FROM = { is_same_value = event_target:altamid_planet }
+		owner = { has_country_flag = altamidMessageReceived }
+	}
+	immediate = {
+		set_global_flag = sth_has_event_sth_galactic_features.105
+		if = {
+			limit = { exists = leader }
+			save_event_target_as = leader
+		}
+		FROM = { set_name = "Altamid" }
+		owner = {
+			remove_point_of_interest = altamid_planet_1
+			end_event_chain = altamid_chain
+		}
+		if = {
+			limit = { NOT = { exists = event_target:altamidCountry } }
+			create_species = { name = "Unknown Alien" class = RANDOMTREK portrait = random traits = random }
+			create_country = {
+				name = "Unknown Alien"
+				type = altamid
+				species = last_created_species
+				name_list = "MAM2"
+				flag = random
+			}
+			last_created_country = {
+				save_global_event_target_as = altamidCountry
+			}
+		}
+
+		event_target:altamidCountry = {
+			create_fleet = {
+				name = "Altamid Swarm"
+				effect = {
+					set_owner = event_target:altamidCountry
+					while = {
+						count = 10
+						create_ship = { name = "Altamid Swarm" design = "Altamid Swarm" }
+					}
+					if = {
+						limit = { root = { fleet_power > 30000 } }
+						while = {
+							count = 10
+							create_ship = { name = "Altamid Swarm" design = "Altamid Swarm" }
+						}
+					}
+					if = {
+						limit = { root = { fleet_power > 60000 } }
+						while = {
+							count = 10
+							create_ship = { name = "Altamid Swarm" design = "Altamid Swarm" }
+						}
+					}
+					if = {
+						limit = { root = { fleet_power > 90000 } }
+						while = {
+							count = 10
+							create_ship = { name = "Altamid Swarm" design = "Altamid Swarm" }
+						}
+					}
+					set_location = event_target:altamid_planet
+					set_fleet_flag = altamidFleet
+					save_global_event_target_as = altamidFleet
+					set_leader = altamidLeader
+					fleet_event = { id = STH_galactic_features.106 days = 15 }
+				}
+			}
+		}
+	}
+	option = { name = "STH_galactic_features.105.a" }
+}
+
+
+
+#Altamid Fleet Orders
+fleet_event = {
+	id = STH_galactic_features.106
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		owner = { is_country_type = altamid }
+		exists = event_target:altamidPlayerCountry
+	}
+	immediate = {
+		# log = "[altamidPlayerCountry.GetName]"
+		if = {
+			limit = { event_target:altamidPlayerCountry = { any_owned_planet = { is_starbase_planet = yes } } }
+			# log = "Altamid Starbase Queue 1st If"
+			queue_actions = {
+				find_closest_system = {
+					trigger = {
+						id = "STH_galactic_features.106.trigger.1"
+						any_planet = {
+							is_starbase_planet = yes
+							exists = owner
+							owner = { is_same_value = event_target:altamidPlayerCountry }
+						}
+					}
+					found_system = { move_to = THIS }
+				}
+				find_closest_planet = {
+					trigger = {
+						id = "STH_galactic_features.106.trigger.2"
+						is_starbase_planet = yes
+						exists = owner
+						owner = { is_same_value = event_target:altamidPlayerCountry }
+					}
+					found_planet = { orbit_planet = THIS }
+				}
+			}
+			else = {
+				# log = "Altamid Starbase Queue 1st Else"
+				queue_actions = {
+					find_closest_system = {
+						trigger = {
+							id = "STH_galactic_features.106.trigger.3"
+							any_planet = {
+								exists = owner
+								is_colony = yes
+								owner = { is_same_value = event_target:altamidPlayerCountry }
+							}
+						}
+						found_system = { move_to = THIS }
+					}
+					find_closest_planet = {
+						trigger = {
+							id = "STH_galactic_features.106.trigger.4"
+							is_colony = yes
+						}
+						found_planet = { orbit_planet = THIS }
+					}
+				}
+			}
+		}
+		fleet_event = { id = STH_galactic_features.106 days = 90 }
+	}
+}
+
+#Altamid Fleet Destroyed
+country_event = {
+	id = STH_galactic_features.107
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		exists = FROM
+		exists = event_target:altamidPlayerCountry
+		FROM = { is_country_type = altamid }
+	}
+	immediate = {
+		event_target:altamidPlayerCountry = {
+			country_event = { id = STH_galactic_features.108 }
+		}
+	}
+}
+
+#Altamid Fleet Destroyed
+country_event = {
+	id = STH_galactic_features.108
+	title = "STH_galactic_features.108.name"
+	desc = "STH_galactic_features.108.desc"
+	picture = sth_GFX_evt_altamid_3
+	is_triggered_only = yes
+	immediate = { }
+	option = {
+		name = "STH_galactic_features.108.a"
+	}
+}

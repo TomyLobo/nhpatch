@@ -1,0 +1,736 @@
+ENT era Emette class:
+Model and diffuse texture based upon X_TheUnknown_x
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Challenger class:
+Model and diffuse texture based upon ScottPKeene
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+             
+ENT era NX-01 class:
+Model and diffuse texture based upon baz1701
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Poseidon class:
+Model and diffuse texture based upon Bethesda Softworks
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+TOS era Saladin class:
+Model and diffuse texture based upon GMunoz
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+Doomsday:
+Model and diffuse texture based upon Trekmeshes.ch
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+Whaleprobe:
+Model and diffuse texture based upon Grinsel
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+             
+TOS era constituition class:
+Model and diffuse texture based upon baz1701
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+TOS era surya class:
+Model and diffuse texture based upon TheStressPuppy
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+TOS era surya-refit class:
+Model and diffuse texture based upon TheStressPuppy
+Retexturing: Shaggo and Grinsel
+New Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon Bird of Prey class:
+Model and diffuse texture based upon RGSx35380
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon Raptor class:
+Model and diffuse texture based upon TheStressPuppy/HerbyGuitar
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon D5 class:
+Model and diffuse texture based upon Kophjaeger
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+TMP era Constellation class:
+Model and diffuse texture based upon Raul Mamoru
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+TMP era Oberth class:
+Model and diffuse texture based upon different models
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+TOS era Antares class:
+Model and diffuse texture based upon RedlagDaddy
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+Diff. Miranda class: 
+Model and diffuse texture based upon DJCurtis
+Retexturing: Shaggo and Walshicus
+New Mesh: Shaggo and Walshicus
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+TOS era Nova class: 
+Model and diffuse texture based upon Continuum
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon K18 class:
+Model and diffuse texture based upon Bethesda Softworks
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon K30 class:
+Model and diffuse texture based upon Bethesda Softworks
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Klingon D12 class:
+Model and diffuse texture based upon Bethesda Softworks
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Romulan Erehin class:
+Model and diffuse texture based upon Azel/Atolm
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Romulan Stenvastam class:
+Model and diffuse texture based upon Bethesda Softworks
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Romulan Karatek class:
+Model and diffuse texture based upon Ch'Yu Chen
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Romulan Sehin class:
+Model and diffuse texture based upon Bethesda Softworks
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Romulan mular class:
+Model and diffuse texture based upon Bethesda Softworks
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Romulan erehin class:
+Model and diffuse texture based upon Azel/Atolm
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Romulan firehawk class:
+Model and diffuse texture based upon Tu11s
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Gorn Varanus class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Gorn Tuatara class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Gorn Varanus class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Dominion Bug class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Dominion Bug-refit class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Dominion Carrier class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Kazon raider class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Kazon raider-refit class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Kazon mothership class:
+Model and diffuse texture based upon Honigmann
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Borg probe class:
+Model and diffuse texture based upon ST:Continuum
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Borg probe2 class:
+Model and diffuse texture based upon ST:Continuum
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Borg sphere class:
+Model and diffuse texture based upon ST:Continuum
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Borg dodahedron class:
+Model and diffuse texture based upon ST:Continuum
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Vulcan D'Kyr class:
+Model and diffuse texture based upon ST:Continuum Team
+Texturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Vulcan XRT class:
+Model and diffuse texture based upon John Nichols
+Texturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Vulcan Bop1 class:
+Model and diffuse texture based upon Coolguyli27
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Vulcan Bop2 class:
+Model and diffuse texture based upon Coolguyli27
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Federation constructor class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Federation colony class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Federation transport class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+ENT era Federation daedalus class:
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Borg constructor class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Borg colony class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Borg transport class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Borg science class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Klingon constructor class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Klingon colony class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Klingon transport class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Klingon science class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Romulan constructor class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Romulan colony class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Romulan transport class:
+Model and diffuse texture based upon Bethesda Softworks
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Romulan science class:
+Model and diffuse texture based upon ST:Continuum Team
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Generic constructor class:
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Generic colony class:
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Generic transport class:
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Generic science class:
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Vulcan constructor class:
+Model and diffuse texture based Coolguyli27
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Vulcan colony class:
+Model and diffuse texture based upon Coolguyli27
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Vulcan transport class:
+Model and diffuse texture based upon Coolguyli27
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Federation starbase:
+Model and diffuse texture based upon ST:Continuum
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Klingon starbase:
+Model and diffuse texture based upon ST:Continuum
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras Romulan starbase:
+Model and diffuse texture based upon ST:Continuum
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All eras generic starbase:
+Model and diffuse texture based upon ST:Continuum
+Texturing: Shaggo and Grinsel
+Model: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+
+Several Models of Continuum Mod Team 
+Special THX to
+-pnumonic81
+-Major Stress
+-trekmods
+
+
+###
+
+All Breen ships
+texturing: Shaggo and Grinsel
+Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All Suliban ships
+texturing: Shaggo and Grinsel
+Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All Kazon ships
+texturing: Shaggo and Grinsel
+Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All Tholian ships
+texturing: Shaggo and Grinsel
+Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All TNG ships
+Model and diffuse texture based upon ST:Continuum & UU
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All TMP ships
+Model and diffuse texture based upon ST:Continuum & UU
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All TOS ships
+Model and diffuse texture based upon ST:Continuum & UU
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All ENT ships
+Model and diffuse texture based upon ST:Continuum & UU
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+8472 Attack-ship:
+Model and diffuse texture based upon Metlesitsfleetyards
+Texturing: Metlesitsfleetyards and Shaggo and Grinsel
+Model: Metlesitsfleetyards and Shaggo and Grinsel 
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+All Telarite ships
+Texturing: Walshicus and Shaggo and Grinsel
+Model: Walshicus and Shaggo and Grinsel
+Hardpoint locators: Walshicus and Shaggo and Grinsel
+Integration into Stellaris: Walshicus and Shaggo and Grinsel
+
+Centaur
+Texturing: Walshicus and Shaggo and Grinsel
+Model: Walshicus and Shaggo and Grinsel
+Hardpoint locators: Walshicus and Shaggo and Grinsel
+Integration into Stellaris: Walshicus and Shaggo and Grinsel
+
+Curry
+Texturing: Walshicus and Shaggo and Grinsel
+Model: Walshicus and Shaggo and Grinsel
+Hardpoint locators: Walshicus and Shaggo and Grinsel
+Integration into Stellaris: Walshicus and Shaggo and Grinsel
+
+Full Ferengi Shipset 
+Model and diffuse texture based upon Raul Mamoru & Anti
+Retexturing: Shaggo and Grinsel
+New Mesh: Shaggo and Grinsel
+Hardpoint locators: Shaggo and Grinsel
+Integration into Stellaris: Shaggo and Grinsel
+
+FED ENT-era NX-01 
+Model and diffuse texture based upon metlesitsfleetyards
+Retexturing: Shaggo,Grinsel, Walshicus
+New Mesh: Shaggo,Grinsel, Walshicus
+Hardpoint Shaggo,Grinsel, Walshicus
+Integration into Stellaris: Shaggo,Grinsel, Walshicus
+
+FED ENT-era Intrepid
+Model and diffuse texture based upon metlesitsfleetyards
+Retexturing: Shaggo,Grinsel, Walshicus
+New Mesh: Shaggo,Grinsel, Walshicus
+Hardpoint Shaggo,Grinsel, Walshicus
+Integration into Stellaris: Shaggo,Grinsel, Walshicus
+
+FED ENT-era Neptun
+Model and diffuse texture based upon metlesitsfleetyards
+Retexturing: Shaggo,Grinsel, Walshicus
+New Mesh: Shaggo,Grinsel, Walshicus
+Hardpoint Shaggo,Grinsel, Walshicus
+Integration into Stellaris: Shaggo,Grinsel, Walshicus
+
+Romulan TNG-era Kaskara
+Model and diffuse texture based upon metlesitsfleetyards
+Retexturing: Shaggo,Grinsel, Walshicus
+New Mesh: Shaggo,Grinsel, Walshicus
+Hardpoint Shaggo,Grinsel, Walshicus
+Integration into Stellaris: Shaggo,Grinsel, Walshicus
+
+### Other Implemented Mods:
+
+Complete Colors by Delincious
+http://steamcommunity.com/sharedfiles/filedetails/?id=688576380
+Updated by ijoined4stellaris
+http://steamcommunity.com/sharedfiles/filedetails/?id=813934458
+
+Dev, Modder, Helper, Tester, Noteworthy:
+A_Spec
+Alexander Weide
+Ani
+anti
+AntuOO
+Boris I
+Captain_X3
+Crimea River
+Crusader
+Dan
+DangeRus
+Dark
+Dukonis
+EMP_Apple
+Ezumiyr
+Fancyclad_Sean
+Frozen Fallout
+Gamalina
+Gatekeeper
+Gideon
+Gizmo
+Gorgantua
+Grinsch7
+Grinsel
+Goldfish300
+Harel
+HistoryNerd
+Janack
+JonathanYoung2010
+jwenz
+Kahn
+Kelldor
+Kitana'Klan
+Kodiak
+Kollerbin34
+Kosh
+Kranadian
+Kyojin
+Leetzelong
+LocutusofBurg
+LtMcChequ
+Lucca Prado
+Lyellin
+M'Turi
+MajoZZ
+Mars
+mash84
+Matix
+matt
+Merowig
+Meswannjr
+MightyThor
+Mindcrusher
+Mr.Scott
+MSG
+MysticalFists
+Nathanius
+Nibejeebies
+Nicky
+Oninoni
+Osito
+paul uk
+pleb87
+Rebus16
+Robjg2
+Shaggo
+Shoki
+Sidrew
+speedyhogg
+Steelrick
+Swizzlewizzle
+Temaius
+Teskill
+TheMentat
+TsuChi
+Tyronis
+Unquietwiki
+Walshicus
+West086
+xginocazinox
+Zoomimpulse
+
+
+Lead Devs:
+Grinsel
+Shaggo
+Walshicus
+Harel
+Osito
+Oninoni
+Janack
+Zoomimpulse
+
+Permissions:
+=======================
+Content from this mod must not be used in any other mod without permissions from the original authors.
+
+Primary contacts are Grinsel and Shaggo.
+
+Obviously if you wish to use something from this mod that is authored by someone outside the ST:New Horizons Team you also need the original author's permission. 
+
+http://steamcommunity.com/sharedfiles/filedetails/?id=688086068
+
+
+Enjoy..
+
+The Star Trek New Horizons Mod Team

@@ -1,0 +1,177 @@
+﻿############
+# Star Trek Anomalies (STA) mod
+# Author: Doot Doot
+############
+
+l_english:
+
+ SILENCE_PROJECT: "Observe Void"
+ SILENCE_PROJECT_DESC: "Focus the attention of the homeworld to try and figure out why the void exists."
+ 
+#Anomaly Catagories
+ 
+ STA_innerLight_category: "The Inner Light"
+ STA_innerLight_category_desc: "We have detected an alien vessel which our preliminary scans cannot identify"
+ 
+ STA_silence_category: "Where Silence Has Lease"
+ STA_silence_category_desc: "Attempts to scan this black hole have failed as it doesn't seem to contain any matter at all or expel any form of radiation."
+ 
+#########
+#Events
+#########
+
+ #Inner Light
+
+ STA_innerLight_event.1.name: "Danger?"
+ STA_innerLight_event.1.desc: "The alien vessel above [From.GetName] activates as the short range scan initiates. The drone emits a nucleonic beam directly at captain [Root.GetLeaderName] which causes him to immediately fall to the floor. Number one initiates red alert and a medical team rushes to the bridge. \n\nAt first glance [Root.GetLeaderName] appears to be knocked out, but the Chief medical officer quickily realises that the captain is in fact sleeping in a deep REM cycle. \n[Root.GetLeaderName] is generating neurotransmitters at unprecedented levels and appears to be having vivid dreams!"
+ STA_innerLight_event.1.a: "Put up a shield to cut off the beam."
+ STA_innerLight_event.1.b: "Lock on weapons and destroy the alien vessel."
+ STA_innerLight_event.1.c: "Try to get out of range from the drone."
+ 
+ STA_innerLight_event.2.name: "Medical Response"
+ STA_innerLight_event.2.desc: "The Chief Medical Officer thinks that that cutting off the beam is not a good idea, after all you have no idea what effect suddenly removing the beam might have on the captain"
+ STA_innerLight_event.2.a: "We have to do something! Shields up."
+ STA_innerLight_event.2.b: "You are right, we will try to get out of range of the drone."
+
+ STA_innerLight_event.3.name: "Alien Vessel Destroyed"
+ STA_innerLight_event.3.desc: "The science vessel locks its meagre weapons onto the drone and fires. \n\nWith a silent explosion, the drone disappears in a cloud of debris, cutting off the nucleon beam. The captain remains in his sleeping state for a minute, before suddenly screaming and spasming violently on the floor. \n\nThe medical team try to restrain him, but they fear the worst as all their treatments are not having any effect!\n\nAfter 10 more gruesome minutes of torment, [Root.GetLeaderName] lets out a sigh and dies."
+ STA_innerLight_event.3.a: "We should not mess with things we do not understand."
+ STA_innerLight_event.3.b: "An unavoidable tragedy."
+ 
+ STA_innerLight_event.4.name: "The Drone Follows"
+ STA_innerLight_event.4.desc: "The helmsman maneuvers the ship away from the drone, but even at full impulse it manages to keep up with your ship and continue firing its nucleonic beam at [Root.GetLeaderName]."
+ STA_innerLight_event.4.a: "We cannot wait any longer! We have to raise the shields."
+ STA_innerLight_event.4.b: "The captain seems alright so we will wait and see."
+ 
+ STA_innerLight_event.5.name: "Shields Up"
+ STA_innerLight_event.5.desc: "The shields have cut off the beam, and for a moment the captain seems fine. \n\nSuddenly, [Root.GetLeaderName] bursts into a violent fit of screams and spasms, the Medical Officer begs you to turn off the shields before they lose the captain."
+ STA_innerLight_event.5.a: "Turn off the shields, we have to wait this out."
+ STA_innerLight_event.5.b: "Destroy the Drone! Lock weapons and fire!"
+ 
+ STA_innerLight_event.6.name: "Alien Vessel Destroyed"
+ STA_innerLight_event.6.desc: "The science vessel locks its meagre weapons onto the drone and fires. \n\nWith a silent explosion, the drone disappears in a cloud of debris. The captain continues his violent screaming and spasming on the floor. \n\nThe medical team try to restrain him, but they fear the worst as all their treatments are not having any effect!\n\nAfter 10 more gruesome minutes of torment, [Root.GetLeaderName] lets out a sigh and dies."
+ STA_innerLight_event.6.a: "We should not have intervened when we did not understand."
+ STA_innerLight_event.6.b: "An unavoidable tragedy."
+ 
+ STA_innerLight_event.7.name: "Waiting..."
+ STA_innerLight_event.7.desc: "15 minutes pass as the captain seems to sleep soundly, the crew is uneasy about allowing an alien vessel to so easily paralyze [Root.GetLeaderName]."
+ STA_innerLight_event.7.a: "We must wait, we do not know anything about this beam."
+ STA_innerLight_event.7.b: "We cannot keep waiting, destroy the drone!"
+ 
+ STA_innerLight_event.8.name: "Waking Dreams"
+ STA_innerLight_event.8.desc: "After another long 10 minutes, the drone finally turns off its nucleonic beam. [Root.GetLeaderName] slowly comes to, surrounded by medical staff. The captain looks around as if seeing the bridge for the first time, reciting the names of crew members as if they were distant memories. \n\nThe crew fill in [Root.GetLeaderName] on what happened, and the captain is stunned that he was only asleep for 25 minutes. He has experienced an entire lifetime of memories, living in a simulation of life on a long dead planet. The alien drone created this simulation as a way to keep the memory of their civilisation alive. \n\n[Root.GetLeaderName] Orders the drone to be locked on with a tractor beam and brought into the cargo bay for further study.\n\nAn examination of the alien drone yields an age old flute, which seems to have special meaning to [Root.GetLeaderName]. The Captain has gained wisdom beyond his years through his time spent in the simulation."
+ STA_innerLight_event.8.a: "We are glad to have you back [Root.GetLeaderName]."
+ 
+# Where Silence Has Lease
+
+ STA_silence_event.1.name: "A Hole In Space"
+ STA_silence_event.1.desc: "Captain [Root.GetLeaderName] and the crew of the [Root.GetName] attempt to scan the hole in space, but are unable to get any readings from the ship's scanners."
+ STA_silence_event.1.a: "Send a probe into the area."
+
+ STA_silence_event.2.name: "Nothing"
+ STA_silence_event.2.desc: "The probe disappears as it crosses the threshold of the hole and the signal cuts out. Up until that point, the probe had detected nothing out of the ordinary. \n\nA chill runs down the spine of one of your bridge officers, and he tells [Root.GetLeaderName] of a legend about a huge space creature which devours ships."
+ STA_silence_event.2.a: "We don't believe in legends, take the ship in closer."
+ STA_silence_event.2.b: "Raise shields, this may be a hostile entity."
+ STA_silence_event.2.c: "This is scary, we can study it from afar."
+
+ STA_silence_event.3.name: "Shields Up"
+ STA_silence_event.3.desc: "After a few minutes there is still no change in the void. The bridge officer is embarrassed and looks around, but keeps quiet. A few more minutes pass and the crew ceases to be on high alert."
+ STA_silence_event.3.a: "Take the ship in closer."
+ STA_silence_event.3.b: "Launch another probe, we can't be too careful."
+ 
+ STA_silence_event.4.name: "Enveloped"
+ STA_silence_event.4.desc: "The ship moves in on impulse thrusters to the location where the probe disappeared. Suddenly, the blackness expands rapidly and envelops the [Root.GetName]. \n\nThe ship seems to take no damage, but as the crew tries to scan the surrounding area there is nothing to see..."
+ STA_silence_event.4.a: "Plot a course back the way we came"
+ STA_silence_event.4.b: "Shields up, red alert. This must be that entity!"
+
+ STA_silence_event.5.name: "Nothing..."
+ STA_silence_event.5.desc: "Once again, the probe disappears and reports nothing right up until it stops sending any data."
+ STA_silence_event.5.a: "We don't still believe in legends, take the ship in closer."
+ STA_silence_event.5.b: "This is scary, we can study it from afar."
+ 
+ STA_silence_event.6.name: "Contact"
+ STA_silence_event.6.desc: "After 10 minutes on the highest warp setting possible, the crew still cannot detect anything from the scanners.  \n\nAt last, the scanners pick up another entity, an enemy warship heading on an intercept course!"
+ STA_silence_event.6.a: "Shield up, red alert!"
+ STA_silence_event.6.b: "Open a hailing frequency"
+ 
+ STA_silence_event.7.name: "Ready For Anything"
+ STA_silence_event.7.desc: "An enemy warship approaches, but the [Root.GetName] is prepared. Once the enemy ship is within range it begins firing on the [Root.GetName]. \n\nAfter the first volley of shots, the shields are only down to 94%. They don't seem to be a threat."
+ STA_silence_event.7.a: "Return fire, just a single shot to test their capabilities."
+ STA_silence_event.7.b: "Return fire, maximum load to destroy the aggressors."
+ STA_silence_event.7.c: "Try to open a hailing frequency."
+ 
+ STA_silence_event.8.name: "No Response"
+ STA_silence_event.8.desc: "The enemy Vessel is not responding to hail, and fires on the [Root.GetName]. It is clear that they are hostile and cannot be reasoned with."
+ 
+ STA_silence_event.9.name: "Boom"
+ STA_silence_event.9.desc: "The second the weapon hits the enemy ship, it detonates in a huge explosion. [Root.GetLeaderName] remarks that a vessel like that should have been able to withstand many more hits"
+ STA_silence_event.9.a: "Perhaps it was already damaged by something..."
+ STA_silence_event.9.b: "That doesn't seem right...."
+ 
+ STA_silence_event.10.name: "Boom!"
+ STA_silence_event.10.desc: "Although your military officer had prepared a volley of shots to fire on the enemy ship, as soon as the first shot makes contact the enemy vessel explodes and the subsequent shots land among the debris. \n\n[Root.GetLeaderName] remarks that a vessel like that should have been able to withstand many more hits."
+
+ STA_silence_event.11.name: "A Way Out"
+ STA_silence_event.11.desc: "With the enemy ship reduced to a pile of debris, a few minutes later a starfix appears off the Port bow. The crew can detect the rest of the universe in a small patch of the hole. \n\n[Root.GetLeaderName] commands the crew to plot a course for the exit and engages warp drive.  \n\nJust as the [Root.GetName] is nearing the exit, the stars fades away to be replaced with nothingness once again. The debris from the enemy have been lost from the sensors and the Science ship is now completely alone. \n\nA few minutes later, a new exit appears to the starboard bow!"
+ STA_silence_event.11.a: "Set a course for the new exit."
+ STA_silence_event.11.b: "This is pointless, all stop."
+ 
+ STA_silence_event.12.name: "Escape!"
+ STA_silence_event.12.desc: "The ship is nearing the new exit when just as before, it fades away to blackness. A new exit appears, slightly closer than the distance the ship just covered."
+ STA_silence_event.12.a: "Set course for the new exit, we have to escape!"
+
+ STA_silence_event.13.name: "Rats In A Maze"
+ STA_silence_event.13.desc: "Your crew is uneasy as the sensation of being watched intensifies. The bridge officer from before states that they must be facing the legendary void entity and that it's playing with them."
+ STA_silence_event.13.a: "We will not be toyed with! Answer us!"
+ STA_silence_event.13.b: "Stop responding to stimuli. We are not a plaything."
+ 
+ STA_silence_event.14.name: "Nagilum"
+ STA_silence_event.14.desc: "Out of the blackness, a disjointed face appears ahead of the [Root.GetName]. It explains itself as a curious entity, wondering how your species can have such mortal lives and continue to survive. [Root.GetLeaderName] tells the entity about [Root.Owner.GetSpeciesName] procreation and death and that it is the way of life for them. \n\n'You exist, then you cease to exist. Your minds call it... death.' \n\nOne of your bridge officers starts to shake violently. He grabs his face in a vain effort to control himself, but falls from his station screaming. He collapses on the floor into the fetal position, with his eyes still open. \n\nThe bridge crew is shaken by the sudden death of one of their members. The entity, fascinated by death tells the crew that he will be experimenting on them with different forms of death until he understands it fully."
+ STA_silence_event.14.a: "We can't have this, shields up and fire at the entity!"
+ STA_silence_event.14.b: "We have to continue not responding, Nobody react!"
+ STA_silence_event.14.c: "Call for an immediate meeting in the lounge."
+ 
+ STA_silence_event.15.name: "Death"
+ STA_silence_event.15.desc: "Your weapons have no effect on the entity and the shields are not preventing the murder. Deaths are being reported to the bridge across all decks. Amused by the show of force, the entity kills captain [Root.GetLeaderName] to observe the reaction of the bridge crew. \n\nThe killings continue, nothing the crew can muster has any effect. \n\nThe last bridge crew member looks around at her dead colleagues one last time, before she too is slowly murdered by having the blood in her body steadily rise to a boil."
+ STA_silence_event.15.a: "..."
+ 
+ STA_silence_event.16.name: "Boredom"
+ STA_silence_event.16.desc: "Crew members are dropping like flies, all from different causes of death. The entity seems to be able to witness multiple deaths at a time, across different decks. It remarks that you are an interesting species, not even attempting to stop the wanton violence. \n\nAfter killing 2/3 of your crew, the entity comments about how boring your species is. The nothingness slowly recedes and the remaining crew of the [Root.GetName] is left unharmed."
+ STA_silence_event.16.a: "A terrible creature..."
+ 
+ STA_silence_event.17.name: "Meeting"
+ STA_silence_event.17.desc: "[Root.GetLeaderName] assembles the senior officers of the [Root.GetName] and they discuss a new plan to stop the entity from killing the ship. Direct resistance is discussed and decided to be futile, as the entity must far outclass the [Root.GetName]'s meagre weapons if it is able to create a void so huge. \n\nSeveral plans are discussed, one crew member suggests trying to reason with the entity and bargain for only a few to die for its experiments. \n\nAnother crew member mentions that they could create a holodeck representation of various kinds of death, so that the entity could experiment on that instead. \n\nA rash plan, suggested by [Root.GetLeaderName] is to set a self destruction timer for the ship so that the entity will not be able to observe the death of the crew members. It has to release the ship or its curiosity will go unsatisfied."
+ STA_silence_event.17.a: "Try to bargain for less killings."
+ STA_silence_event.17.b: "Have the crew come up with a holodeck representation of death."
+ STA_silence_event.17.c: "Set the [Root.GetName] to self destruct."
+
+ STA_silence_event.18.name: "A Bargain"
+ STA_silence_event.18.desc: "Captain [Root.GetLeaderName] and the bridge crew once again talk to the entity. They try to bargain down the amount of lives that the entity will take so that at least some of the crew can survive. \n\nThe entity, interested in the reaction agrees and proceeds to methodically kill 3/4 of the crew, leaving barely enough for the Science ship to return."
+ STA_silence_event.18.a: "The best we could do..."
+ 
+ STA_silence_event.19.name: "Failed Negotiations"
+ STA_silence_event.19.desc: "The bargaining does not go well. The entity has all the power in this negotiation, and proceeds to murder as many [Root.Owner.GetSpeciesNamePlural] as it deems necessary. \n\nThe killings continue, nothing the crew can muster has any effect. \n\nthe last bridge crew member looks around at her dead colleagues one last time, before she too is slowly murdered by having the blood in her body steadily rise to a boil."
+ STA_silence_event.19.a: "..."
+ 
+ STA_silence_event.20.name: "Imaginary"
+ STA_silence_event.20.desc: "The crew present a holodeck recreation of death to the entity. Unfortunately, the entity does not take this as an adequate portrayal of a true [Root.Owner.GetSpeciesName] reaction to death as you know it isn't real. \n\nThe entity proceeds to murder as many [Root.Owner.GetSpeciesNamePlural] as it deems necessary.\n\nThe killings continue, nothing the crew can muster has any effect. \n\nthe last bridge crew member looks around at her dead colleagues one last time, before she too is slowly murdered by having the blood in her body steadily rise to a boil."
+ STA_silence_event.20.a: "..."
+ 
+ STA_silence_event.21.name: "Self Destruct Sequence"
+ STA_silence_event.21.desc: "[Root.GetLeaderName] sets a self destruct sequence to 20 minutes during the meeting. The crew handle their impending death with a mixture of emotions, at least they are ending it on their terms. \n\n19 minutes pass. As the countdown timer reaches the last 30 seconds the nothingness surrounding the [Root.GetName] appears to recede. Still, [Root.GetLeaderName] waits and as the countdown timer reaches 10 seconds..."
+ STA_silence_event.21.a: "Computer, cancel self destruct sequence"
+ STA_silence_event.21.b: "It must be a trick..."
+ 
+ STA_silence_event.22.name: "Abort!"
+ STA_silence_event.22.desc: "Captain [Root.GetLeaderName] orders a cancel of the self destruct sequence. When the computer asks the Second Officer to concur, he replies \n\n'Yes! Absolutely! I do indeed concur wholeheartedly!.' \n\nA simple yes would have sufficed but he wasn't about to take any chances. \n\nThe vast nothingness is gone, and the ship is left back at [From.GetName], now an ordinary looking black hole."
+ STA_silence_event.22.a: "We must be strong willed to survive."
+ 
+ STA_silence_event.23.name: "3...2...1...."
+ STA_silence_event.23.desc: "The self destruct sequence finishes, with the crew accepting their fate to die. The [From.GetName] explodes, killing all on board."
+ STA_silence_event.23.a: "A swift death is a blessing."
+
+ STA_silence_event.100.name: "Nothing Found"
+ STA_silence_event.100.desc: "After months of research from the homeworld, the best [Root.Owner.GetSpeciesAdj] scientists are unable to figure out the cause of the void."
+ STA_silence_event.100.a: "Some phenomena are inexplicable."
+ STA_silence_event.100.b: "Take the [Root.GetName] closer to the void."
+ 

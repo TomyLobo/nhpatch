@@ -1,0 +1,168 @@
+﻿
+#Star Trek New Horizons Development Team
+--------
+Paradoxical Development Group
+
+Game Directors
+-
+Shaggo
+Grinsel
+Walshicus
+
+Techtree
+-
+Harel
+Janack
+
+Maps
+-
+Ositodefelpa
+
+Localisation
+-
+Zoomimpulse
+
+--------
+
+#Tools:
+
+SideFX Houdini 16
+Blender 
+Sublime Text
+Oninoni
+
+--------
+
+#Music:
+
+Sam Dillard (Samo Studios)
+Mat R. Allen (London Digital Orchestra)
+Cornholio
+Kumbu
+
+--------
+
+
+#Contributors:
+
+A_Spec
+Alexander Weide
+Ani
+Anti
+AntuOO
+Boris I
+Captain_X3
+Crimea River
+Crusader
+Cornholio
+Cutter Slade
+Dan
+DangeRus
+Dark
+Dukonis
+EHKodiak
+EMP_Apple
+Ezumiyr
+Frozen Fallout
+Gamalina
+Gatekeeper
+Gideon
+Gizmo
+Gorgantua
+Grinsch7
+Grinsel
+Goldfish300
+GulGaming
+Harel
+hadaev
+HistoryNerd
+Janack
+JonathanYoung2010
+jwenz
+Kahless
+Kahn
+Kelldor
+Kevster
+Kitana'Klan
+Kumbu
+Kodiak
+Kollerbin34
+Kosh
+Kraden
+Kranadian
+Kyojin
+Leetzelong
+LocutusofBurg
+LocutusvonBorg
+Loki
+LtMcChequ
+Lucca Prado
+Lyellin
+M'Turi
+mac2636
+MajoZZ
+Malivicia
+Mars
+mash84
+Mat R Allen
+Matix
+matt
+Merowig
+Meswannjr
+MightyThor
+Mindcrusher
+Mr.Scott
+MSG
+MysticalFists
+Nathanius
+Nibejeebies
+Nicky
+Oninoni
+Osito
+paul uk
+pleb87
+Rebus16
+Robjg2
+Sara Mears
+Shaggo
+Shoki
+Sirick
+Sidrew
+speedyhogg
+Steelrick
+Swizzlewizzle
+The wolfpak team
+Technotron
+Temaius
+Testkill
+TheMentat
+TsuChi
+Tyronis
+Unquietwiki
+violencer
+Walshicus
+West086
+xginocazinox
+ZoomImpulse
+
+--------
+
+Thanks to Paradox Development Group who have made this journey possible.
+
+Special credits go to the Star Trek: Continuum Modding team for using their
+base models.
+
+Special thanks to all the contributors along the journey.
+We would also like to credit moonraker, DJCurtis and many others for some of 
+the shipmodels.
+For more detailed Information see the credits file. 
+
+Star Trek and all related marks, logos and characters are solely owned by CBS 
+Studios Inc. This fan production is not endorsed by, sponsored by, 
+nor affiliated with CBS, Paramount Pictures, or any other Star Trek 
+franchise, and is a non-commercial fan-made project intended for 
+recreational use. No commercial exhibition or distribution is permitted. 
+No alleged independent rights will be asserted against CBS or Paramount 
+Pictures.
+
+To boldly go...
