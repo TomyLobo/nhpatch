@@ -1773,8 +1773,8 @@ population_control_yes = {
 		from = {
 			NOR = {
 				has_ethic = ethic_gestalt_consciousness
-				has_ethic = ethic_cybernetic_consciousness
-				is_borg_empire = yes
+				#has_ethic = ethic_cybernetic_consciousness
+				#is_borg_empire = yes
 			}
 		}
 	}
