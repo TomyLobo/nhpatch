@@ -1460,6 +1460,7 @@ purge = {
 				has_ethic = ethic_gestalt_consciousness
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_xenophobe
+				has_ethic = ethic_cybernetic_consciousness # BRG workaround
 			}
 		}
 
