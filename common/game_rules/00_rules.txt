@@ -814,6 +814,7 @@ can_purge_pop_manually = {
 	custom_tooltip = {
 		fail_text = "ACTION_CANNOT_PURGE_POLICY"	
 		OR = {
+			owner = { has_authority = auth_cybernetic_consciousness }
 			is_robot_pop = yes
 			AND = {
 				is_sapient = no
