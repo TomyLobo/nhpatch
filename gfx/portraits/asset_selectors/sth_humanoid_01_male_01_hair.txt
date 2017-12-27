@@ -1,0 +1,69 @@
+# This is a template which multiple species can use. 
+  
+sth_humanoid_01_male_hair_01 = {
+
+	default = "gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+	}
+	
+	species = {
+		default = "gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+	}
+	
+	pop = {
+		default = "gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_03.dds"
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_04.dds"
+			}
+		}
+		random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_male_prosthetic_01.dds"
+	        } 
+        } 
+	}
+	
+	leader = {
+		default = "gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no }
+			list = {
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_03.dds"
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_04.dds"
+			}
+		}
+		random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_male_prosthetic_01.dds"
+	        } 
+        } 
+
+	}
+  
+	ruler = {
+		default = "gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no }
+			list = {
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_02.dds"
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_03.dds"
+				"gfx/models/portraits/sth humanoid 01/sth_humanoid_male_hair_blue_04.dds"
+			}
+		}
+		random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_male_prosthetic_01.dds"
+	        } 
+        } 
+	}
+}

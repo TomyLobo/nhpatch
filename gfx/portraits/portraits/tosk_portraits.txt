@@ -1,0 +1,55 @@
+portraits = {
+	# tosk
+	tosk_male_01 = {	
+		entity = "portrait_tosk_male_04_entity" clothes_selector = "tosk_male_clothes_01" hair_selector = "tosk_male_hair_01" greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/tosk/tosk_male_body_01.dds"
+			"gfx/models/portraits/tosk/tosk_male_body_01b.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	tosk = {
+		default = tosk_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					tosk_male_01
+				}
+			}
+		}		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					tosk_male_01
+				}
+			}
+		}		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					tosk_male_01
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					tosk_male_01
+				}
+			}
+		}
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					tosk_male_01
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,183 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "federation_01_orbital_station_core_entity"
+	pdxmesh = "federation_01_orbital_station_mesh"
+	locator = { name = "part1" 			position = { 0 	0 	0 } }
+	locator = {
+		name = "explosion_1"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "explosion_2"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "explosion_3"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "explosion_4"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "explosion_5"
+		rotation = { 0 0 0 }
+	}
+	state = { name = "idle" state_time = 5
+	    start_event = { trigger_once = yes sound = { soundeffect = "spaceport_hum_idle" } }	
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_03" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_04" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_08" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_09" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_10" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_11" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_12" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_13" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_14" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_15" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_16" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_17" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_18" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_19" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_20" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_21" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_22" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_23" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_24" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_25" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_26" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_27" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_28" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_29" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_30" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_31" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_32" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_33" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_34" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_35" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_36" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_37" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_38" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_39" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_40" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }	
+		event = { time = 0 node = "light_locator_41" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_42" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_43" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_44" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_45" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_46" particle = "ship_light_green_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_47" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_48" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_49" particle = "ship_light_green_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_50" particle = "ship_light_green_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_51" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_52" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_53" particle = "ship_light_green_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_54" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_55" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_56" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_57" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_58" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_59" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_60" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_61" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_62" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_63" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_64" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_65" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_66" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_67" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_68" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_69" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_70" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_71" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_72" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_73" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_74" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_75" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_76" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_77" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_78" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_79" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_80" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_81" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_82" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_83" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_84" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_85" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_86" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_87" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_88" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_89" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_90" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_91" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_92" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_93" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_94" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_95" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_96" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_97" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_98" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_99" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_100" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_101" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_102" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_103" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_104" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_105" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_106" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_107" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_108" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_109" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_110" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_111" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_112" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_113" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_114" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_115" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_116" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_117" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_118" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_119" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_120" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_121" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_122" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_123" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_124" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_125" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_126" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_127" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_128" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_129" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }		
+		event = { time = 0 node = "light_locator_130" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_131" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_132" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_133" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_134" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_135" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_136" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_137" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_138" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_139" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_140" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_141" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_142" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_143" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_144" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_145" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_146" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+	}
+
+	scale = 1.0	
+}	
+

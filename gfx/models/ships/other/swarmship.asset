@@ -1,0 +1,55 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "swarmship_frame_entity"
+	pdxmesh = "swarmship_frame_mesh"
+	locator = { name = "part1" position = { 0 0 0 } }
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 2 looping = no
+		event = { time = 1.9 particle = "medium_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+
+
+	locator = { name = "swarmship_1" position = { -2.7 -2.6 -2.5 } rotation = { 0 0 0 } }
+	locator = { name = "swarmship_2" position = { -2.3 -2.9 2.3 } rotation = { 0 0 0 } }
+	locator = { name = "swarmship_3" position = { -2.7 2.8 -2.6 } rotation = { 0 0 0 } }
+	locator = { name = "swarmship_4" position = { -2.9 2.2 2.7 } rotation = { 0 0 0 } }
+	locator = { name = "swarmship_5" position = { 2.8 -2.9 -2.8 } rotation = { 0 0 0 } }
+	locator = { name = "swarmship_6" position = { 2.7 -2.3 2.5 } rotation = { 0 0 0 } }
+	locator = { name = "swarmship_7" position = { 2.3 2 -2.4 } rotation = { 0 0 0 } }
+	locator = { name = "swarmship_8" position = { 2.9 2.5 2.6 } rotation = { 0 0 0 } }
+
+
+    attach = { swarmship_1 = "swarmship_entity" }
+	attach = { swarmship_2 = "swarmship_entity" }
+	attach = { swarmship_3 = "swarmship_entity" }
+	attach = { swarmship_4 = "swarmship_entity" }
+	attach = { swarmship_5 = "swarmship_entity" }
+	attach = { swarmship_6 = "swarmship_entity" }
+	attach = { swarmship_7 = "swarmship_entity" }
+	attach = { swarmship_8 = "swarmship_entity" }
+	scale = 1.0
+}
+
+
+entity = {
+	name = "swarmship_entity"
+	pdxmesh = "swarmship_mesh"
+	locator = { name = "part1" 		position = { 0 0 0 } }
+	# locator = { name = "medium_gun_01"    position = { 0 0 0 } rotation = { 	0 	0 	0 	} }			#heck
+	# locator = { name = "medium_gun_02"    position = { 0 0 0 } rotation = { 	0 	0 	0 	} }			#heck
+	# locator = { name = "medium_gun_03"    position = { 0 0 0 } rotation = { 	0 	0 	0 	} }			#heck
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		#start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } }
+	}
+	state = { name = "death" state_time = 2 looping = no
+		event = { time = 1.9 particle = "medium_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+	scale = 1.0
+}

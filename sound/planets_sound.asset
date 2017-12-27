@@ -1,0 +1,121 @@
+####### PLANET AMBIENT ############
+sound =
+{
+	name = "pc_thegreatlink_01"
+	file = "ambient/ocean_planet_03.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_m1_class_01"
+	file = "ambient/continental_planet_03.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_l2_class_01"
+	file = "ambient/alpine_planet_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_g_class_01"
+	file = "ambient/ocean_planet_02.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_class_q_variable_01"
+	file = "ambient/continental_planet_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_class_q_geo_01"
+	file = "ambient/tropical_planet_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_r_class_01"
+	file = "ambient/continental_planet_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_f_class_01"
+	file = "ambient/desert_planet_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_k_class_01"
+	file = "ambient/desert_planet_02.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_y_class_01"
+	file = "ambient/molten_planet_03.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_class_e_01"
+	file = "ambient/molten_planet_02.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_class_k_trans_01"
+	file = "ambient/toxic_planet_02.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_class_n_titan_01"
+	file = "ambient/artic_03.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_class_o_sulfar_01"
+	file = "ambient/ocean_planet_02.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_assimilated_01"
+	file = "ambient/ai_planet_03.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_b_class_01"
+	file = "ambient/barren_planet_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_x_class_01"
+	file = "ambient/barren_planet_02.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_i_class_01"
+	file = "ambient/gas_giant_02.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_s_class_01"
+	file = "ambient/gas_giant_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "pc_u_class_01"
+	file = "ambient/gas_giant_03.wav"
+	always_load = no
+}

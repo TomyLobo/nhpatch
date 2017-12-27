@@ -1,0 +1,19 @@
+#FEMALE
+	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+	
+@humanscale = 0.8
+
+
+entity = {
+	name = "portrait_xindi_insectoid_male_01_entity"
+	pdxmesh = "portrait_reptilian_16_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"       animation = "idle"   chance = 4.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle2"  chance = 1.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle3"  chance = 0.5 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle4"  chance = 1.0 looping = no next_state = idle}
+	scale = 1.47
+}

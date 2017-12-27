@@ -1,0 +1,147 @@
+portraits = {
+	# vidiian
+	vidiian_female_04 = {	
+		entity = "portrait_vidiian_female_01_entity"	clothes_selector = "vidiian_female_clothes_01" 	hair_selector = "vidiian_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_female_body_01.dds" }
+	}
+	vidiian_male_01 = {	
+		entity = "portrait_vidiian_male_01_entity"	clothes_selector = "vidiian_male_clothes_01" 	hair_selector = "vidiian_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_male_body_01.dds" }
+	}	
+}
+
+portraits = {
+	# vidiian cured
+	vidiian_cured_female_01 = {	
+		entity = "portrait_vidiian_cured_female_01_entity"	clothes_selector = "vidiian_cured_female_clothes_01" 	hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_female_body_01.dds" }
+	}
+	vidiian_cured_female_02 = {	
+		entity = "portrait_vidiian_cured_female_02_entity"	clothes_selector = "vidiian_cured_female_clothes_01" 	hair_selector = "human_female_hair_02"	greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_female_body_02.dds" }
+	}
+	vidiian_cured_female_03 = {	
+		entity = "portrait_vidiian_cured_female_03_entity"	clothes_selector = "vidiian_cured_female_clothes_01" 	hair_selector = "human_female_hair_03"	greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_female_body_03.dds" }
+	}
+	vidiian_cured_female_04 = {	
+		entity = "portrait_vidiian_cured_female_04_entity"	clothes_selector = "vidiian_cured_female_clothes_01" 	hair_selector = "human_female_hair_04"	greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_female_body_04.dds" }
+	}
+	vidiian_cured_female_05 = {	
+		entity = "portrait_vidiian_cured_female_05_entity"	clothes_selector = "vidiian_cured_female_clothes_01" 	hair_selector = "human_female_hair_05"	greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_female_body_05.dds" }
+	}
+	vidiian_cured_male_01 = {	
+		entity = "portrait_vidiian_cured_male_01_entity"	clothes_selector = "vidiian_cured_male_clothes_01" 	hair_selector = "human_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_male_body_01.dds" }
+	}
+	vidiian_cured_male_02 = {	
+		entity = "portrait_vidiian_cured_male_02_entity"	clothes_selector = "vidiian_cured_male_clothes_01" 	hair_selector = "human_male_hair_02"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_male_body_02.dds" }
+	}	
+	vidiian_cured_male_03 = {	
+		entity = "portrait_vidiian_cured_male_03_entity"	clothes_selector = "vidiian_cured_male_clothes_01" 	hair_selector = "human_male_hair_03"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_male_body_03.dds" }
+	}	
+	vidiian_cured_male_04 = {	
+		entity = "portrait_vidiian_cured_male_04_entity"	clothes_selector = "vidiian_cured_male_clothes_01" 	hair_selector = "human_male_hair_04"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_male_body_04.dds" }
+	}	
+	vidiian_cured_male_05 = {	
+		entity = "portrait_vidiian_cured_male_05_entity"	clothes_selector = "vidiian_cured_male_clothes_01" 	hair_selector = "human_male_hair_05"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/vidiian/vidiian_cured_male_body_05.dds" }
+	}	
+}
+
+
+portrait_groups = {
+	vidiian = {
+		default = vidiian_female_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = { ruler = { gender = male } NOT = { has_global_flag = phageCure } }
+				portraits = { vidiian_male_01 }
+			}
+			add = {
+				trigger = { ruler = { gender = female } NOT = { has_global_flag = phageCure } }
+				portraits = { vidiian_female_04 }
+			}
+			add = {
+				trigger = { ruler = { gender = male } has_global_flag = phageCure }
+				# trigger = { ruler = { gender = male } }
+				portraits = { vidiian_cured_male_01 vidiian_cured_male_02 vidiian_cured_male_03 vidiian_cured_male_04 vidiian_cured_male_05 }
+			}
+			add = {
+				trigger = { ruler = { gender = female } has_global_flag = phageCure }
+				# trigger = { ruler = { gender = female } }
+				portraits = { vidiian_cured_female_01 vidiian_cured_female_02 vidiian_cured_female_03 vidiian_cured_female_04 vidiian_cured_female_05 }
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = { NOT = { has_global_flag = phageCure } }
+				portraits = { vidiian_female_04 vidiian_male_01 }
+			}
+			set = {
+				trigger = { has_global_flag = phageCure }
+				portraits = { vidiian_cured_female_01 vidiian_cured_female_02 vidiian_cured_female_03 vidiian_cured_female_04 vidiian_cured_female_05 vidiian_cured_male_01 vidiian_cured_male_02 vidiian_cured_male_03 vidiian_cured_male_04 vidiian_cured_male_05 }
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = { owner = { NOT = { has_global_flag = phageCure } } }
+				portraits = { vidiian_female_04 vidiian_male_01 }
+			}
+			add = {
+				trigger = { owner = { has_global_flag = phageCure } }
+				portraits = { vidiian_cured_female_01 vidiian_cured_female_02 vidiian_cured_female_03 vidiian_cured_female_04 vidiian_cured_female_05 vidiian_cured_male_01 vidiian_cured_male_02 vidiian_cured_male_03 vidiian_cured_male_04 vidiian_cured_male_05 }
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = { gender = male NOT = { owner = { has_global_flag = phageCure } } }
+				portraits = { vidiian_male_01 }
+			}
+			add = {
+				trigger = { gender = female NOT = { owner = { has_global_flag = phageCure } } }
+				portraits = { vidiian_female_04 }
+			}
+			add = {
+				trigger = { gender = female owner = { has_global_flag = phageCure } }
+				portraits = { vidiian_cured_female_01 vidiian_cured_female_02 vidiian_cured_female_03 vidiian_cured_female_04 vidiian_cured_female_05 }
+			}
+			add = {
+				trigger = { gender = male owner = { has_global_flag = phageCure } }
+				portraits = { vidiian_cured_male_01 vidiian_cured_male_02 vidiian_cured_male_03 vidiian_cured_male_04 vidiian_cured_male_05 }
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = { gender = male NOT = { owner = { has_global_flag = phageCure } } }
+				portraits = { vidiian_male_01 }
+			}
+			add = {
+				trigger = { gender = female NOT = { owner = { has_global_flag = phageCure } } }
+				portraits = { vidiian_female_04 }
+			}
+			add = {
+				trigger = { gender = female owner = { has_global_flag = phageCure } }
+				portraits = { klingonAugmentHuman_female_04 klingonAugmentHuman_female_05 }
+			}
+			add = {
+				trigger = { gender = male owner = { has_global_flag = phageCure } }
+				portraits = { klingonAugmentHuman_male_04 klingonAugmentHuman_male_05 }
+			}
+		}
+	}	
+}

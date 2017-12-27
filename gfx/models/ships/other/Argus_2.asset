@@ -1,0 +1,15 @@
+
+
+entity = {
+    name = "argus_array_entity"
+    pdxmesh = "Argus_2_mesh"
+    scale = 3.0
+
+    locator = { name = "part01"             position = { 0 0 0 } }
+
+
+    default_state = "idle"
+    game_data = {
+        shader_type = ship
+    }
+}

@@ -1,0 +1,158 @@
+portraits = {
+	# nausicaan
+	# nausicaan_female_01 = {	
+		# entity = "portrait_nausicaan_female_01_entity"	clothes_selector = "nausicaan_female_clothes_01" 	hair_selector = "nausicaan_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		# character_textures = {
+			# "gfx/models/portraits/nausicaan/nausicaan_female_body_01.dds"
+		# }
+	# }
+	# nausicaan_female_02 = {	
+		# entity = "portrait_nausicaan_female_01_entity"	clothes_selector = "nausicaan_female_clothes_01" 	hair_selector = "nausicaan_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		# character_textures = {
+			# "gfx/models/portraits/nausicaan/nausicaan_female_body_02.dds"
+		# }
+	# }
+	# nausicaan_female_03 = {	
+		# entity = "portrait_nausicaan_female_01_entity"	clothes_selector = "nausicaan_female_clothes_01" 	hair_selector = "nausicaan_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		# character_textures = {
+			# "gfx/models/portraits/nausicaan/nausicaan_female_body_03.dds"
+		# }
+	# }
+	# nausicaan_female_04 = {	
+		# entity = "portrait_nausicaan_female_01_entity"	clothes_selector = "nausicaan_female_clothes_01" 	hair_selector = "nausicaan_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		# character_textures = {
+			# "gfx/models/portraits/nausicaan/nausicaan_female_body_04.dds"
+		# }
+	# }
+	nausicaan_male_01 = {	
+		entity = "portrait_nausicaan_male_01_entity" clothes_selector = "nausicaan_male_clothes_01" hair_selector = "nausicaan_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/nausicaan/nausicaan_male_body_01.dds"
+		}
+	}
+	nausicaan_male_01b = {	
+		entity = "portrait_nausicaan_male_01_entity" clothes_selector = "nausicaan_male_clothes_01" hair_selector = "nausicaan_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/nausicaan/nausicaan_male_body_01b.dds"
+		}
+	}
+	nausicaan_male_01c = {	
+		entity = "portrait_nausicaan_male_01_entity" clothes_selector = "nausicaan_male_clothes_01" hair_selector = "nausicaan_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/nausicaan/nausicaan_male_body_01c.dds"
+		}
+	}
+	nausicaan_male_01d = {	
+		entity = "portrait_nausicaan_male_01_entity" clothes_selector = "nausicaan_male_clothes_01" hair_selector = "nausicaan_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/nausicaan/nausicaan_male_body_01d.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	nausicaan = {
+		default = nausicaan_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					nausicaan_male_01
+					nausicaan_male_01b
+					nausicaan_male_01c
+					nausicaan_male_01d
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					nausicaan_male_01
+					nausicaan_male_01b
+					nausicaan_male_01c
+					nausicaan_male_01d
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					nausicaan_male_01
+					nausicaan_male_01b
+					nausicaan_male_01c
+					nausicaan_male_01d
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					nausicaan_male_01
+					nausicaan_male_01b
+					nausicaan_male_01c
+					nausicaan_male_01d
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					nausicaan_male_01
+					nausicaan_male_01b
+					nausicaan_male_01c
+					nausicaan_male_01d
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					nausicaan_male_01
+					nausicaan_male_01b
+					nausicaan_male_01c
+					nausicaan_male_01d
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					nausicaan_male_01
+					nausicaan_male_01b
+					nausicaan_male_01c
+					nausicaan_male_01d
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					nausicaan_male_01
+					nausicaan_male_01b
+					nausicaan_male_01c
+					nausicaan_male_01d
+				}
+			}
+		}
+	}	
+}

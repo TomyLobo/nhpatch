@@ -1,0 +1,5 @@
+# This is a template which multiple species can use. 
+
+klingon_antaak_clothes = {
+	default = "gfx/models/portraits/klingon civilian/civ_klingon_male_clothes_05.dds"
+}

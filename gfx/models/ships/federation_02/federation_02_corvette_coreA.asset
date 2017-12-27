@@ -1,0 +1,17 @@
+@corvette_scale = 6.0
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "federation_02_corvette_coreA_entity"
+	pdxmesh = "federation_02_corvette_coreA_mesh"
+	
+    scale = 1.0
+	
+	game_data = {
+		size = @corvette_scale
+	}
+}

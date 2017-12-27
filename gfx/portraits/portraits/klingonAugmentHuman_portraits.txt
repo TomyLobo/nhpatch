@@ -1,0 +1,97 @@
+portraits = {
+	# klingonAugmentHuman
+	klingonAugmentHuman_female_04 = {	
+		entity = "portrait_klingonAugmentHuman_female_04_entity"	clothes_selector = "klingon_female_clothes_combined" 	hair_selector = "klingonAugmentHuman_female_hair_01"	greeting_sound = "klingon_female_greetings_01"
+		character_textures = { "gfx/models/portraits/klingonAugmentHuman/klingonAugmentHuman_female_body_04.dds" }
+	}
+	klingonAugmentHuman_female_05 = {	
+		entity = "portrait_klingonAugmentHuman_female_05_entity"	clothes_selector = "klingon_female_clothes_combined" 	hair_selector = "klingonAugmentHuman_female_hair_01"	greeting_sound = "klingon_female_greetings_03"
+		character_textures = { "gfx/models/portraits/klingonAugmentHuman/klingonAugmentHuman_female_body_05.dds" }
+	}
+	klingonAugmentHuman_male_04 = {	
+		entity = "portrait_klingonAugmentHuman_male_04_entity"	clothes_selector = "klingon_male_clothes_combined" 	hair_selector = "klingonAugmentHuman_male_hair_01"	greeting_sound = "klingon_male_greetings_01"
+		character_textures = { "gfx/models/portraits/klingonAugmentHuman/klingonAugmentHuman_male_body_04.dds" }
+	}
+	klingonAugmentHuman_male_05 = {	
+		entity = "portrait_klingonAugmentHuman_male_05_entity"	clothes_selector = "klingon_male_clothes_combined" 	hair_selector = "klingonAugmentHuman_male_hair_01"	greeting_sound = "klingon_male_greetings_03"
+		character_textures = { "gfx/models/portraits/klingonAugmentHuman/klingonAugmentHuman_male_body_05.dds" }
+	}
+}
+
+portrait_groups = {
+	klingonAugmentHuman = {
+		default = klingonAugmentHuman_male_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = { ruler = { gender = male } }
+				portraits = {
+					klingonAugmentHuman_male_04
+					klingonAugmentHuman_male_05
+				}
+			}
+			add = {
+				trigger = { ruler = { gender = female } }
+				portraits = {
+					klingonAugmentHuman_female_04
+					klingonAugmentHuman_female_05
+				}
+			}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					klingonAugmentHuman_female_04
+					klingonAugmentHuman_female_05
+					klingonAugmentHuman_male_04
+					klingonAugmentHuman_male_05
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					klingonAugmentHuman_female_04
+					klingonAugmentHuman_female_05
+					klingonAugmentHuman_male_04
+					klingonAugmentHuman_male_05
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = { gender = female }
+				portraits = {
+					klingonAugmentHuman_female_04
+					klingonAugmentHuman_female_05
+				}
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = {
+					klingonAugmentHuman_male_04
+					klingonAugmentHuman_male_05
+				}
+			}
+		}
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = { gender = female }
+				portraits = {
+					klingonAugmentHuman_female_04
+					klingonAugmentHuman_female_05
+				}
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = {
+					klingonAugmentHuman_male_04
+					klingonAugmentHuman_male_05
+				}
+			}
+		}
+	}
+}

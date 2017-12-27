@@ -1,0 +1,73 @@
+portraits = {
+	skorr_01 = {	
+		entity = "portrait_skorr_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "avian_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/skorr/skorr_01.dds"
+			"gfx/models/portraits/skorr/skorr_02.dds"
+			"gfx/models/portraits/skorr/skorr_03.dds"
+			"gfx/models/portraits/skorr/skorr_04.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	skorr = {
+		default = skorr_01
+		game_setup = {
+			add = {
+				trigger = {	ruler = { gender = male } }
+				portraits = { 
+					skorr_01 
+				}
+			}
+			add = {
+				trigger = {	ruler = { gender = female } }
+				portraits = { 
+					skorr_01
+				}
+			}
+		}		
+		species = {
+			add = {
+				portraits = {
+					skorr_01
+				}
+			}
+		}		
+		pop = {
+			add = {
+				portraits = {
+					skorr_01
+				}
+			}
+		}
+		leader = {
+			add = {
+				trigger = {	gender = male }
+				portraits = {
+					skorr_01
+				}
+			}
+			add = {
+				trigger = {	gender = female }
+				portraits = {
+					skorr_01
+				}
+			}
+		}
+		ruler = {
+			add = {
+				trigger = {	gender = male }
+				portraits = {
+					skorr_01
+				}
+			}
+			add = {
+				trigger = {	gender = female }
+				portraits = {
+					skorr_01
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,36 @@
+entity = {
+	name = "borg_purple_01_unicomplex_entity"
+	pdxmesh = "unimatrix_constructor_mesh"
+    scale = 10.0
+}
+
+entity = {
+    name = "borg_purple_01_orbital_habitat_entity"
+    pdxmesh = "borg_purple_01_orbital_habitat_mesh"
+    scale = 2.50
+ #    locator = { name = "part1" 		position = { 0 0 0 } }
+	# locator = { name = "part2" 		position = { 0 0 0 } }
+	# locator = { name = "part3" 		position = { 0 0 0 } }
+	# locator = { name = "part4" 		position = { 0 0 0 } }
+	# locator = { name = "part5" 		position = { 0 0 0 } }
+	# locator = { name = "part6" 		position = { 0 0 0 } }
+	# locator = { name = "part7" 		position = { 0 0 0 } }
+	# locator = { name = "part8" 		position = { 0 0 0 } }
+
+	# attach = {	part1 = "borg_01_saber_coreA_entity" }
+	# attach = {	part2 = "borg_01_sovereign_coreA_entity" }
+	# attach = {	part3 = "borg_01_steamrunner_coreA_entity" }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_wrecked_shipyard_idle" } }
+	}
+
+
+
+    game_data = {
+        shader_type = ship
+    }
+}
+
+

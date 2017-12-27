@@ -1,0 +1,96 @@
+portraits = {
+	# zahl
+	zahl_male_03 = {	
+		entity = "portrait_zahl_male_03_entity"	clothes_selector = "zahl_male_clothes_01" 	hair_selector = "zahl_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/zahl/zahl_male_body_03.dds" }
+	}
+	zahl_female_04 = {	
+		entity = "portrait_zahl_female_04_entity"	clothes_selector = "zahl_female_clothes_01" 	hair_selector = "zahl_female_hair_01"		greeting_sound = "human_female_greetings_03" 
+		character_textures = { "gfx/models/portraits/zahl/zahl_female_body_04.dds" }
+	}
+}
+
+portrait_groups = {
+	zahl = {
+		default = zahl_male_03
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zahl_male_03
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zahl_female_04
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zahl_male_03
+					zahl_female_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zahl_male_03
+					zahl_female_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zahl_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zahl_male_03
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zahl_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zahl_male_03
+				}
+			}
+		}
+	}	
+}

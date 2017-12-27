@@ -1,0 +1,69 @@
+
+
+entity = {
+    name = "borg_unimatrix_defense_turret_entity"
+    pdxmesh = "borg_unimatrix_defense_turret_mesh"
+    scale = 1.0
+
+    locator = { name = "part01"             position = { 0 0 0 } }
+
+
+    default_state = "idle"
+    state = { name = "idle" state_time = 3
+        event = { time = 0 node = "part01" particle = "energy_core_effect" keep_particle = yes trigger_once = yes }
+        start_event = { trigger_once = yes sound = { soundeffect = amb_wrecked_shipyard_idle } }
+    }
+    game_data = {
+        shader_type = ship
+    }
+}
+# entity = {
+#     name = "borg_unimatrix_defense_small_entity"
+#     pdxmesh = "borg_unimatrix_defense_multi_turret_mesh"
+#     scale = 5.0
+
+#     default_state = "idle"
+#     state = { name = "idle" state_time = 3
+#         event = { time = 0 node = "part1" particle = "energy_core_effect" keep_particle = yes trigger_once = yes }
+#         event = { time = 0 node = "part2" particle = "energy_core_effect" keep_particle = yes trigger_once = yes }
+#         event = { time = 0 node = "part3" particle = "energy_core_effect" keep_particle = yes trigger_once = yes }
+#         event = { time = 0 node = "part4" particle = "energy_core_effect" keep_particle = yes trigger_once = yes }
+#         event = { time = 0 node = "part5" particle = "energy_core_effect" keep_particle = yes trigger_once = yes }
+#         event = { time = 0 node = "part6" particle = "energy_core_effect" keep_particle = yes trigger_once = yes }
+#         start_event = { trigger_once = yes sound = { soundeffect = amb_wrecked_shipyard_idle } }
+#     }
+#     game_data = {
+#         shader_type = ship
+#     }
+# }
+
+
+ entity = {
+     name = "borg_unimatrix_defense_small_entity"
+     pdxmesh = "borg_unimatrix_defense_turret_mesh"
+     scale = 5.0
+    locator = { name = "part01" position = { 0 0 0 } rotation = { 0 0 0 } } 
+    locator = { name = "part02" position = { 50 25 -65 } rotation = { 0 0 0 } }         # position = { x z y } x=side-a z=height y=side-b
+    locator = { name = "part03" position = { 65 10 45 } rotation = { 0 0 0 } }
+    locator = { name = "part04" position = { -65 -15 65 } rotation = { 0 0 0 } }
+    locator = { name = "part05" position = { -75 5 -40 } rotation = { 0 0 0 } }
+    locator = { name = "part06" position = { 75 25 60 } rotation = { 0 0 0 } }
+    locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } } 
+    locator = { name = "medium_gun_02" position = { 50 25 -65 } rotation = { 0 0 0 } }         # position = { x z y } x=side-a z=height y=side-b
+    locator = { name = "medium_gun_03" position = { 65 10 45 } rotation = { 0 0 0 } }
+    locator = { name = "medium_gun_04" position = { -65 -15 65 } rotation = { 0 0 0 } }
+    locator = { name = "large_gun_01" position = { -75 5 -40 } rotation = { 0 0 0 } }
+    locator = { name = "large_gun_02" position = { 75 25 60 } rotation = { 0 0 0 } }
+
+    attach = { "part01" = "borg_unimatrix_defense_turret_entity" }
+    attach = { "part02" = "borg_unimatrix_defense_turret_entity" }
+    attach = { "part03" = "borg_unimatrix_defense_turret_entity" }
+    attach = { "part04" = "borg_unimatrix_defense_turret_entity" }
+    attach = { "part05" = "borg_unimatrix_defense_turret_entity" } 
+    attach = { "part06" = "borg_unimatrix_defense_turret_entity" }
+   
+
+     game_data = {
+         shader_type = ship
+     }
+ }

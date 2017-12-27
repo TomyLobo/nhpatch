@@ -1,0 +1,144 @@
+portraits = {
+	# argrathian
+	argrathian_female_01 = {	
+		entity = "portrait_argrathian_female_01_entity"	clothes_selector = "argrathian_female_clothes_01" hair_selector = "argrathian_female_hair_01" greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/argrathian/argrathian_female_body_01.dds"
+		}
+	}
+	argrathian_female_02 = {	
+		entity = "portrait_argrathian_female_02_entity"	clothes_selector = "argrathian_female_clothes_01" hair_selector = "argrathian_female_hair_01" greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/argrathian/argrathian_female_body_02.dds"
+		}
+	}
+	argrathian_female_04 = {	
+		entity = "portrait_argrathian_female_04_entity"	clothes_selector = "argrathian_female_clothes_01" hair_selector = "argrathian_female_hair_01" greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/argrathian/argrathian_female_body_04.dds"
+		}
+	}
+	argrathian_male_01 = {	
+		entity = "portrait_argrathian_male_01_entity" clothes_selector = "argrathian_male_clothes_01" hair_selector = "argrathian_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/argrathian/argrathian_male_body_01.dds"
+		}
+	}
+	argrathian_male_02 = {	
+		entity = "portrait_argrathian_male_02_entity" clothes_selector = "argrathian_male_clothes_01" hair_selector = "argrathian_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/argrathian/argrathian_male_body_02.dds"
+		}
+	}
+	argrathian_male_04 = {	
+		entity = "portrait_argrathian_male_04_entity" clothes_selector = "argrathian_male_clothes_01" hair_selector = "argrathian_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/argrathian/argrathian_male_body_04.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	argrathian = {
+		default = argrathian_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					argrathian_male_01
+					argrathian_male_02
+					argrathian_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					argrathian_female_01
+					argrathian_female_02
+					argrathian_female_04
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					argrathian_male_01
+					argrathian_male_02
+					argrathian_male_04
+					argrathian_female_01
+					argrathian_female_02
+					argrathian_female_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					argrathian_male_01
+					argrathian_male_02
+					argrathian_male_04
+					argrathian_female_01
+					argrathian_female_02
+					argrathian_female_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					argrathian_male_01
+					argrathian_male_02
+					argrathian_male_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					argrathian_female_01
+					argrathian_female_02
+					argrathian_female_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					argrathian_male_01
+					argrathian_male_02
+					argrathian_male_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					argrathian_female_01
+					argrathian_female_02
+					argrathian_female_04
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,53 @@
+
+portraits = {
+	# Kutaya
+	Kutaya_01 = {
+		entity = "portrait_flaxian_male_01_entity" 
+		clothes_selector = "romulan_male_clothes_combined" 
+		hair_selector = "hero_kutaya_hair"	
+		greeting_sound = "human_female_greetings_04"
+		character_textures = { "gfx/models/portraits/flaxian/flaxian_male_body_01.dds" }
+	}	
+}
+
+portrait_groups = {
+	Kutaya = {
+		default = Kutaya_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {	ruler = { gender = male } }
+				portraits = { Kutaya_01 }
+			}
+			add = {
+				trigger = {	ruler = { gender = female }	}
+				portraits = { Kutaya_01 }
+			}
+		}		
+		species = { #generic portrait for a species
+			add = {	portraits = { Kutaya_01 }	}
+		}		
+		pop = { #for a specific pop
+			add = {	portraits = { Kutaya_01 }	}
+		}
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = { gender = female }
+				portraits = { Kutaya_01 }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { Kutaya_01 }
+			}
+		}
+		ruler = {
+			add = {
+				trigger = {	gender = female	}
+				portraits = { Kutaya_01 }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { Kutaya_01 }
+			}
+		}
+	}
+}

@@ -1,0 +1,144 @@
+portraits = {
+	# tamarian
+	tamarian_female_04 = {	
+		entity = "portrait_tamarian_female_04_entity"	clothes_selector = "tamarian_female_clothes_01" 	hair_selector = "tamarian_female_ears_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/tamarian/tamarian_female_body_04.dds"
+		}
+	}
+	# tamarian_female_04b = {	
+		# entity = "portrait_tamarian_female_04_entity"	clothes_selector = "tamarian_female_clothes_01" 	hair_selector = "tamarian_female_ears_01"	greeting_sound = "human_female_greetings_03"
+		# character_textures = {
+			# "gfx/models/portraits/tamarian/tamarian_female_body_04b.dds"
+		# }
+	# }
+	# tamarian_female_04c = {	
+		# entity = "portrait_tamarian_female_04_entity"	clothes_selector = "tamarian_female_clothes_01" 	hair_selector = "tamarian_female_ears_01"	greeting_sound = "human_female_greetings_03"
+		# character_textures = {
+			# "gfx/models/portraits/tamarian/tamarian_female_body_04c.dds"
+		# }
+	# }
+	tamarian_male_01 = {	
+		entity = "portrait_tamarian_male_01_entity"	clothes_selector = "tamarian_male_clothes_01" 	hair_selector = "tamarian_male_ears_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/tamarian/tamarian_male_body_01.dds"
+		}
+	}
+	# tamarian_male_01b = {	
+		# entity = "portrait_tamarian_male_01_entity"	clothes_selector = "tamarian_male_clothes_01" 	hair_selector = "tamarian_male_ears_01b"		greeting_sound = "human_male_greetings_03" 
+		# character_textures = {
+			# "gfx/models/portraits/tamarian/tamarian_male_body_01b.dds"
+		# }
+	# }
+	# tamarian_male_01c = {	
+		# entity = "portrait_tamarian_male_01_entity"	clothes_selector = "tamarian_male_clothes_01" 	hair_selector = "tamarian_male_ears_01c"		greeting_sound = "human_male_greetings_03" 
+		# character_textures = {
+			# "gfx/models/portraits/tamarian/tamarian_male_body_01c.dds"
+		# }
+	# }
+}
+
+portrait_groups = {
+	tamarian = {
+		default = tamarian_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					tamarian_male_01
+					# tamarian_male_01b
+					# tamarian_male_01c
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					tamarian_female_04
+					# tamarian_female_04b
+					# tamarian_female_04c
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					tamarian_female_04
+					# tamarian_female_04b
+					# tamarian_female_04c
+					tamarian_male_01
+					# tamarian_male_01b
+					# tamarian_male_01c
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					tamarian_female_04
+					# tamarian_female_04b
+					# tamarian_female_04c
+					tamarian_male_01
+					# tamarian_male_01b
+					# tamarian_male_01c
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					tamarian_female_04
+					# tamarian_female_04b
+					# tamarian_female_04c
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					tamarian_male_01
+					# tamarian_male_01b
+					# tamarian_male_01c
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					tamarian_female_04
+					# tamarian_female_04b
+					# tamarian_female_04c
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					tamarian_male_01
+					# tamarian_male_01b
+					# tamarian_male_01c
+				}
+			}
+		}
+	}	
+}

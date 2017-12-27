@@ -1,0 +1,194 @@
+caitian_male_hair_01 = {
+	default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds"
+	game_setup = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+	species = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+	pop = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        } 
+	}
+	leader = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+	ruler = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+}
+
+caitian_male_hair_02 = {
+	default = "gfx/models/portraits/caitian/caitian_male_hair_style_02.dds"
+	game_setup = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_02.dds" }
+	species = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+	pop = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_02.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_02.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        } 
+	}
+	leader = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_02.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+	ruler = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_02.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_2.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+}
+
+caitian_male_hair_03 = {
+	default = "gfx/models/portraits/caitian/caitian_male_hair_style_03.dds"
+	game_setup = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_03.dds" }
+	species = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+	pop = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_03.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_03.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        } 
+	}
+	leader = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_03.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_03.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+	ruler = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_03.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_03.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+}
+
+caitian_male_hair_04 = {
+	default = "gfx/models/portraits/caitian/caitian_male_hair_style_04.dds"
+	game_setup = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_04.dds" }
+	species = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+	pop = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_04.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_04.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        } 
+	}
+	leader = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_04.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_04.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+	ruler = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_04.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_04.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+}
+
+caitian_male_hair_05 = {
+	default = "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds"
+	game_setup = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds" }
+	species = { default = "gfx/models/portraits/caitian/caitian_male_hair_style_01.dds" }
+	pop = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        } 
+	}
+	leader = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+	ruler = {
+		default = "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = { "gfx/models/portraits/caitian/caitian_male_hair_style_05.dds" }
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+}

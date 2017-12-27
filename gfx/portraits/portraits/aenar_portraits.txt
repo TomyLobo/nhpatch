@@ -1,0 +1,171 @@
+portraits = {
+	# Aenar
+	aenar_female_01 = {	
+		entity = "portrait_aenar_female_01_entity"	clothes_selector = "aenar_female_clothes_01" 	hair_selector = "aenar_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/aenar/aenar_female_body_01.dds"
+		}
+	}
+	aenar_female_02 = {	
+		entity = "portrait_aenar_female_02_entity"	clothes_selector = "aenar_female_clothes_01" 	hair_selector = "aenar_female_hair_01"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/aenar/aenar_female_body_02.dds"
+		}
+	}
+	aenar_female_03 = {	
+		entity = "portrait_aenar_female_03_entity"	clothes_selector = "aenar_female_clothes_01" 	hair_selector = "aenar_female_hair_01"	greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/aenar/aenar_female_body_03.dds"
+		}
+	}	
+	aenar_female_04 = {	
+		entity = "portrait_aenar_female_04_entity"	clothes_selector = "aenar_female_clothes_01" 	hair_selector = "aenar_female_hair_01"	greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/aenar/aenar_female_body_04.dds"
+		}
+	}
+	aenar_male_01 = {	
+		entity = "portrait_aenar_male_01_entity"	clothes_selector = "aenar_male_clothes_01" 	hair_selector = "aenar_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/aenar/aenar_male_body_01.dds"
+		}
+	}	
+	aenar_male_02 = {	
+		entity = "portrait_aenar_male_02_entity"	clothes_selector = "aenar_male_clothes_01" 	hair_selector = "aenar_male_hair_01"		greeting_sound = "human_male_greetings_04" 
+		character_textures = {
+			"gfx/models/portraits/aenar/aenar_male_body_02.dds"
+		}
+	}
+	aenar_male_03 = {	
+		entity = "portrait_aenar_male_03_entity"	clothes_selector = "aenar_male_clothes_01" 	hair_selector = "aenar_male_hair_01"		greeting_sound = "human_male_greetings_05" 
+		character_textures = {
+			"gfx/models/portraits/aenar/aenar_male_body_03.dds"
+		}
+	}		
+	aenar_male_04 = {	
+		entity = "portrait_aenar_male_04_entity"	clothes_selector = "aenar_male_clothes_01" 	hair_selector = "aenar_male_hair_01"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/aenar/aenar_male_body_04.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	aenar = {
+		default = aenar_female_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					aenar_male_01
+					aenar_male_02
+					aenar_male_03
+					aenar_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					aenar_female_01
+					aenar_female_02
+					aenar_female_03
+					aenar_female_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					aenar_female_01
+					aenar_female_02
+					aenar_female_03					
+					aenar_female_04
+					aenar_male_01
+					aenar_male_02
+					aenar_male_03					
+					aenar_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					aenar_female_01
+					aenar_female_02
+					aenar_female_03				
+					aenar_female_04
+					aenar_male_01
+					aenar_male_02
+					aenar_male_03					
+					aenar_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					aenar_female_01
+					aenar_female_02
+					aenar_female_03					
+					aenar_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					aenar_male_01
+					aenar_male_02
+					aenar_male_03					
+					aenar_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					aenar_female_01
+					aenar_female_02
+					aenar_female_03					
+					aenar_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					aenar_male_01
+					aenar_male_02
+					aenar_male_03					
+					aenar_male_04
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,35 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "klingon_02_sovereign_coreC_entity"
+	pdxmesh = "klingon_02_sovereign_coreA_mesh"
+	locator = {
+		name = "strike_craft_locator_01"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_02"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_03"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_04"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "part1"
+		rotation = { 0 0 0 }
+	}
+	default_state = "idle"
+	state = { name = "idle" state_time = 3
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+	}		
+}

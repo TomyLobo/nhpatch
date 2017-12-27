@@ -1,0 +1,95 @@
+portraits = {
+	zakdorn_female_01 = {	
+		entity = "portrait_zakdorn_female_01_entity" clothes_selector = "zakdorn_female_clothes_01" hair_selector = "zakdorn_female_hair_01"	greeting_sound = "human_female_greetings_01"
+		character_textures = { "gfx/models/portraits/zakdorn/zakdorn_female_body_01.dds" }
+	}
+	zakdorn_male_01 = {	
+		entity = "portrait_zakdorn_male_01_entity" clothes_selector = "zakdorn_male_clothes_01" hair_selector = "zakdorn_male_hair_01"	greeting_sound = "human_male_greetings_01" 
+		character_textures = { "gfx/models/portraits/zakdorn/zakdorn_male_body_01.dds" }
+	}	
+}
+
+portrait_groups = {
+	zakdorn = {
+		default = zakdorn_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zakdorn_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zakdorn_female_01
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zakdorn_female_01
+					zakdorn_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zakdorn_female_01
+					zakdorn_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zakdorn_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zakdorn_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zakdorn_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zakdorn_male_01
+				}
+			}
+		}
+	}
+}

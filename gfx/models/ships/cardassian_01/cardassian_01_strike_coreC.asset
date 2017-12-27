@@ -1,0 +1,16 @@
+@strike_scale = 6.0
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "cardassian_01_strike_coreC_entity"
+	pdxmesh = "cardassian_01_strike_coreA_mesh"
+	locator = { name = "part1" rotation = { 0 0 0 } }
+    
+    game_data = {
+        size = @strike_scale
+    }
+}

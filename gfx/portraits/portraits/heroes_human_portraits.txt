@@ -1,0 +1,63 @@
+
+portraits = {
+	# MeiCarterLin
+	MeiCarterLin_01 = {
+		entity = "portrait_human_female_02_entity" 
+		clothes_selector = "human_female_clothes_starfleet_combined" 
+		hair_selector = "hero_mei_carter_lin_hair"	
+		greeting_sound = "human_female_greetings_04"
+	}
+	JonathanArcher_01 = {
+		entity = "portrait_human_male_04_entity" 
+		clothes_selector = "human_male_clothes_starfleet_combined" 
+		hair_selector = "hero_jonathan_archer_hair"
+		greeting_sound = "human_male_greetings_04"
+	}
+	JonathanEsteban_01 = {
+		entity = "portrait_human_male_01_entity" 
+		clothes_selector = "human_male_clothes_starfleet_combined" 
+		hair_selector = "hero_jonathan_esteban_hair"
+		greeting_sound = "human_male_greetings_04"
+	}
+	MatthewWalsh_01 = {
+		entity = "portrait_human_male_03_entity" 
+		clothes_selector = "human_male_clothes_starfleet_combined" 
+		hair_selector = "hero_matthew_walsh_hair"
+		greeting_sound = "human_male_greetings_04"
+	}
+	JohnPaxton_01 = { entity = "portrait_human_male_04_entity"  clothes_selector = "human_male_clothes_john_paxton"  hair_selector = "hero_matthew_walsh_hair" greeting_sound = "human_male_greetings_04" }
+	KhanNoonienSingh_01 = { 
+		entity = "portrait_human_male_03_entity"  clothes_selector = "human_male_clothes_starfleet_combined"  hair_selector = "hero_khan_noonien_singh_hair" greeting_sound = "human_male_greetings_04"
+		character_textures = { "gfx/models/portraits/human/human_male_body_03b.dds" }		
+	}
+	mirrorBenSisko_01 = { entity = "portrait_human_male_05_entity"  clothes_selector = "human_male_clothes_starfleet_combined"  hair_selector = "hero_ben_sisko_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorJeanLucPicard_01 = { entity = "portrait_human_male_03_entity"  clothes_selector = "human_male_clothes_starfleet_combined"  hair_selector = "hero_jean_luc_picard_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorWillRiker_01 = { entity = "portrait_human_male_01_entity"  clothes_selector = "human_male_clothes_starfleet_combined"  hair_selector = "hero_will_riker_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorMilesObrien_01 = { entity = "portrait_human_male_01_entity"  clothes_selector = "human_male_clothes_starfleet_combined"  hair_selector = "hero_miles_obrien_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorWesleyCrusher_01 = { entity = "portrait_human_male_01_entity"  clothes_selector = "human_male_clothes_starfleet_combined"  hair_selector = "hero_wesley_crusher_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorJenniferSisko_01 = { entity = "portrait_human_female_05_entity"  clothes_selector = "human_female_clothes_starfleet_combined"  hair_selector = "hero_jennifer_sisko_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorKathrynJaneway_01 = { entity = "portrait_human_female_01_entity"  clothes_selector = "human_female_clothes_starfleet_combined"  hair_selector = "hero_kathryn_janeway_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorKassidyYates_01 = { entity = "portrait_human_female_05_entity"  clothes_selector = "human_female_clothes_starfleet_combined"  hair_selector = "hero_kassidy_yates_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorAnnikaHansen_01 = { entity = "portrait_human_female_04_entity"  clothes_selector = "human_female_clothes_starfleet_combined"  hair_selector = "hero_annika_hansen_hair" greeting_sound = "human_male_greetings_05" }
+	mirrorBeverleyCrusher_01 = { entity = "portrait_human_female_01_entity"  clothes_selector = "human_female_clothes_starfleet_combined"  hair_selector = "hero_beverley_crusher_hair" greeting_sound = "human_male_greetings_05" }
+}
+
+portrait_groups = {
+	MeiCarterLin = { default = MeiCarterLin_01 }
+	JonathanArcher = { default = JonathanArcher_01 }
+	JonathanEsteban = { default = JonathanEsteban_01 }
+	MatthewWalsh = { default = MatthewWalsh_01 }
+	JohnPaxton = { default = JohnPaxton_01 }
+	KhanNoonienSingh = { default = KhanNoonienSingh_01 }
+	
+	mirrorBenSisko = { default = mirrorBenSisko_01 }
+	mirrorJeanLucPicard = { default = mirrorJeanLucPicard_01 }
+	mirrorWillRiker = { default = mirrorWillRiker_01 }
+	mirrorMilesObrien = { default = mirrorMilesObrien_01 }
+	mirrorWesleyCrusher = { default = mirrorWesleyCrusher_01 }
+	mirrorJenniferSisko = { default = mirrorJenniferSisko_01 }	
+	mirrorKathrynJaneway = { default = mirrorKathrynJaneway_01 }
+	mirrorKassidyYates = { default = mirrorKassidyYates_01 }
+	mirrorAnnikaHansen = { default = mirrorAnnikaHansen_01 }
+	mirrorBeverleyCrusher = { default = mirrorBeverleyCrusher_01 }
+}

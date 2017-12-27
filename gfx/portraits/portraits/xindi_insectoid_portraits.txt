@@ -1,0 +1,82 @@
+portraits = {
+	# xindi_insectoid
+	xindi_insectoid_male_01 = {	
+		entity = "portrait_xindi_insectoid_male_01_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "arthropoid_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/xindi_insectoid/xindi_insectoid_male_body_01.dds"
+			"gfx/models/portraits/xindi_insectoid/xindi_insectoid_male_body_01b.dds"
+			"gfx/models/portraits/xindi_insectoid/xindi_insectoid_male_body_01c.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	xindi_insectoid = {
+		default = xindi_insectoid_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = { ruler = { gender = male } }
+				portraits = {
+					xindi_insectoid_male_01
+				}
+			}
+			add = {
+				trigger = { ruler = { gender = female } }
+				portraits = {
+					xindi_insectoid_male_01
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					xindi_insectoid_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					xindi_insectoid_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {	gender = female	}
+				portraits = {
+					xindi_insectoid_male_01
+				}
+			}
+			add = {
+				trigger = {	gender = male }
+				portraits = {
+					xindi_insectoid_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = { gender = female }
+				portraits = {
+					xindi_insectoid_male_01
+				}
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = {
+					xindi_insectoid_male_01
+				}
+			}
+		}
+	}	
+}

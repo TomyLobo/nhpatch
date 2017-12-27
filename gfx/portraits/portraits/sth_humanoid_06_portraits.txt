@@ -1,0 +1,101 @@
+portraits = {
+
+	# Human
+	sth_humanoid_06_female_04 = { 
+		entity = "portrait_human_female_04_entity" clothes_selector = "sth_humanoid_06_female_clothes_01" hair_selector = "sth_humanoid_06_female_hair_01" greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/sth humanoid 06/sth_humanoid_06_female_body_04.dds"
+		}
+	}	
+	sth_humanoid_06_male_04 = {	
+		entity = "portrait_human_male_04_entity" clothes_selector = "sth_humanoid_06_male_clothes_01" hair_selector = "sth_humanoid_06_male_hair_01"	greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/sth humanoid 06/sth_humanoid_06_male_body_04.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	sth_humanoid_06 = {
+		default = sth_humanoid_06_female_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sth_humanoid_06_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sth_humanoid_06_female_04
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sth_humanoid_06_female_04
+					sth_humanoid_06_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sth_humanoid_06_female_04
+					sth_humanoid_06_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sth_humanoid_06_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sth_humanoid_06_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sth_humanoid_06_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sth_humanoid_06_male_04
+				}
+			}
+		}
+	}
+}

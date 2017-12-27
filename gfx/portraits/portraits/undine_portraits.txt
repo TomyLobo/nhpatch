@@ -1,0 +1,57 @@
+portraits = {
+	undine_01 = {	
+		entity = "portrait_undine_01_entity"	clothes_selector = "undine_clothes_01" 	hair_selector = "undine_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/undine/undine_body_01.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	undine = {
+		default = undine_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					undine_01
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					undine_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					undine_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					undine_01
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					undine_01
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,48 @@
+@corvette_scale = 10.0
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "federation_04_steamrunner_coreC_entity"
+	pdxmesh = "federation_04_steamrunner_coreC_mesh"
+	locator = {
+		name = "strike_craft_locator_01"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_02"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_03"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_04"
+		rotation = { 0 0 0 }
+	}
+	default_state = "idle"
+	state = { name = "idle" state_time = 3
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 1 node = "light_locator_03" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 1 node = "light_locator_04" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_05" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_06" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_07" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_08" particle = "ship_light_green_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_09" particle = "ship_light_green_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_010" particle = "ship_light_red_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_011" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_012" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }	
+		event = { time = 0 node = "light_locator_013" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "light_locator_014" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }	
+	}
+    scale = 1.0
+	game_data = {
+		size = @corvette_scale
+	}
+}

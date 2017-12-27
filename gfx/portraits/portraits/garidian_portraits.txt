@@ -1,0 +1,166 @@
+portraits = {
+	# garidian
+	garidian_female_01 = {	
+		entity = "portrait_garidian_female_01_entity"	clothes_selector = "garidian_female_clothes_combined" 	hair_selector = "garidian_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/garidian/garidian_female_body_01.dds"
+		}
+	}
+	garidian_female_02 = {	
+		entity = "portrait_garidian_female_02_entity"	clothes_selector = "garidian_female_clothes_combined" 	hair_selector = "garidian_female_hair_01"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/garidian/garidian_female_body_02.dds"
+		}
+	}
+	garidian_female_04 = {	
+		entity = "portrait_garidian_female_04_entity"	clothes_selector = "garidian_female_clothes_combined" 	hair_selector = "garidian_female_hair_01"	greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/garidian/garidian_female_body_04.dds"
+		}
+	}
+	garidian_female_05 = {	
+		entity = "portrait_garidian_female_05_entity"	clothes_selector = "garidian_female_clothes_combined" 	hair_selector = "garidian_female_hair_01"	greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/garidian/garidian_female_body_05.dds"
+		}
+	}
+	garidian_male_02 = {	
+		entity = "portrait_garidian_male_02_entity"	clothes_selector = "garidian_male_clothes_combined" 	hair_selector = "garidian_male_hair_01"		greeting_sound = "human_male_greetings_04" 
+		character_textures = {
+			"gfx/models/portraits/garidian/garidian_male_body_02.dds"
+		}
+	}
+	garidian_male_03 = {	
+		entity = "portrait_garidian_male_03_entity"	clothes_selector = "garidian_male_clothes_combined" 	hair_selector = "garidian_male_hair_01"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/garidian/garidian_male_body_03.dds"
+		}
+	}
+	garidian_male_04 = {	
+		entity = "portrait_garidian_male_04_entity"	clothes_selector = "garidian_male_clothes_combined" 	hair_selector = "garidian_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/garidian/garidian_male_body_04.dds"
+		}
+	}	
+	garidian_male_05 = {	
+		entity = "portrait_garidian_male_05_entity"	clothes_selector = "garidian_male_clothes_combined" 	hair_selector = "garidian_male_hair_01"	greeting_sound = "human_male_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/garidian/garidian_male_body_05.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	garidian = {
+		default = garidian_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					garidian_male_02
+					garidian_male_03
+					garidian_male_04
+					garidian_male_05
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					garidian_female_01
+					garidian_female_02
+					garidian_female_04
+					garidian_female_05
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					garidian_female_01
+					garidian_female_02		
+					garidian_female_04
+					garidian_female_05
+					garidian_male_02
+					garidian_male_03
+					garidian_male_04
+					garidian_male_05
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					garidian_female_01
+					garidian_female_02		
+					garidian_female_04
+					garidian_female_05
+					garidian_male_02
+					garidian_male_03
+					garidian_male_04
+					garidian_male_05
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					garidian_female_01
+					garidian_female_02				
+					garidian_female_04
+					garidian_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					garidian_male_02
+					garidian_male_03
+					garidian_male_04
+					garidian_male_05
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					garidian_female_01
+					garidian_female_02		
+					garidian_female_04
+					garidian_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					garidian_male_02
+					garidian_male_03
+					garidian_male_04
+					garidian_male_05
+				}
+			}
+		}
+	}
+}

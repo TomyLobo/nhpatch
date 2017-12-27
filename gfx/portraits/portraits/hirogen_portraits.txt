@@ -1,0 +1,133 @@
+portraits = {
+	hirogen_male_01 = {	
+		entity = "portrait_hirogen_male_01_entity" clothes_selector = "hirogen_male_clothes_01" hair_selector = "hirogen_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/hirogen/hirogen_male_body_01.dds"
+		}
+	}
+	hirogen_male_01b = {	
+		entity = "portrait_hirogen_male_01_entity" clothes_selector = "hirogen_male_clothes_01" hair_selector = "hirogen_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/hirogen/hirogen_male_body_01b.dds"
+		}
+	}
+	hirogen_male_01c = {	
+		entity = "portrait_hirogen_male_01_entity" clothes_selector = "hirogen_male_clothes_01" hair_selector = "hirogen_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/hirogen/hirogen_male_body_01c.dds"
+		}
+	}
+	hirogen_male_01d = {	
+		entity = "portrait_hirogen_male_01_entity" clothes_selector = "hirogen_male_clothes_01" hair_selector = "hirogen_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/hirogen/hirogen_male_body_01d.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	hirogen = {
+		default = hirogen_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					hirogen_male_01
+					hirogen_male_01b
+					hirogen_male_01c
+					hirogen_male_01d
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					hirogen_male_01
+					hirogen_male_01b
+					hirogen_male_01c
+					hirogen_male_01d
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					hirogen_male_01
+					hirogen_male_01b
+					hirogen_male_01c
+					hirogen_male_01d
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					hirogen_male_01
+					hirogen_male_01b
+					hirogen_male_01c
+					hirogen_male_01d
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					hirogen_male_01
+					hirogen_male_01b
+					hirogen_male_01c
+					hirogen_male_01d
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					hirogen_male_01
+					hirogen_male_01b
+					hirogen_male_01c
+					hirogen_male_01d
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					hirogen_male_01
+					hirogen_male_01b
+					hirogen_male_01c
+					hirogen_male_01d
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					hirogen_male_01
+					hirogen_male_01b
+					hirogen_male_01c
+					hirogen_male_01d
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,230 @@
+soundeffect = {
+	name = pc_m1_class
+	volume = 0.18
+	loop = no
+	sounds = {
+		sound = pc_m1_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_thegreatlink
+	volume = 0.25
+	loop = no
+	sounds = {
+		sound = pc_thegreatlink_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.2
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+
+soundeffect = {
+	name = pc_l2_class
+	volume = 0.15
+	loop = no
+	sounds = {
+		sound = pc_l2_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_g_class
+	volume = 0.35
+	loop = no
+	sounds = {
+		sound = pc_g_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_class_q_variable
+	volume = 0.18
+	loop = no
+	sounds = {
+		sound = pc_class_q_variable_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_class_q_geo
+	volume = 0.3
+	loop = no
+	sounds = {
+		sound = pc_class_q_geo_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_r_class
+	volume = 0.18
+	loop = no
+	sounds = {
+		sound = pc_r_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_f_class
+	volume = 0.15
+	loop = no
+	sounds = {
+		sound = pc_f_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.2
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_k_class
+	volume = 0.15
+	loop = no
+	sounds = {
+		sound = pc_k_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.2
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_y_class
+	volume = 0.4
+	loop = no
+	sounds = {
+		sound = pc_y_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_class_e
+	volume = 0.4
+	loop = no
+	sounds = {
+		sound = pc_class_e_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+
+soundeffect = {
+	name = pc_class_k_trans
+	volume = 0.2
+	loop = no
+	sounds = {
+		sound = pc_class_k_trans_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_class_n_titan
+	volume = 0.3
+	loop = no
+	sounds = {
+		sound = pc_class_n_titan_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_class_o_sulfar
+	volume = 0.35
+	loop = no
+	sounds = {
+		sound = pc_class_o_sulfar_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_b_class
+	volume = 0.2
+	loop = no
+	sounds = {
+		sound = pc_b_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_x_class
+	volume = 0.2
+	loop = no
+	sounds = {
+		sound = pc_x_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_s_class
+	volume = 0.25
+	loop = no
+	sounds = {
+		sound = pc_s_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_i_class
+	volume = 0.25
+	loop = no
+	sounds = {
+		sound = pc_i_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}
+soundeffect = {
+	name = pc_u_class
+	volume = 0.25
+	loop = no
+	sounds = {
+		sound = pc_u_class_01
+	} 
+	playbackrate_random_offset = { -10.0 10.0 }
+	fade_out = 0.3
+	max_audible = 1
+	max_audible_behaviour = fail	
+}

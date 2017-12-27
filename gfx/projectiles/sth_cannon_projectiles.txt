@@ -1,0 +1,688 @@
+
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "cannon_red_s"
+	color = { 0.0	1.0		1.0		1.0 }
+	hit_entity = "cannon_red_small_hit_entity"
+	shield_hit_entity = "cannon_red_small_shield_hit_entity"
+	muzzle_flash_entity = "cannon_red_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "cannon_small_entity"
+	speed = 150.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+
+
+
+###############################
+
+
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "cannon_green_s"
+	color = { 0.0	1.0		1.0		1.0 }
+	hit_entity = "cannon_green_small_hit_entity"
+	shield_hit_entity = "cannon_green_small_shield_hit_entity"
+	muzzle_flash_entity = "cannon_green_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "cannon2_small_entity"
+	speed = 150.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+
+
+
+###############################
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "cannon_yellow_s"
+	color = { 0.0	1.0		1.0		1.0 }
+	hit_entity = "cannon_yellow_small_hit_entity"
+	shield_hit_entity = "cannon_yellow_small_shield_hit_entity"
+	muzzle_flash_entity = "cannon_yellow_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "cannon3_small_entity"
+	speed = 150.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+
+
+
+###############################
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "cannon_purple_s"
+	color = { 0.0	1.0		1.0		1.0 }
+	hit_entity = "cannon_purple_small_hit_entity"
+	shield_hit_entity = "cannon_purple_small_shield_hit_entity"
+	muzzle_flash_entity = "cannon_purple_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "cannon4_small_entity"
+	speed = 150.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+
+
+
+###############################
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "cannon_orange_s"
+	color = { 0.0	1.0		1.0		1.0 }
+	hit_entity = "cannon_orange_small_hit_entity"
+	shield_hit_entity = "cannon_orange_small_shield_hit_entity"
+	muzzle_flash_entity = "cannon_orange_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "cannon5_small_entity"
+	speed = 150.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+
+
+
+###############################
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "cannon_blue_s"
+	color = { 0.0	1.0		1.0		1.0 }
+	hit_entity = "cannon_blue_small_hit_entity"
+	shield_hit_entity = "cannon_blue_small_shield_hit_entity"
+	muzzle_flash_entity = "cannon_blue_small_muzzle_entity"
+	
+	shield_impact = {
+		size = small
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "cannon6_small_entity"
+	speed = 150.0			#preferred speed of the projectile
+	max_duration = 2.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+
+
+
+###############################
+
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_blue_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_blue_01_hit_entity"
+        shield_hit_entity = "cannon_blue_01_hit_entity"
+        muzzle_flash_entity = "cannon_blue_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_blue_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_blue_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_blue_02_hit_entity"
+        shield_hit_entity = "cannon_blue_02_hit_entity"
+        muzzle_flash_entity = "cannon_blue_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_blue_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_blue_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_blue_03_hit_entity"
+        shield_hit_entity = "cannon_blue_03_hit_entity"
+        muzzle_flash_entity = "cannon_blue_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_blue_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_borg_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_borg_01_hit_entity"
+        shield_hit_entity = "cannon_borg_01_hit_entity"
+        muzzle_flash_entity = "cannon_borg_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_borg_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_borg_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_borg_02_hit_entity"
+        shield_hit_entity = "cannon_borg_02_hit_entity"
+        muzzle_flash_entity = "cannon_borg_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_borg_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_borg_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_borg_03_hit_entity"
+        shield_hit_entity = "cannon_borg_03_hit_entity"
+        muzzle_flash_entity = "cannon_borg_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_borg_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_dark_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_dark_01_hit_entity"
+        shield_hit_entity = "cannon_dark_01_hit_entity"
+        muzzle_flash_entity = "cannon_dark_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_dark_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_dark_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_dark_02_hit_entity"
+        shield_hit_entity = "cannon_dark_02_hit_entity"
+        muzzle_flash_entity = "cannon_dark_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_dark_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_dark_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_dark_03_hit_entity"
+        shield_hit_entity = "cannon_dark_03_hit_entity"
+        muzzle_flash_entity = "cannon_dark_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_dark_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_green_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_green_01_hit_entity"
+        shield_hit_entity = "cannon_green_01_hit_entity"
+        muzzle_flash_entity = "cannon_green_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_green_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_green_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_green_02_hit_entity"
+        shield_hit_entity = "cannon_green_02_hit_entity"
+        muzzle_flash_entity = "cannon_green_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_green_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_green_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_green_03_hit_entity"
+        shield_hit_entity = "cannon_green_03_hit_entity"
+        muzzle_flash_entity = "cannon_green_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_green_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_orange_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_orange_01_hit_entity"
+        shield_hit_entity = "cannon_orange_01_hit_entity"
+        muzzle_flash_entity = "cannon_orange_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_orange_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_orange_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_orange_02_hit_entity"
+        shield_hit_entity = "cannon_orange_02_hit_entity"
+        muzzle_flash_entity = "cannon_orange_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_orange_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_orange_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_orange_03_hit_entity"
+        shield_hit_entity = "cannon_orange_03_hit_entity"
+        muzzle_flash_entity = "cannon_orange_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_orange_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_purple_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_purple_01_hit_entity"
+        shield_hit_entity = "cannon_purple_01_hit_entity"
+        muzzle_flash_entity = "cannon_purple_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_purple_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_purple_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_purple_02_hit_entity"
+        shield_hit_entity = "cannon_purple_02_hit_entity"
+        muzzle_flash_entity = "cannon_purple_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_purple_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_purple_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_purple_03_hit_entity"
+        shield_hit_entity = "cannon_purple_03_hit_entity"
+        muzzle_flash_entity = "cannon_purple_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_purple_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_red_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_red_01_hit_entity"
+        shield_hit_entity = "cannon_red_01_hit_entity"
+        muzzle_flash_entity = "cannon_red_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_red_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_red_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_red_02_hit_entity"
+        shield_hit_entity = "cannon_red_02_hit_entity"
+        muzzle_flash_entity = "cannon_red_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_red_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_red_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_red_03_hit_entity"
+        shield_hit_entity = "cannon_red_03_hit_entity"
+        muzzle_flash_entity = "cannon_red_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_red_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_teal_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_teal_01_hit_entity"
+        shield_hit_entity = "cannon_teal_01_hit_entity"
+        muzzle_flash_entity = "cannon_teal_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_teal_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_teal_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_teal_02_hit_entity"
+        shield_hit_entity = "cannon_teal_02_hit_entity"
+        muzzle_flash_entity = "cannon_teal_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_teal_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_teal_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_teal_03_hit_entity"
+        shield_hit_entity = "cannon_teal_03_hit_entity"
+        muzzle_flash_entity = "cannon_teal_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_teal_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_white_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_white_01_hit_entity"
+        shield_hit_entity = "cannon_white_01_hit_entity"
+        muzzle_flash_entity = "cannon_white_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_white_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_white_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_white_02_hit_entity"
+        shield_hit_entity = "cannon_white_02_hit_entity"
+        muzzle_flash_entity = "cannon_white_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_white_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_white_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_white_03_hit_entity"
+        shield_hit_entity = "cannon_white_03_hit_entity"
+        muzzle_flash_entity = "cannon_white_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_white_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_yellow_01"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_yellow_01_hit_entity"
+        shield_hit_entity = "cannon_yellow_01_hit_entity"
+        muzzle_flash_entity = "cannon_yellow_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_yellow_01_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_yellow_02"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_yellow_02_hit_entity"
+        shield_hit_entity = "cannon_yellow_02_hit_entity"
+        muzzle_flash_entity = "cannon_yellow_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_yellow_02_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "cannon_yellow_03"
+        color = { 0.8                 0.8                1.0         1.0 }
+        hit_entity = "cannon_yellow_03_hit_entity"
+        shield_hit_entity = "cannon_yellow_03_hit_entity"
+        muzzle_flash_entity = "cannon_yellow_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "cannon_yellow_03_projectile_entity"
+        speed = 200.0                        #preferred speed of the projectile
+        max_duration = 1.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = small
+                delay = 0
+        }
+}

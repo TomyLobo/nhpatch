@@ -1,0 +1,160 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Human
+	skrreean_female_01 = {	
+		entity = "portrait_skrreean_female_01_entity"  clothes_selector = "skrreean_female_clothes_01"  hair_selector = "skrreean_female_hair_01"  greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/skrreean/skrreean_female_body_01.dds"
+		}
+	}
+	skrreean_female_03 = {	
+		entity = "portrait_skrreean_female_03_entity"  clothes_selector = "skrreean_female_clothes_01"  hair_selector = "skrreean_female_hair_01"  greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/skrreean/skrreean_female_body_03.dds"
+		}
+	}	
+	skrreean_female_04 = {	
+		entity = "portrait_skrreean_female_04_entity"  clothes_selector = "skrreean_female_clothes_01"  hair_selector = "skrreean_female_hair_01"  greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/skrreean/skrreean_female_body_04.dds"
+		}
+	}
+	skrreean_male_01 = {
+		entity = "portrait_human_male_01_entity"  clothes_selector = "skrreean_male_clothes_01"  hair_selector = "skrreean_male_hair_01"  greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/skrreean/skrreean_male_body_01.dds"
+		}
+	}	
+	skrreean_male_03 = {	
+		entity = "portrait_human_male_03_entity"  clothes_selector = "skrreean_male_clothes_01"  hair_selector = "skrreean_male_hair_01"  greeting_sound = "human_male_greetings_05" 
+		character_textures = {
+			"gfx/models/portraits/skrreean/skrreean_male_body_03.dds"
+		}
+	}		
+	skrreean_male_04 = {
+		entity = "portrait_human_male_04_entity"  clothes_selector = "skrreean_male_clothes_01"  hair_selector = "skrreean_male_hair_01"  greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/skrreean/skrreean_male_body_04.dds"
+		}
+	}	
+}
+
+portrait_groups = {
+	skrreean = {
+		default = skrreean_male_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					skrreean_male_01
+					skrreean_male_03
+					skrreean_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					skrreean_female_01
+					skrreean_female_03
+					skrreean_female_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					skrreean_female_01
+					skrreean_female_03					
+					skrreean_female_04
+					skrreean_male_01
+					skrreean_male_03					
+					skrreean_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					skrreean_female_01
+					skrreean_female_03				
+					skrreean_female_04
+					skrreean_male_01
+					skrreean_male_03					
+					skrreean_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					skrreean_female_01
+					skrreean_female_03					
+					skrreean_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					skrreean_male_01
+					skrreean_male_03					
+					skrreean_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					skrreean_female_01
+					skrreean_female_03					
+					skrreean_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					skrreean_male_01
+					skrreean_male_03					
+					skrreean_male_04
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1470 @@
+entity = {
+        name = "cannon_blue_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_blue_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_blue_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_blue_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_blue_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_blue_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_blue_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_blue_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_blue_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_blue_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_blue_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_blue_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_blue_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_blue_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_blue_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_blue_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_blue_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_blue_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_blue_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_blue_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_blue_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_blue_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_blue_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_blue_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_blue_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_blue_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_blue_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_blue_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_blue_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_blue_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_borg_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_borg_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_borg_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_borg_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_borg_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_borg_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_borg_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_borg_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_borg_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_borg_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_borg_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_borg_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_borg_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_borg_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_borg_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_borg_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_borg_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_borg_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_borg_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_borg_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_borg_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_borg_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_borg_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_borg_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_borg_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_borg_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_borg_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_borg_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_borg_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_borg_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_dark_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_dark_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_dark_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_dark_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_dark_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_dark_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_dark_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_dark_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_dark_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_dark_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_dark_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_dark_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_dark_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_dark_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_dark_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_dark_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_dark_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_dark_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_dark_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_dark_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_dark_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_dark_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_dark_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_dark_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_dark_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_dark_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_dark_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_dark_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_dark_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_dark_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_green_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_green_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_green_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_green_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_green_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_green_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_green_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_green_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_green_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_green_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_green_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_green_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_green_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_green_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_green_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_green_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_green_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_green_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_green_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_green_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_green_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_green_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_green_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_green_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_green_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_green_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_green_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_green_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_green_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_green_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_orange_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_orange_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_orange_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_orange_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_orange_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_orange_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_orange_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_orange_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_orange_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_orange_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_orange_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_orange_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_orange_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_orange_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_orange_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_orange_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_orange_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_orange_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_orange_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_orange_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_orange_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_orange_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_orange_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_orange_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_orange_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_orange_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_orange_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_orange_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_orange_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_orange_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_purple_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_purple_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_purple_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_purple_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_purple_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_purple_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_purple_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_purple_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_purple_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_purple_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_purple_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_purple_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_purple_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_purple_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_purple_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_purple_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_purple_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_purple_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_purple_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_purple_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_purple_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_purple_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_purple_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_purple_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_purple_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_purple_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_purple_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_purple_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_purple_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_purple_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_red_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_red_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_red_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_red_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_red_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_red_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_red_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_red_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_red_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_red_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_red_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_red_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_red_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_red_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_red_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_red_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_red_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_red_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_red_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_red_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_red_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_red_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_red_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_red_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_red_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_red_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_red_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_red_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_red_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_red_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_teal_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_teal_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_teal_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_teal_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_teal_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_teal_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_teal_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_teal_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_teal_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_teal_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_teal_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_teal_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_teal_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_teal_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_teal_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_teal_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_teal_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_teal_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_teal_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_teal_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_teal_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_teal_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_teal_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_teal_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_teal_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_teal_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_teal_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_teal_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_teal_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_teal_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_white_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_white_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_white_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_white_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_white_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_white_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_white_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_white_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_white_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_white_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_white_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_white_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_white_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_white_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_white_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_white_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_white_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_white_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_white_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_white_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_white_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_white_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_white_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_white_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_white_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_white_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_white_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_white_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_white_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_white_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_yellow_01_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_yellow_01_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_yellow_01 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_yellow_01" } }
+        }
+}
+
+entity = {
+        name = "cannon_yellow_01_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_yellow_01_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_yellow_01_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_yellow_01_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_yellow_01_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_yellow_01_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_yellow_02_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_yellow_02_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_yellow_02 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_yellow_02" } }
+        }
+}
+
+entity = {
+        name = "cannon_yellow_02_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_yellow_02_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_yellow_02_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_yellow_02_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_yellow_02_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_yellow_02_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+entity = {
+        name = "cannon_yellow_03_muzzle_entity"
+        pdxmesh = "locator_mesh"
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 3 looping = no
+                event = { time = 0 particle = "cannon_yellow_03_muzzle_particle" keep_particle = yes sound = { soundeffect = cannon_yellow_03 } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_cannon_yellow_03" } }
+        }
+}
+
+entity = {
+        name = "cannon_yellow_03_projectile_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle" 
+        state = { name = "idle" 
+                event = { time = 0 particle = "cannon_yellow_03_projectile_particle" keep_particle = yes }
+        }
+        state = { name = "stop"
+                looping = no
+                #state_time = 2.0
+        }
+        scale = 3.0
+}
+
+
+entity = {
+        name = "cannon_yellow_03_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                start_event = { particle = "cannon_yellow_03_hit_effect" }
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+        name = "cannon_yellow_03_shield_hit_entity"
+        cull_radius = 1.0
+        default_state = "idle"
+        state = { name = "idle" 
+                event = { time = 0.0 particle = cannon_yellow_03_hit_effect }
+                start_event = { particle = projectile_large_shield_hit_effect sound = { soundeffect = shield_hit } }
+                start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        state = { name = "stop" state_time = 0.5 looping = no }
+}

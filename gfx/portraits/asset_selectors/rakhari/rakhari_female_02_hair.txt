@@ -1,0 +1,72 @@
+# This is a template which multiple species can use. 
+  
+rakhari_female_hair_02 = {
+
+	default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_06.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
+			}
+		}
+	}
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_06.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
+			}
+		}		
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_06.dds"
+			}
+		}	
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
+			}
+		}
+	}
+}

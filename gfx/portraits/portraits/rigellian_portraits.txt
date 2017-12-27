@@ -1,0 +1,96 @@
+portraits = {
+	# rigellian
+	rigellian_female_04 = {	
+		entity = "portrait_rigellian_female_04_entity"	clothes_selector = "rigellian_female_clothes_01" 	hair_selector = "rigellian_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/rigellian/rigellian_female_body_04.dds" }
+	}
+	rigellian_male_01 = {	
+		entity = "portrait_rigellian_male_01_entity"	clothes_selector = "rigellian_male_clothes_01" 	hair_selector = "rigellian_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/rigellian/rigellian_male_body_01.dds" }
+	}	
+}
+
+portrait_groups = {
+	rigellian = {
+		default = rigellian_female_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					rigellian_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					rigellian_female_04
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {				
+					rigellian_female_04
+					rigellian_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					rigellian_female_04
+					rigellian_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {			
+					rigellian_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					rigellian_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {			
+					rigellian_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					rigellian_male_01
+				}
+			}
+		}
+	}	
+}

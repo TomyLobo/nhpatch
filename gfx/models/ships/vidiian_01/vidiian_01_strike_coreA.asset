@@ -1,0 +1,31 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "vidiian_01_strike_coreA_entity"
+	pdxmesh = "vidiian_01_strike_coreA_mesh"
+	locator = {
+		name = "strike_craft_locator_01"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_02"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_03"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_04"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "part1"
+		rotation = { 0 0 0 }
+	}
+	
+}

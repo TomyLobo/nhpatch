@@ -1,0 +1,37 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "fed_ent_naval_museum_entity"
+	pdxmesh = "federation_01_military_station_large_mesh"
+	locator = { name = "part1" 		position = { 20 0 0 } }
+	locator = { name = "part2" 		position = { -20 0 0 } }
+	locator = { name = "part3" 		position = { 20 -1.5 -5 } }
+	locator = { name = "part4" 		position = { -20 -1.5 5 } }
+	locator = { name = "part5" 		position = { -20 -1.5 -5 } }
+	locator = { name = "part6" 		position = { 0 -1.8 0 } }
+	locator = { name = "part7" 		position = { 20 -1.5 5 } }
+	locator = { name = "part8" 		position = { 0 0 0 } }
+	attach = { "part1" 		 		= "federation_01_military_station_large_entity" }
+	attach = { "part2" 		 		= "federation_01_military_station_large_entity" }
+	attach = { "part3" 		 		= "federation_01_corvette_coreA_entity" }
+	attach = { "part4" 		 		= "federation_01_saber_coreA_entity" }
+	attach = { "part5" 		 		= "federation_01_saber_coreB_entity" }
+	attach = { "part6" 		 		= "federation_01_sovereign_coreA_entity" }
+	attach = { "part7" 		 		= "federation_01_corvette_coreA_entity" }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		#start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } }
+	}
+	
+	state = { name = "death" state_time = 2 looping = no
+		event = { time = 1.9 particle = "large_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+		scale = 1.0
+	game_data = {
+	}
+}

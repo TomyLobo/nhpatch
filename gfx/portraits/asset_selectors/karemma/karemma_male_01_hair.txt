@@ -1,0 +1,64 @@
+karemma_male_hair_01 = {
+
+	default = "gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+	}
+
+	#species scope
+	species = { 
+		default = "gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+	}
+	
+	#pop scope
+	pop = { 
+		default = "gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+				"gfx/models/portraits/karemma/karemma_male_hair_02.dds"
+				"gfx/models/portraits/karemma/karemma_male_hair_03.dds"
+			}
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" }
+        }
+	}
+	
+	#leader scope
+	leader = {
+		default = "gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no }
+			list = {
+				"gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+				"gfx/models/portraits/karemma/karemma_male_hair_02.dds"
+				"gfx/models/portraits/karemma/karemma_male_hair_03.dds"
+			}
+		}	
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" } 
+        }		
+	}
+  
+	#leader scope 
+	ruler = {
+		default = "gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no }
+			list = {
+				"gfx/models/portraits/karemma/karemma_male_hair_01.dds"
+				"gfx/models/portraits/karemma/karemma_male_hair_02.dds"
+				"gfx/models/portraits/karemma/karemma_male_hair_03.dds"
+			}
+		}
+		random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_prosthetic_01.dds" } 
+        }		
+	}
+}

@@ -1,0 +1,17 @@
+@saber_scale = 7
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "cardassian_01_sovereign_coreB_entity"
+	pdxmesh = "cardassian_01_sovereign_coreB_mesh"
+
+	locator = { name = "part1" rotation = { 0 0 0 } }
+    
+    game_data = {
+        size = @saber_scale
+    }
+}

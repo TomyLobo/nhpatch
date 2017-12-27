@@ -1,0 +1,97 @@
+# This is a template which multiple species can use. 
+  
+sheliak_head_01 = {
+	default = "gfx/models/portraits/sheliak/sheliak_head_01.dds"
+	game_setup = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_01.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_01.dds" } }
+	}
+	species = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_01.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_01.dds" } }
+	}
+	pop = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_01.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_01.dds" } }
+	}
+	leader = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_01.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_01.dds" } }
+	}
+	ruler = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_01.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_01.dds" } }
+	}
+}
+
+sheliak_head_02 = {
+	default = "gfx/models/portraits/sheliak/sheliak_head_02.dds"
+	game_setup = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_02.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_02.dds" } }
+	}
+	species = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_02.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_02.dds" } }
+	}
+	pop = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_02.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_02.dds" } }
+	}
+	leader = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_02.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_02.dds" } }
+	}
+	ruler = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_02.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_02.dds" } }
+	}
+}
+
+sheliak_head_03 = {
+	default = "gfx/models/portraits/sheliak/sheliak_head_03.dds"
+	game_setup = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_03.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_03.dds" } }
+	}
+	species = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_03.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_03.dds" } }
+	}
+	pop = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_03.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_03.dds" } }
+	}
+	leader = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_03.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_03.dds" } }
+	}
+	ruler = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_03.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_03.dds" } }
+	}
+}
+
+sheliak_head_04 = {
+	default = "gfx/models/portraits/sheliak/sheliak_head_04.dds"
+	game_setup = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_04.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_04.dds" } }
+	}
+	species = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_04.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_04.dds" } }
+	}
+	pop = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_04.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_04.dds" } }
+	}
+	leader = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_04.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_04.dds" } }
+	}
+	ruler = {
+		default = "gfx/models/portraits/sheliak/sheliak_head_04.dds"
+		random = { list = { "gfx/models/portraits/sheliak/sheliak_head_04.dds" } }
+	}
+}

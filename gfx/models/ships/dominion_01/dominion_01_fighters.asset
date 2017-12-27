@@ -1,0 +1,18 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+
+entity = {
+	name = "dominion_01_bomber_entity"	
+	pdxmesh = "dominion_01_corvette_coreA_mesh"
+	scale = 0.4
+}
+
+entity = {
+	name = "dominion_01_fighter_entity"	
+	pdxmesh = "dominion_01_corvette_coreA_mesh"
+	scale = 0.4
+}

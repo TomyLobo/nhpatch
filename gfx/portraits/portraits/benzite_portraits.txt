@@ -1,0 +1,144 @@
+portraits = {
+	# benzite
+	benzite_female_04 = {	
+		entity = "portrait_benzite_female_04_entity"	clothes_selector = "benzite_female_clothes_01" 	hair_selector = "benzite_female_ears_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/benzite/benzite_female_body_04.dds"
+		}
+	}
+	benzite_female_04b = {	
+		entity = "portrait_benzite_female_04_entity"	clothes_selector = "benzite_female_clothes_01" 	hair_selector = "benzite_female_ears_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/benzite/benzite_female_body_04b.dds"
+		}
+	}
+	benzite_female_04c = {	
+		entity = "portrait_benzite_female_04_entity"	clothes_selector = "benzite_female_clothes_01" 	hair_selector = "benzite_female_ears_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/benzite/benzite_female_body_04c.dds"
+		}
+	}
+	benzite_male_01 = {	
+		entity = "portrait_benzite_male_01_entity"	clothes_selector = "benzite_male_clothes_01" 	hair_selector = "benzite_male_ears_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/benzite/benzite_male_body_01.dds"
+		}
+	}
+	benzite_male_01b = {	
+		entity = "portrait_benzite_male_01_entity"	clothes_selector = "benzite_male_clothes_01" 	hair_selector = "benzite_male_ears_01b"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/benzite/benzite_male_body_01b.dds"
+		}
+	}
+	benzite_male_01c = {	
+		entity = "portrait_benzite_male_01_entity"	clothes_selector = "benzite_male_clothes_01" 	hair_selector = "benzite_male_ears_01c"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/benzite/benzite_male_body_01c.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	benzite = {
+		default = benzite_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					benzite_male_01
+					benzite_male_01b
+					benzite_male_01c
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					benzite_female_04
+					benzite_female_04b
+					benzite_female_04c
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					benzite_female_04
+					benzite_female_04b
+					benzite_female_04c
+					benzite_male_01
+					benzite_male_01b
+					benzite_male_01c
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					benzite_female_04
+					benzite_female_04b
+					benzite_female_04c
+					benzite_male_01
+					benzite_male_01b
+					benzite_male_01c
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					benzite_female_04
+					benzite_female_04b
+					benzite_female_04c
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					benzite_male_01
+					benzite_male_01b
+					benzite_male_01c
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					benzite_female_04
+					benzite_female_04b
+					benzite_female_04c
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					benzite_male_01
+					benzite_male_01b
+					benzite_male_01c
+				}
+			}
+		}
+	}	
+}

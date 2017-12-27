@@ -1,0 +1,4 @@
+# This is a template which multiple species can use. 
+  
+hero_antaak_hair = { default = "gfx/models/portraits/klingon civilian/klingon_male_hair_black_style_03.dds" }
+hero_antaakAugment_hair = { default = "gfx/models/portraits/klingonAugmentHuman/klingonAugmentHuman_male_hair_black_style_04.dds" }

@@ -1,0 +1,102 @@
+# This is a template which multiple species can use. 
+  
+sth_humanoid_02_female_hair_01 = {
+
+	default = "gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_02.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_03.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_04.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_05.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_06.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_07.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_08.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_09.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_10.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_11.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_12.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_bald.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"	
+			}
+		}			
+	}
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_02.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_03.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_04.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_05.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_06.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_07.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_08.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_09.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_10.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_11.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_12.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_bald.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"	
+			}
+		}	
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_01.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_02.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_03.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_04.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_05.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_06.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_07.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_08.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_09.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_10.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_11.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_leaf_12.dds"
+				"gfx/models/portraits/sth humanoid 02/sth_humanoid_female_hair_bald.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"	
+			}
+		}	
+	}
+}

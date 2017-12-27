@@ -1,0 +1,92 @@
+portraits = {
+	# gorn
+	gorn_01 = {	
+		entity = "portrait_gorn_01_entity"	clothes_selector = "gorn_clothes_01" 	hair_selector = "gorn_head_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/gorn/gorn_body_01.dds"
+		}
+	}	
+}
+
+portrait_groups = {
+	gorn = {
+		default = gorn_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					gorn_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					gorn_01
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					gorn_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					gorn_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					gorn_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gorn_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					gorn_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gorn_01
+				}
+			}
+		}
+	}	
+}

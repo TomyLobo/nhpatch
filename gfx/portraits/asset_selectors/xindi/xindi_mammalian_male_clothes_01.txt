@@ -1,0 +1,343 @@
+# This is a template which multiple species can use. 
+
+xindi_mammalian_male_clothes_01 = {
+	default = "gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_01.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_01.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_01.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		#default = "gfx/models/portraits/xindi_mammalian civilian/civ_xindi_mammalian_male_clothes_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_01.dds"
+				"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_02.dds"
+				"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_03.dds"
+				"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_04.dds"
+				"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_05.dds"
+			}
+		}
+        random = {
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = { "gfx/models/portraits/borg/borg_male_clothes_01.dds" }
+        }
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral
+			NOT = {	owner = { has_country_flag = united_federation_of_planets } }
+		}
+		"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_02.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			NOT = {	owner = { has_country_flag = united_federation_of_planets } }
+		}
+		"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_03.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			NOT = { owner = { has_country_flag = united_federation_of_planets } }
+		}
+		"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			NOT = { owner = { has_country_flag = united_federation_of_planets } }
+		}
+		"gfx/models/portraits/starfleet_enterprise/ent_human_male_command.dds" = { 
+			leader_class = admiral 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				NOT = {	years_passed > 14 }
+			}
+		}
+		"gfx/models/portraits/starfleet_enterprise/ent_human_male_science.dds" = { 
+			leader_class = scientist 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				NOT = { years_passed > 14 }
+			}
+		}
+		"gfx/models/portraits/starfleet_enterprise/ent_human_male_security.dds" = { 
+			leader_class = general 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				NOT = {
+					years_passed > 14
+				}
+			}
+		}
+		"gfx/models/portraits/starfleet_enterprise/ent_human_male_admiral.dds" = { 
+			leader_class = governor 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				NOT = {
+					years_passed > 14
+				}
+			}
+		}
+		"gfx/models/portraits/starfleet franklin/fra_human_male_science.dds" = { 
+			leader_class = scientist 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 14
+				years_passed < 50
+			}
+		}
+		"gfx/models/portraits/starfleet franklin/fra_human_male_security.dds" = { 
+			leader_class = general 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 14
+				years_passed < 50
+			}
+		}
+		"gfx/models/portraits/starfleet franklin/fra_human_male_command.dds" = { 
+			leader_class = admiral 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 14
+				years_passed < 50
+			}
+		}
+		"gfx/models/portraits/starfleet franklin/fra_human_male_admiral.dds" = { 
+			leader_class = governor 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 14
+				years_passed < 50
+			}
+		}
+		"gfx/models/portraits/starfleet kelvin/kel_human_male_science.dds" = { 
+			leader_class = scientist 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 49
+				years_passed < 100
+			}
+		}
+		"gfx/models/portraits/starfleet kelvin/kel_human_male_security.dds" = { 
+			leader_class = general 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 49
+				years_passed < 100
+			}
+		}
+		"gfx/models/portraits/starfleet kelvin/kel_human_male_command.dds" = { 
+			leader_class = admiral 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 49
+				years_passed < 100
+			}
+		}
+		"gfx/models/portraits/starfleet kelvin/kel_human_male_admiral.dds" = { 
+			leader_class = governor 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 49
+				years_passed < 100
+			}
+		}	
+		"gfx/models/portraits/starfleet_original_series/tos_human_male_science.dds" = { 
+			leader_class = scientist 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 99
+				years_passed < 120
+			}
+		}
+		"gfx/models/portraits/starfleet_original_series/tos_human_male_security.dds" = { 
+			leader_class = general 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 99
+				years_passed < 120
+			}
+		}
+		"gfx/models/portraits/starfleet_original_series/tos_human_male_command.dds" = { 
+			leader_class = admiral 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 99
+				years_passed < 120
+			}
+		}
+		"gfx/models/portraits/starfleet_original_series/tos_human_male_command.dds" = { 
+			leader_class = governor 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 99
+				years_passed < 120
+			}
+		}
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_male_science.dds" = { 
+			leader_class = scientist 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 119
+				years_passed < 200
+			}
+		}
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_male_security.dds" = { 
+			leader_class = general 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 119
+				years_passed < 200
+			}
+		}
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_male_command.dds" = { 
+			leader_class = admiral 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 119
+				years_passed < 200
+			}
+		}
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_male_command.dds" = { 
+			leader_class = governor 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 119
+				years_passed < 200
+			}
+		}
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_male_science.dds" = { 
+			leader_class = scientist 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 199
+				years_passed < 216
+			}
+		}
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_male_security.dds" = { 
+			leader_class = general 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 199
+				years_passed < 216
+			}
+		}
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_male_command.dds" = { 
+			leader_class = admiral 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 199
+				years_passed < 216
+			}
+		}
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_male_admiral.dds" = { 
+			leader_class = governor 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 199
+				years_passed < 216
+			}
+		}	
+		"gfx/models/portraits/starfleet_first_contact/fco_human_male_science.dds" = { 
+			leader_class = scientist 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 215
+			}
+		}
+		"gfx/models/portraits/starfleet_first_contact/fco_human_male_security.dds" = { 
+			leader_class = general 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 215
+			}
+		}
+		"gfx/models/portraits/starfleet_first_contact/fco_human_male_command.dds" = { 
+			leader_class = admiral 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 215
+			}
+		}
+		"gfx/models/portraits/starfleet_first_contact/fco_human_male_command.dds" = { 
+			leader_class = governor 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 215
+			}
+		}	
+        random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_male_clothes_01.dds"
+	        } 
+        } 
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		"gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_clothes_01.dds" = {
+			NOT = { owner = { has_country_flag = united_federation_of_planets } }
+		}
+		"gfx/models/portraits/starfleet_enterprise/ent_human_male_admiral.dds" = { 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				NOT = { years_passed > 14 }
+			}
+		}
+		"gfx/models/portraits/starfleet franklin/fra_human_male_admiral.dds" = { 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 14
+				years_passed < 50
+			}
+		}
+		"gfx/models/portraits/starfleet kelvin/kel_human_male_admiral.dds" = { 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 49
+				years_passed < 100
+			}
+		}
+		"gfx/models/portraits/starfleet_original_series/tos_human_male_command.dds" = { 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 99
+				years_passed < 120
+			}
+		}
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_male_command.dds" = { 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 119
+				years_passed < 200
+			}
+		}
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_male_admiral.dds" = { 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 199
+				years_passed < 216
+			}
+		}
+		"gfx/models/portraits/starfleet_first_contact/fco_human_male_command.dds" = { 
+			AND = {
+				owner = { has_country_flag = united_federation_of_planets }
+				years_passed > 215
+			}
+		}
+        random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_male_clothes_01.dds"
+	        } 
+        } 
+	}
+}
+

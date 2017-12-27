@@ -1,0 +1,23 @@
+
+portraits = {
+	# Valda
+	Antaak_01 = {
+		entity = "portrait_klingon_male_06_entity" 
+		clothes_selector = "klingon_antaak_clothes" 
+		hair_selector = "hero_antaak_hair"	
+		greeting_sound = "klingon_male_greetings_01"
+		character_textures = { "gfx/models/portraits/klingon civilian/klingon_male_body_06b.dds" }
+	}
+	AntaakAugment_01 = {
+		entity = "portrait_klingonAugmentHuman_male_04_entity" 
+		clothes_selector = "klingon_antaak_clothes" 
+		hair_selector = "hero_antaakAugment_hair"	
+		greeting_sound = "klingon_male_greetings_01"
+		character_textures = { "gfx/models/portraits/klingonAugmentHuman/klingonAugmentHuman_male_body_04.dds" }
+	}	
+}
+
+portrait_groups = {
+	Antaak = { default = Antaak_01 }
+	AntaakAugment = { default = AntaakAugment_01 }
+}

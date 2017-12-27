@@ -1,0 +1,37 @@
+portraits = {
+	# hur'q
+	hur'q_01 = {	entity = "portrait_hur'q_01_entity"	clothes_selector = "hur'q_clothes_01" hair_selector = "hur'q_head_attach_01"  greeting_sound = "reptilian_01_greetings"
+		character_textures = { "gfx/models/portraits/hur'q/hur'q_body_01.dds" }
+	}
+	hur'q_02 = {	entity = "portrait_hur'q_01_entity"	clothes_selector = "hur'q_clothes_01" hair_selector = "hur'q_head_attach_02"  greeting_sound = "reptilian_01_greetings"
+		character_textures = { "gfx/models/portraits/hur'q/hur'q_body_02.dds" }
+	}
+	hur'q_03 = {	entity = "portrait_hur'q_01_entity"	clothes_selector = "hur'q_clothes_01" hair_selector = "hur'q_head_attach_03"  greeting_sound = "reptilian_01_greetings"
+		character_textures = { "gfx/models/portraits/hur'q/hur'q_body_03.dds" }
+	}
+	hur'q_04 = {	entity = "portrait_hur'q_01_entity"	clothes_selector = "hur'q_clothes_01" hair_selector = "hur'q_head_attach_04"  greeting_sound = "reptilian_01_greetings"
+		character_textures = { "gfx/models/portraits/hur'q/hur'q_body_04.dds" }
+	}
+}
+
+
+portrait_groups = {
+	hur'q = {
+		default = hur'q_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = { portraits = { hur'q_01 hur'q_02 hur'q_03 hur'q_04 } }
+		}		
+		
+		#species scope
+		species = { add = { portraits = { hur'q_01 hur'q_02 hur'q_03 hur'q_04 } } }		
+		
+		#pop scope
+		pop = { add = { portraits = { hur'q_01 hur'q_02 hur'q_03 hur'q_04 } } }
+		
+		#leader scope
+		leader = { add = { portraits = { hur'q_01 hur'q_02 hur'q_03 hur'q_04 } } }
+		
+		#leader scope 
+		ruler = { add = { portraits = { hur'q_01 hur'q_02 hur'q_03 hur'q_04 } } }
+	}		
+}

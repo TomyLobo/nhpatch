@@ -1,0 +1,53 @@
+
+portraits = {
+	# Valda
+	Valda_01 = {
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "romulan_female_clothes_combined" 
+		hair_selector = "hero_valda_hair"	
+		greeting_sound = "human_female_greetings_04"
+		character_textures = { "gfx/models/portraits/romulan civilian/romulan_female_body_05.dds" }
+	}	
+}
+
+portrait_groups = {
+	Valda = {
+		default = Valda_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {	ruler = { gender = male } }
+				portraits = { Valda_01 }
+			}
+			add = {
+				trigger = {	ruler = { gender = female }	}
+				portraits = { Valda_01 }
+			}
+		}		
+		species = { #generic portrait for a species
+			add = {	portraits = { Valda_01 }	}
+		}		
+		pop = { #for a specific pop
+			add = {	portraits = { Valda_01 }	}
+		}
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = { gender = female }
+				portraits = { Valda_01 }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { Valda_01 }
+			}
+		}
+		ruler = {
+			add = {
+				trigger = {	gender = female	}
+				portraits = { Valda_01 }
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = { Valda_01 }
+			}
+		}
+	}
+}

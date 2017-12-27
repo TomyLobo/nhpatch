@@ -1,0 +1,79 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "cardassian_01_orbital_station_core_entity"
+	pdxmesh = "cardassian_01_orbital_station_mesh"
+	locator = { name = "part1" 			position = { 0 	0 	0 } }
+	locator = {
+		name = "explosion_1"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "explosion_2"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "explosion_3"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "explosion_4"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "explosion_5"
+		rotation = { 0 0 0 }
+	}
+	locator = { name = "part2" 			position = { 0 	0 	0 } }
+	locator = { name = "part3" 			position = { 0 	0 	0 } }
+	locator = { name = "part4" 			position = { 0 	0 	0 } }
+	locator = { name = "part5" 			position = { 0 	0 	0 } }
+	locator = { name = "part6" 			position = { 0 	0 	0 } }
+	locator = { name = "part7" 			position = { 0 	0 	0 } }
+	locator = { name = "small_gun_01" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_02" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_03" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_04" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_05" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_06" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_01" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_03" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_04" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_05" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_06" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_01" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_02" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_03" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_04" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_05" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_06" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_07" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_08" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_09" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_10" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_11" 		position = { 0 0 0 } }
+	locator = { name = "small_gun_12" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_07" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_08" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_09" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_10" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_11" 		position = { 0 0 0 } }
+	locator = { name = "medium_gun_12" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_07" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_08" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_09" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_10" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_11" 		position = { 0 0 0 } }
+	locator = { name = "large_gun_12" 		position = { 0 0 0 } }
+	state = { name = "idle" state_time = 5
+	    start_event = { trigger_once = yes sound = { soundeffect = "spaceport_hum_idle" } }	
+	}
+
+	scale = 1.0	
+}	
+

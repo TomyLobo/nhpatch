@@ -1,0 +1,206 @@
+# This is a template which multiple species can use. 
+
+romulan_female_clothes_combined = {
+	default = "gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_01.dds"
+				"gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_02.dds"
+				"gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_03.dds"
+			}
+		}	
+		random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_female_clothes_01.dds"
+	        } 
+        } 
+	}
+	
+	#leader scope	
+	leader = { #scientists, generals, admirals, governor
+		random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_female_clothes_01.dds"
+	        } 
+        }
+		
+	#Ent
+		"gfx/models/portraits/romulan nemesis/nem_romulan_female_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			NOT = { years_passed > 49 }
+		}
+		"gfx/models/portraits/romulan nemesis/nem_romulan_female_clothes_03.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			NOT = { years_passed > 49 }
+		}
+		"gfx/models/portraits/romulan nemesis/nem_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral 
+			NOT = { years_passed > 49 }
+		}
+		"gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			NOT = { years_passed > 49 }
+		}
+	#Kel
+		"gfx/models/portraits/romulan kelvin/kel_romulan_female_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			AND = {
+				years_passed > 49
+				years_passed < 100
+			}
+		}
+		"gfx/models/portraits/romulan kelvin/kel_romulan_female_clothes_03.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			AND = {
+				years_passed > 49
+				years_passed < 100
+			}
+		}
+		"gfx/models/portraits/romulan kelvin/kel_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral 
+			AND = {
+				years_passed > 49
+				years_passed < 100
+			}
+		}
+		"gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			AND = {
+				years_passed > 49
+				years_passed < 100
+			}
+		}
+	#TOS
+		"gfx/models/portraits/romulan original series/tos_romulan_female_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		"gfx/models/portraits/romulan original series/tos_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		"gfx/models/portraits/romulan original series/tos_romulan_female_clothes_02.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		"gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+	#TNG
+		"gfx/models/portraits/romulan next generation/tng_romulan_female_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			AND = {
+				years_passed > 139
+				years_passed < 216
+			}
+		}
+		"gfx/models/portraits/romulan next generation/tng_romulan_female_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			AND = {
+				years_passed > 139
+				years_passed < 216
+			}
+		}
+		"gfx/models/portraits/romulan next generation/tng_romulan_female_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral 
+			AND = {
+				years_passed > 139
+				years_passed < 216
+			}
+		}
+		"gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			AND = {
+				years_passed > 139
+				years_passed < 216
+			}
+		}
+	#Nemesis
+		"gfx/models/portraits/romulan nemesis/nem_romulan_female_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			AND = {
+				years_passed > 215
+			}
+		}
+		"gfx/models/portraits/romulan nemesis/nem_romulan_female_clothes_03.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			AND = {
+				years_passed > 215
+			}
+		}
+		"gfx/models/portraits/romulan nemesis/nem_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral 
+			AND = {
+				years_passed > 215
+			}
+		}
+		"gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			AND = {
+				years_passed > 215
+			}
+		}		
+	#end leader scope	
+	}	
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no }
+			list = { "gfx/models/portraits/romulan civilian/civ_romulan_female_clothes_04.dds" }
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes }
+			list = { "gfx/models/portraits/borg/borg_female_clothes_01.dds" }
+		}
+	}
+}

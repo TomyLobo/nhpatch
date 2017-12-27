@@ -1,0 +1,64 @@
+#FEMALE
+	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+	
+@sheliakscale = 1.0
+
+#MALE
+	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+
+
+entity = {
+	name = "portrait_sheliak_01_entity"
+	pdxmesh = "portrait_human_male_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"       animation = "idle"    animation_blend_time = 0.45 chance = 3.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle2"    animation_blend_time = 0.45 chance = 1.0 looping = no next_state = idle}
+	
+	state = { name = "sad"       animation = "sad"    animation_blend_time = 0.45 chance = 3.0 looping = no next_state = sad}
+	state = { name = "sad"       animation = "sad2"    animation_blend_time = 0.45 chance = 1.0 looping = no next_state = sad}
+	scale = @sheliakscale
+}
+
+entity = {
+	name = "portrait_sheliak_02_entity"
+	pdxmesh = "portrait_human_male_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"       animation = "idle"    animation_blend_time = 0.45 chance = 3.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle2"    animation_blend_time = 0.45 chance = 1.0 looping = no next_state = idle}
+	
+	state = { name = "sad"       animation = "sad"    animation_blend_time = 0.45 chance = 3.0 looping = no next_state = sad}
+	state = { name = "sad"       animation = "sad2"    animation_blend_time = 0.45 chance = 1.0 looping = no next_state = sad}
+	scale = @sheliakscale
+}
+
+entity = {
+	name = "portrait_sheliak_03_entity"
+	pdxmesh = "portrait_human_male_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"       animation = "idle"    animation_blend_time = 0.45 chance = 3.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle2"    animation_blend_time = 0.45 chance = 1.0 looping = no next_state = idle}
+	
+	state = { name = "sad"       animation = "sad"    animation_blend_time = 0.45 chance = 3.0 looping = no next_state = sad}
+	state = { name = "sad"       animation = "sad2"    animation_blend_time = 0.45 chance = 1.0 looping = no next_state = sad}
+	scale = @sheliakscale
+}
+
+entity = {
+	name = "portrait_sheliak_04_entity"
+	pdxmesh = "portrait_human_male_01_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"       animation = "idle"    animation_blend_time = 0.45 chance = 3.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle2"    animation_blend_time = 0.45 chance = 1.0 looping = no next_state = idle}
+	
+	state = { name = "sad"       animation = "sad"    animation_blend_time = 0.45 chance = 3.0 looping = no next_state = sad}
+	state = { name = "sad"       animation = "sad2"    animation_blend_time = 0.45 chance = 1.0 looping = no next_state = sad}
+	scale = @sheliakscale
+}

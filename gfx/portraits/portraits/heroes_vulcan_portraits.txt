@@ -1,0 +1,13 @@
+
+portraits = {
+	# Satelk
+	Satelk_01 = { entity = "portrait_vulcan_male_04_entity" clothes_selector = "vulcan_male_clothes_01" hair_selector = "hero_satelk_hair" greeting_sound = "human_male_greetings_04" 
+	character_textures = { "gfx/models/portraits/vulcan/vulcan_male_body_04.dds" } }
+	mirrorTuvok_01 = { entity = "portrait_vulcan_male_05_entity"  clothes_selector = "vulcan_male_clothes_01"  hair_selector = "hero_tuvok_hair" greeting_sound = "human_male_greetings_05" 
+	character_textures = { "gfx/models/portraits/vulcan/vulcan_male_body_05.dds" } }
+}
+
+portrait_groups = { 
+	Satelk = { default = Satelk_01 } 
+	mirrorTuvok = { default = mirrorTuvok_01 }
+}

@@ -1,0 +1,39 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "doomsday_light_frame_entity"
+	pdxmesh = "doomsday_light_frame_mesh"
+	locator = { name = "part1" 		position = { 0 0 0 } }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		#start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } }
+	}
+	
+	state = { name = "death" state_time = 2 looping = no
+		event = { time = 1.9 particle = "medium_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+
+		scale = 1.0
+}
+
+entity = {
+	name = "doomsday_light_entity"
+	pdxmesh = "doomsday_light_mesh"
+	locator = { name = "part1" 		position = { 0 0 0 } }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		#start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } }
+	}
+	
+	state = { name = "death" state_time = 2 looping = no
+		event = { time = 1.9 particle = "medium_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+
+		scale = 1.0
+}

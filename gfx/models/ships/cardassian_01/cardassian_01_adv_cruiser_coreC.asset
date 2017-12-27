@@ -1,0 +1,18 @@
+@adv_cruiser_scale = 10.5
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "cardassian_01_adv_cruiser_coreC_entity"
+	pdxmesh = "cardassian_01_steamrunner_coreC_mesh"
+	locator = { name = "medium_gun_01" rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" rotation = { 0 0 0 } }
+	locator = { name = "part1" rotation = { 0 0 0 } }
+    
+    game_data = {
+        size = @adv_cruiser_scale
+    }
+}

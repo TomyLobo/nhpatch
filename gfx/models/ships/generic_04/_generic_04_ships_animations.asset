@@ -1,0 +1,40 @@
+animation = {
+	name = "generic_04_corvette_frame_idle_animation"
+	file = "generic_04_corvette_frame_idle.anim"
+}
+
+animation = {
+	name = "generic_04_corvette_frame_death_animation"
+	file = "generic_04_corvette_frame_death.anim"
+}
+
+animation = {
+	name = "generic_04_corvette_frame_death2_animation"
+	file = "generic_04_corvette_frame_death2.anim"
+}
+
+animation = {
+	name = "generic_04_corvette_frame_death3_animation"
+	file = "generic_04_corvette_frame_death3.anim"
+}
+
+animation = {
+	name = "generic_04_corvette_frame_moving_animation"
+	file = "generic_04_corvette_frame_moving.anim"
+}
+
+animation = {
+	name = "generic_04_construction_idle_animation"
+	file = "generic_04_corvette_frame_idle.anim"
+}
+
+animation = {
+	name = "generic_04_construction_working_start_animation"
+	file = "generic_04_construction_working_start.anim"
+}
+
+animation = {
+	name = "generic_04_construction_working_looping_animation"
+	file = "generic_04_construction_working.anim"
+}
+

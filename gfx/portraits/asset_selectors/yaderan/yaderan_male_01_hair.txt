@@ -1,0 +1,74 @@
+# This is a template which multiple species can use. 
+  
+yaderan_male_hair_01 = {
+
+	default = "gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_02.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_03.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_04.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_male_prosthetic_01.dds"	
+			}
+		}				
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no }
+			list = {
+				"gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_02.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_03.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_04.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_male_prosthetic_01.dds"	
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no }
+			list = {
+				"gfx/models/portraits/yaderan/yaderan_male_hair_01.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_02.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_03.dds"
+				"gfx/models/portraits/yaderan/yaderan_male_hair_04.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = yes } 
+			list = {
+				"gfx/models/portraits/borg/borg_male_prosthetic_01.dds"	
+			}
+		}
+	}
+}

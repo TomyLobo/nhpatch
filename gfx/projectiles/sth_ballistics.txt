@@ -1,0 +1,549 @@
+
+
+
+###################### STH ###################
+
+
+
+
+
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_blue_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_blue_01_hit_entity"
+        shield_hit_entity = "torp_blue_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_blue_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_blue_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_blue_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_blue_02_hit_entity"
+        shield_hit_entity = "torp_blue_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_blue_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_blue_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_blue_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_blue_03_hit_entity"
+        shield_hit_entity = "torp_blue_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_blue_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_blue_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_borg_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_borg_01_hit_entity"
+        shield_hit_entity = "torp_borg_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_borg_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_borg_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_borg_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_borg_02_hit_entity"
+        shield_hit_entity = "torp_borg_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_borg_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_borg_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_borg_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_borg_03_hit_entity"
+        shield_hit_entity = "torp_borg_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_borg_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_borg_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_dark_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_dark_01_hit_entity"
+        shield_hit_entity = "torp_dark_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_dark_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_dark_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_dark_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_dark_02_hit_entity"
+        shield_hit_entity = "torp_dark_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_dark_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_dark_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_dark_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_dark_03_hit_entity"
+        shield_hit_entity = "torp_dark_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_dark_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_dark_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_green_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_green_01_hit_entity"
+        shield_hit_entity = "torp_green_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_green_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_green_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_green_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_green_02_hit_entity"
+        shield_hit_entity = "torp_green_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_green_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_green_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_green_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_green_03_hit_entity"
+        shield_hit_entity = "torp_green_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_green_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_green_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_orange_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_orange_01_hit_entity"
+        shield_hit_entity = "torp_orange_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_orange_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_orange_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_orange_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_orange_02_hit_entity"
+        shield_hit_entity = "torp_orange_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_orange_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_orange_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_orange_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_orange_03_hit_entity"
+        shield_hit_entity = "torp_orange_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_orange_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_orange_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_purple_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_purple_01_hit_entity"
+        shield_hit_entity = "torp_purple_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_purple_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_purple_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_purple_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_purple_02_hit_entity"
+        shield_hit_entity = "torp_purple_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_purple_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_purple_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_purple_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_purple_03_hit_entity"
+        shield_hit_entity = "torp_purple_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_purple_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_purple_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_red_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_red_01_hit_entity"
+        shield_hit_entity = "torp_red_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_red_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_red_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_red_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_red_02_hit_entity"
+        shield_hit_entity = "torp_red_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_red_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_red_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_red_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_red_03_hit_entity"
+        shield_hit_entity = "torp_red_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_red_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_red_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_teal_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_teal_01_hit_entity"
+        shield_hit_entity = "torp_teal_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_teal_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_teal_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_teal_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_teal_02_hit_entity"
+        shield_hit_entity = "torp_teal_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_teal_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_teal_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_teal_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_teal_03_hit_entity"
+        shield_hit_entity = "torp_teal_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_teal_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_teal_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_white_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_white_01_hit_entity"
+        shield_hit_entity = "torp_white_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_white_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_white_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_white_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_white_02_hit_entity"
+        shield_hit_entity = "torp_white_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_white_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_white_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_white_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_white_03_hit_entity"
+        shield_hit_entity = "torp_white_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_white_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_white_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_yellow_01"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_yellow_01_hit_entity"
+        shield_hit_entity = "torp_yellow_01_shield_hit_entity"
+        muzzle_flash_entity = "torp_yellow_01_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_yellow_01_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_yellow_02"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_yellow_02_hit_entity"
+        shield_hit_entity = "torp_yellow_02_shield_hit_entity"
+        muzzle_flash_entity = "torp_yellow_02_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_yellow_02_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}
+projectile_gfx_ballistic = {
+        #common for all types of projectiles
+        name = "torp_yellow_03"
+        color = { 1.0        1.0                1.0                1.0 }
+        hit_entity = "torp_yellow_03_hit_entity"
+        shield_hit_entity = "torp_yellow_03_shield_hit_entity"
+        muzzle_flash_entity = "torp_yellow_03_muzzle_entity"
+        
+        #ballistic specific
+        entity = "torp_yellow_03_entity"
+        speed = 90.0                        #preferred speed of the projectile
+        max_duration = 3.0                #Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+        
+        shield_impact = {
+                size = large
+                delay = 0.0
+        }
+}

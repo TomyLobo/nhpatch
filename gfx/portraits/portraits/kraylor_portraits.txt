@@ -1,0 +1,111 @@
+portraits = {
+	# kraylor
+	kraylor_female_01 = {
+		entity = "portrait_kraylor_female_01_entity" clothes_selector = "kraylor_female_clothes_01" hair_selector = "human_female_hair_01" greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/kraylor/kraylor_female_body_01.dds" }
+	}
+	kraylor_female_02 = {
+		entity = "portrait_kraylor_female_02_entity" clothes_selector = "kraylor_female_clothes_01" hair_selector = "human_female_hair_02" greeting_sound = "human_female_greetings_04"
+		character_textures = { "gfx/models/portraits/kraylor/kraylor_female_body_02.dds" }
+	}
+	kraylor_female_05 = {
+		entity = "portrait_kraylor_female_05_entity" clothes_selector = "kraylor_female_clothes_01" hair_selector = "human_female_hair_05" greeting_sound = "human_female_greetings_02"
+		character_textures = { "gfx/models/portraits/kraylor/kraylor_female_body_05.dds" }
+	}
+	kraylor_male_01 = {
+		entity = "portrait_kraylor_male_01_entity" clothes_selector = "kraylor_male_clothes_01" hair_selector = "human_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/kraylor/kraylor_male_body_01.dds" }
+	}	
+	kraylor_male_02 = {
+		entity = "portrait_kraylor_male_02_entity"	clothes_selector = "kraylor_male_clothes_01" hair_selector = "human_male_hair_02" greeting_sound = "human_male_greetings_04" 
+		character_textures = { "gfx/models/portraits/kraylor/kraylor_male_body_02.dds" }
+	}
+	kraylor_male_05 = {
+		entity = "portrait_kraylor_male_05_entity" clothes_selector = "kraylor_male_clothes_01" hair_selector = "human_male_hair_05" greeting_sound = "human_male_greetings_02" 
+		character_textures = { "gfx/models/portraits/kraylor/kraylor_male_body_05.dds" }
+	}
+}
+
+portrait_groups = {
+	kraylor = {
+		default = kraylor_female_01
+		game_setup = {
+			add = {
+				trigger = { ruler = { gender = male } }
+				portraits = {
+					kraylor_male_01
+					kraylor_male_02
+					kraylor_male_05
+				}
+			}
+			add = {
+				trigger = { ruler = { gender = female } }
+				portraits = {
+					kraylor_female_01
+					kraylor_female_02
+					kraylor_female_05
+				}
+			}
+		}		
+		species = {
+			add = {
+				portraits = {
+					kraylor_female_01
+					kraylor_female_02
+					kraylor_female_05
+					kraylor_male_01
+					kraylor_male_02
+					kraylor_male_05
+				}
+			}
+		}		
+		pop = {
+			add = {
+				portraits = {
+					kraylor_female_01
+					kraylor_female_02
+					kraylor_female_05
+					kraylor_male_01
+					kraylor_male_02
+					kraylor_male_05
+				}
+			}
+		}
+		leader = {
+			add = {
+				trigger = { gender = female }
+				portraits = {
+					kraylor_female_01
+					kraylor_female_02
+					kraylor_female_05
+				}
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = {
+					kraylor_male_01
+					kraylor_male_02
+					kraylor_male_05
+				}
+			}
+		}
+		ruler = {
+			add = {
+				trigger = { gender = female }
+				portraits = {
+					kraylor_female_01
+					kraylor_female_02
+					kraylor_female_05
+				}
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = {
+					kraylor_male_01
+					kraylor_male_02
+					kraylor_male_05
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,117 @@
+#Events
+soundeffect = { name = event_anthemUFP sounds = { sound = event_anthemUFP } volume = 0.75 }
+soundeffect = { name = event_klingon_opera_1 sounds = { sound = event_klingon_opera_1 } volume = 0.75 }
+soundeffect = { name = q_flash sounds = { sound = q_flash } volume = 0.75 }
+
+soundeffect = { name = sth_q_events_2 sounds = { sound = sth_q_events_2}}
+soundeffect = { name = sth_q_events_3 sounds = { sound = sth_q_events_3}}
+soundeffect = { name = sth_q_events_10 sounds = { sound = sth_q_events_10}}
+soundeffect = { name = sth_q_events_21 sounds = { sound = sth_q_events_21}}
+soundeffect = { name = sth_q_events_22 sounds = { sound = sth_q_events_22}}
+soundeffect = { name = sth_q_events_50 sounds = { sound = sth_q_events_50}}
+soundeffect = { name = sth_q_events_1000 sounds = { sound = sth_q_events_1000}}
+soundeffect = { name = sth_q_events_1001 sounds = { sound = sth_q_events_1001}}
+soundeffect = { name = sth_q_events_1002 sounds = { sound = sth_q_events_1002}}
+soundeffect = { name = sth_q_events_1003 sounds = { sound = sth_q_events_1003}}
+soundeffect = { name = sth_q_events_1011 sounds = { sound = sth_q_events_1011}}
+soundeffect = { name = sth_q_events_1012 sounds = { sound = sth_q_events_1012}}
+soundeffect = { name = sth_q_events_1013 sounds = { sound = sth_q_events_1013}}
+soundeffect = { name = sth_q_events_1014 sounds = { sound = sth_q_events_1014}}
+soundeffect = { name = sth_q_events_2001 sounds = { sound = sth_q_events_2001}}
+soundeffect = { name = sth_q_events_2002 sounds = { sound = sth_q_events_2002}}
+soundeffect = { name = sth_q_events_2003 sounds = { sound = sth_q_events_2003}}
+soundeffect = { name = sth_q_events_2004 sounds = { sound = sth_q_events_2004}}
+
+soundeffect = {  name = borg_female_greetings_01 sounds = { sound = borg_female_greetings_01 } volume = 0.75 }
+soundeffect = {  name = borg_female_greetings_02 sounds = { sound =borg_female_greetings_02} volume = 0.75 }
+soundeffect = {  name = borg_female_greetings_03 sounds = { sound =borg_female_greetings_03} volume = 0.75 }
+soundeffect = {  name = borg_female_greetings_04 sounds = { sound =borg_female_greetings_04} volume = 0.75 }
+soundeffect = {  name = borg_female_greetings_05 sounds = { sound =borg_female_greetings_05} volume = 0.75 }
+soundeffect = {  name = borg_female_greetings_06 sounds = { sound =borg_female_greetings_06} volume = 0.75 }
+soundeffect = {  name = borg_male_greetings_01 sounds = { sound =borg_male_greetings_01} volume = 0.75 }
+soundeffect = {  name = borg_male_greetings_02 sounds = { sound =borg_male_greetings_02} volume = 0.75 }
+soundeffect = {  name = borg_male_greetings_03 sounds = { sound =borg_male_greetings_03} volume = 0.75 }
+soundeffect = {  name = borg_male_greetings_04 sounds = { sound =borg_male_greetings_04} volume = 0.75 }
+soundeffect = {  name = borg_male_greetings_05 sounds = { sound =borg_male_greetings_05} volume = 0.75 }
+soundeffect = {  name = borg_male_greetings_06 sounds = { sound =borg_male_greetings_06} volume = 0.75 }
+
+soundeffect = {  name = cardassian_female_greetings_01 sounds = { sound =cardassian_female_greetings_01} volume = 0.75 }
+soundeffect = {  name = cardassian_female_greetings_02 sounds = { sound =cardassian_female_greetings_02} volume = 0.75 }
+soundeffect = {  name = cardassian_female_greetings_03 sounds = { sound =cardassian_female_greetings_03} volume = 0.75 }
+soundeffect = {  name = cardassian_female_greetings_04 sounds = { sound =cardassian_female_greetings_04} volume = 0.75 }
+soundeffect = {  name = cardassian_female_greetings_05 sounds = { sound =cardassian_female_greetings_05} volume = 0.75 }
+soundeffect = {  name = cardassian_female_greetings_06 sounds = { sound =cardassian_female_greetings_06} volume = 0.75 }
+soundeffect = {  name = cardassian_male_greetings_01 sounds = { sound =cardassian_male_greetings_01} volume = 0.75 }
+soundeffect = {  name = cardassian_male_greetings_02 sounds = { sound =cardassian_male_greetings_02} volume = 0.75 }
+soundeffect = {  name = cardassian_male_greetings_03 sounds = { sound =cardassian_male_greetings_03} volume = 0.75 }
+soundeffect = {  name = cardassian_male_greetings_04 sounds = { sound =cardassian_male_greetings_04} volume = 0.75 }
+soundeffect = {  name = cardassian_male_greetings_05 sounds = { sound =cardassian_male_greetings_05} volume = 0.75 }
+soundeffect = {  name = cardassian_male_greetings_06 sounds = { sound =cardassian_male_greetings_06} volume = 0.75 }
+
+soundeffect = {  name = dominion_female_greetings_01 sounds = { sound =dominion_female_greetings_01} volume = 0.75 }
+soundeffect = {  name = dominion_female_greetings_02 sounds = { sound =dominion_female_greetings_02} volume = 0.75 }
+soundeffect = {  name = dominion_female_greetings_03 sounds = { sound =dominion_female_greetings_03} volume = 0.75 }
+soundeffect = {  name = dominion_female_greetings_04 sounds = { sound =dominion_female_greetings_04} volume = 0.75 }
+soundeffect = {  name = dominion_female_greetings_05 sounds = { sound =dominion_female_greetings_05} volume = 0.75 }
+soundeffect = {  name = dominion_female_greetings_06 sounds = { sound =dominion_female_greetings_06} volume = 0.75 }
+soundeffect = {  name = dominion_male_greetings_01 sounds = { sound =dominion_male_greetings_01} volume = 0.75 }
+soundeffect = {  name = dominion_male_greetings_02 sounds = { sound =dominion_male_greetings_02} volume = 0.75 }
+soundeffect = {  name = dominion_male_greetings_03 sounds = { sound =dominion_male_greetings_03} volume = 0.75 }
+soundeffect = {  name = dominion_male_greetings_04 sounds = { sound =dominion_male_greetings_04} volume = 0.75 }
+soundeffect = {  name = dominion_male_greetings_05 sounds = { sound =dominion_male_greetings_05} volume = 0.75 }
+soundeffect = {  name = dominion_male_greetings_06 sounds = { sound =dominion_male_greetings_06} volume = 0.75 }
+
+soundeffect = {  name = federation_01_female_greetings_01 sounds = { sound =federation_01_female_greetings_01} volume = 0.75 }
+soundeffect = {  name = federation_01_female_greetings_02 sounds = { sound =federation_01_female_greetings_02} volume = 0.75 }
+soundeffect = {  name = federation_01_female_greetings_03 sounds = { sound =federation_01_female_greetings_03} volume = 0.75 }
+soundeffect = {  name = federation_01_female_greetings_04 sounds = { sound =federation_01_female_greetings_04} volume = 0.75 }
+soundeffect = {  name = federation_01_female_greetings_05 sounds = { sound =federation_01_female_greetings_05} volume = 0.75 }
+soundeffect = {  name = federation_01_male_greetings_01 sounds = { sound =federation_01_male_greetings_01} volume = 0.75 }
+soundeffect = {  name = federation_01_male_greetings_02 sounds = { sound =federation_01_male_greetings_02} volume = 0.75 }
+soundeffect = {  name = federation_01_male_greetings_03 sounds = { sound =federation_01_male_greetings_03} volume = 0.75 }
+soundeffect = {  name = federation_01_male_greetings_04 sounds = { sound =federation_01_male_greetings_04} volume = 0.75 }
+soundeffect = {  name = federation_01_male_greetings_05 sounds = { sound =federation_01_male_greetings_05} volume = 0.75 }
+
+soundeffect = {  name = ferengi_01_female_greetings_01 sounds = { sound =ferengi_01_female_greetings_01} volume = 0.75 }
+soundeffect = {  name = ferengi_01_female_greetings_02 sounds = { sound =ferengi_01_female_greetings_02} volume = 0.75 }
+soundeffect = {  name = ferengi_01_female_greetings_03 sounds = { sound =ferengi_01_female_greetings_03} volume = 0.75 }
+soundeffect = {  name = ferengi_01_female_greetings_04 sounds = { sound =ferengi_01_female_greetings_04} volume = 0.75 }
+soundeffect = {  name = ferengi_01_female_greetings_05 sounds = { sound =ferengi_01_female_greetings_05} volume = 0.75 }
+soundeffect = {  name = ferengi_01_female_greetings_06 sounds = { sound =ferengi_01_female_greetings_06} volume = 0.75 }
+soundeffect = {  name = ferengi_01_male_greetings_01 sounds = { sound =ferengi_01_male_greetings_01} volume = 0.75 }
+soundeffect = {  name = ferengi_01_male_greetings_02 sounds = { sound =ferengi_01_male_greetings_02} volume = 0.75 }
+soundeffect = {  name = ferengi_01_male_greetings_03 sounds = { sound =ferengi_01_male_greetings_03} volume = 0.75 }
+soundeffect = {  name = ferengi_01_male_greetings_04 sounds = { sound =ferengi_01_male_greetings_04} volume = 0.75 }
+soundeffect = {  name = ferengi_01_male_greetings_05 sounds = { sound =ferengi_01_male_greetings_05} volume = 0.75 }
+soundeffect = {  name = ferengi_01_male_greetings_06 sounds = { sound =ferengi_01_male_greetings_06} volume = 0.75 }
+
+soundeffect = {  name = klingon_female_greetings_01 sounds = { sound =klingon_female_greetings_01} volume = 0.75 }
+soundeffect = {  name = klingon_female_greetings_02 sounds = { sound =klingon_female_greetings_02} volume = 0.75 }
+soundeffect = {  name = klingon_female_greetings_03 sounds = { sound =klingon_female_greetings_03} volume = 0.75 }
+soundeffect = {  name = klingon_female_greetings_04 sounds = { sound =klingon_female_greetings_04} volume = 0.75 }
+soundeffect = {  name = klingon_female_greetings_05 sounds = { sound =klingon_female_greetings_05} volume = 0.75 }
+soundeffect = {  name = klingon_female_greetings_06 sounds = { sound =klingon_female_greetings_06} volume = 0.75 }
+soundeffect = {  name = klingon_male_greetings_01 sounds = { sound =klingon_male_greetings_01} volume = 0.75 }
+soundeffect = {  name = klingon_male_greetings_02 sounds = { sound =klingon_male_greetings_02} volume = 0.75 }
+soundeffect = {  name = klingon_male_greetings_03 sounds = { sound =klingon_male_greetings_03} volume = 0.75 }
+soundeffect = {  name = klingon_male_greetings_04 sounds = { sound =klingon_male_greetings_04} volume = 0.75 }
+soundeffect = {  name = klingon_male_greetings_05 sounds = { sound =klingon_male_greetings_05} volume = 0.75 }
+soundeffect = {  name = klingon_male_greetings_06 sounds = { sound =klingon_male_greetings_06} volume = 0.75 }
+
+soundeffect = {  name = romulan_female_greetings_01 sounds = { sound =romulan_female_greetings_01} volume = 0.75 }
+soundeffect = {  name = romulan_female_greetings_02 sounds = { sound =romulan_female_greetings_02} volume = 0.75 }
+soundeffect = {  name = romulan_female_greetings_03 sounds = { sound =romulan_female_greetings_03} volume = 0.75 }
+soundeffect = {  name = romulan_female_greetings_04 sounds = { sound =romulan_female_greetings_04} volume = 0.75 }
+soundeffect = {  name = romulan_female_greetings_05 sounds = { sound =romulan_female_greetings_05} volume = 0.75 }
+soundeffect = {  name = romulan_female_greetings_06 sounds = { sound =romulan_female_greetings_06} volume = 0.75 }
+soundeffect = {  name = romulan_male_greetings_01 sounds = { sound =romulan_male_greetings_01} volume = 0.75 }
+soundeffect = {  name = romulan_male_greetings_02 sounds = { sound =romulan_male_greetings_02} volume = 0.75 }
+soundeffect = {  name = romulan_male_greetings_03 sounds = { sound =romulan_male_greetings_03} volume = 0.75 }
+soundeffect = {  name = romulan_male_greetings_04 sounds = { sound =romulan_male_greetings_04} volume = 0.75 }
+soundeffect = {  name = romulan_male_greetings_05 sounds = { sound =romulan_male_greetings_05} volume = 0.75 }
+soundeffect = {  name = romulan_male_greetings_06 sounds = { sound =romulan_male_greetings_06} volume = 0.75 }
+
+soundeffect = {  name = vulcan_01_female_greetings_01 sounds = { sound =vulcan_01_female_greetings_01} volume = 0.75 }
+soundeffect = {  name = vulcan_01_female_greetings_02 sounds = { sound =vulcan_01_female_greetings_02} volume = 0.75 }
+soundeffect = {  name = vulcan_01_male_greetings_01 sounds = { sound =vulcan_01_male_greetings_01} volume = 0.75 }
+soundeffect = {  name = vulcan_01_male_greetings_02 sounds = { sound =vulcan_01_male_greetings_02} volume = 0.75 }

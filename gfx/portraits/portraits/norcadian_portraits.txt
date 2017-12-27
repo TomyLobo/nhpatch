@@ -1,0 +1,122 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Human
+	norcadian_female_04 = {	
+		entity = "portrait_norcadian_female_04_entity"  clothes_selector = "norcadian_female_clothes_01"  hair_selector = "norcadian_female_hair_01"  greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/norcadian/norcadian_female_body_04.dds"
+			"gfx/models/portraits/norcadian/norcadian_female_body_04b.dds"
+			"gfx/models/portraits/norcadian/norcadian_female_body_04c.dds"
+			"gfx/models/portraits/norcadian/norcadian_female_body_04d.dds"
+		}
+	}	
+	norcadian_male_04 = {
+		entity = "portrait_human_male_04_entity"  clothes_selector = "norcadian_male_clothes_01"  hair_selector = "norcadian_male_hair_01"  greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/norcadian/norcadian_male_body_04.dds"
+			"gfx/models/portraits/norcadian/norcadian_male_body_04b.dds"
+			"gfx/models/portraits/norcadian/norcadian_male_body_04c.dds"
+			"gfx/models/portraits/norcadian/norcadian_male_body_04d.dds"
+		}
+	}	
+}
+
+portrait_groups = {
+	norcadian = {
+		default = norcadian_male_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					norcadian_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					norcadian_female_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {				
+					norcadian_female_04				
+					norcadian_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {			
+					norcadian_female_04				
+					norcadian_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {				
+					norcadian_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {				
+					norcadian_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {				
+					norcadian_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {				
+					norcadian_male_04
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,373 @@
+
+category = {
+	name = "Effects"
+	soundeffects = {
+		q_flash
+		event_anthemUFP
+		event_klingon_opera_1
+		pc_class_e
+		pc_class_n_titan
+		pc_class_o_sulfar
+		pc_class_q_variable
+		pc_m1_class
+		pc_g_class
+		pc_class_k_trans
+		pc_l2_class
+		pc_class_q_geo
+		pc_r_class
+		pc_f_class
+		pc_k_class
+		pc_y_class
+		pc_b_class
+		pc_x_class
+		pc_s_class
+		pc_i_class
+		pc_u_class
+		pc_thegreatlink
+		borg_female_greetings_01
+		borg_female_greetings_02
+		borg_female_greetings_03
+		borg_female_greetings_04
+		borg_female_greetings_05
+		borg_female_greetings_06
+		borg_male_greetings_01
+		borg_male_greetings_02
+		borg_male_greetings_03
+		borg_male_greetings_04
+		borg_male_greetings_05
+		borg_male_greetings_06
+		cardassian_female_greetings_01
+		cardassian_female_greetings_02
+		cardassian_female_greetings_03
+		cardassian_female_greetings_04
+		cardassian_female_greetings_05
+		cardassian_female_greetings_06
+		cardassian_male_greetings_01
+		cardassian_male_greetings_02
+		cardassian_male_greetings_03
+		cardassian_male_greetings_04
+		cardassian_male_greetings_05
+		cardassian_male_greetings_06
+		dominion_female_greetings_01
+		dominion_female_greetings_02
+		dominion_female_greetings_03
+		dominion_female_greetings_04
+		dominion_female_greetings_05
+		dominion_female_greetings_06
+		dominion_male_greetings_01
+		dominion_male_greetings_02
+		dominion_male_greetings_03
+		dominion_male_greetings_04
+		dominion_male_greetings_05
+		dominion_male_greetings_06
+		federation_01_female_greetings_01
+		federation_01_female_greetings_02
+		federation_01_female_greetings_03
+		federation_01_female_greetings_04
+		federation_01_female_greetings_05
+		federation_01_male_greetings_01
+		federation_01_male_greetings_02
+		federation_01_male_greetings_03
+		federation_01_male_greetings_04
+		federation_01_male_greetings_05
+		ferengi_01_female_greetings_01
+		ferengi_01_female_greetings_02
+		ferengi_01_female_greetings_03
+		ferengi_01_female_greetings_04
+		ferengi_01_female_greetings_05
+		ferengi_01_female_greetings_06
+		ferengi_01_male_greetings_01
+		ferengi_01_male_greetings_02
+		ferengi_01_male_greetings_03
+		ferengi_01_male_greetings_04
+		ferengi_01_male_greetings_05
+		ferengi_01_male_greetings_06
+		klingon_female_greetings_01
+		klingon_female_greetings_02
+		klingon_female_greetings_03
+		klingon_female_greetings_04
+		klingon_female_greetings_05
+		klingon_female_greetings_06
+		klingon_male_greetings_01
+		klingon_male_greetings_02
+		klingon_male_greetings_03
+		klingon_male_greetings_04
+		klingon_male_greetings_05
+		klingon_male_greetings_06
+		romulan_female_greetings_01
+		romulan_female_greetings_02
+		romulan_female_greetings_03
+		romulan_female_greetings_04
+		romulan_female_greetings_05
+		romulan_female_greetings_06
+		romulan_male_greetings_01
+		romulan_male_greetings_02
+		romulan_male_greetings_03
+		romulan_male_greetings_04
+		romulan_male_greetings_05
+		romulan_male_greetings_06
+		vulcan_01_female_greetings_01
+		vulcan_01_female_greetings_02
+		vulcan_01_male_greetings_01
+		vulcan_01_male_greetings_02
+	}
+	compressor = {
+		enabled = yes
+		pregain = 2.0
+		postgain = 0.0
+		ratio = 10.0
+		threshold = -8.0
+		attacktime = 0.030
+		releasetime = 1.2
+	}
+}
+
+ ################## VOICE ########################
+category = {
+	name = "Voice"
+	soundeffects = {
+        sth_q_events_2
+        sth_q_events_3
+        sth_q_events_10
+        sth_q_events_21
+        sth_q_events_22
+        sth_q_events_50
+        sth_q_events_1000
+        sth_q_events_1001
+        sth_q_events_1002
+        sth_q_events_1003
+        sth_q_events_1011
+        sth_q_events_1012
+        sth_q_events_1013
+        sth_q_events_1014
+        sth_q_events_2001
+        sth_q_events_2002
+        sth_q_events_2004
+        sth_q_events_2003
+	}
+	compressor = {
+		enabled = yes
+		pregain = 0.0
+		postgain = -5.0
+		ratio = 2.0
+		threshold = -3.0
+		attacktime = 0.030
+		releasetime = 0.8
+	}
+}
+
+
+
+
+category = {
+ name = "Weapon"
+ soundeffects = {
+		####### WEAPONS
+	
+	####### CLOSE
+
+torp_blue_01
+torp_blue_02
+torp_blue_03
+torp_borg_01
+torp_borg_02
+torp_borg_03
+torp_dark_01
+torp_dark_02
+torp_dark_03
+torp_green_01
+torp_green_02
+torp_green_03
+torp_orange_01
+torp_orange_02
+torp_orange_03
+torp_purple_01
+torp_purple_02
+torp_purple_03
+torp_red_01
+torp_red_02
+torp_red_03
+torp_teal_01
+torp_teal_02
+torp_teal_03
+torp_white_01
+torp_white_02
+torp_white_03
+torp_yellow_01
+torp_yellow_02
+torp_yellow_03
+
+beam_blue_01
+beam_blue_02
+beam_blue_03
+beam_borg_01
+beam_borg_02
+beam_borg_03
+beam_dark_01
+beam_dark_02
+beam_dark_03
+beam_green_01
+beam_green_02
+beam_green_03
+beam_orange_01
+beam_orange_02
+beam_orange_03
+beam_purple_01
+beam_purple_02
+beam_purple_03
+beam_red_01
+beam_red_02
+beam_red_03
+beam_teal_01
+beam_teal_02
+beam_teal_03
+beam_white_01
+beam_white_02
+beam_white_03
+beam_yellow_01
+beam_yellow_02
+beam_yellow_03
+
+cannon_blue_01
+cannon_blue_02
+cannon_blue_03
+cannon_borg_01
+cannon_borg_02
+cannon_borg_03
+cannon_dark_01
+cannon_dark_02
+cannon_dark_03
+cannon_green_01
+cannon_green_02
+cannon_green_03
+cannon_orange_01
+cannon_orange_02
+cannon_orange_03
+cannon_purple_01
+cannon_purple_02
+cannon_purple_03
+cannon_red_01
+cannon_red_02
+cannon_red_03
+cannon_teal_01
+cannon_teal_02
+cannon_teal_03
+cannon_white_01
+cannon_white_02
+cannon_white_03
+cannon_yellow_01
+cannon_yellow_02
+cannon_yellow_03
+
+	
+	####### FAR
+
+distance_torp_blue_01
+distance_torp_blue_02
+distance_torp_blue_03
+distance_torp_borg_01
+distance_torp_borg_02
+distance_torp_borg_03
+distance_torp_dark_01
+distance_torp_dark_02
+distance_torp_dark_03
+distance_torp_green_01
+distance_torp_green_02
+distance_torp_green_03
+distance_torp_orange_01
+distance_torp_orange_02
+distance_torp_orange_03
+distance_torp_purple_01
+distance_torp_purple_02
+distance_torp_purple_03
+distance_torp_red_01
+distance_torp_red_02
+distance_torp_red_03
+distance_torp_teal_01
+distance_torp_teal_02
+distance_torp_teal_03
+distance_torp_white_01
+distance_torp_white_02
+distance_torp_white_03
+distance_torp_yellow_01
+distance_torp_yellow_02
+distance_torp_yellow_03
+
+distance_beam_blue_01
+distance_beam_blue_02
+distance_beam_blue_03
+distance_beam_borg_01
+distance_beam_borg_02
+distance_beam_borg_03
+distance_beam_dark_01
+distance_beam_dark_02
+distance_beam_dark_03
+distance_beam_green_01
+distance_beam_green_02
+distance_beam_green_03
+distance_beam_orange_01
+distance_beam_orange_02
+distance_beam_orange_03
+distance_beam_purple_01
+distance_beam_purple_02
+distance_beam_purple_03
+distance_beam_red_01
+distance_beam_red_02
+distance_beam_red_03
+distance_beam_teal_01
+distance_beam_teal_02
+distance_beam_teal_03
+distance_beam_white_01
+distance_beam_white_02
+distance_beam_white_03
+distance_beam_yellow_01
+distance_beam_yellow_02
+distance_beam_yellow_03
+
+distance_cannon_blue_01
+distance_cannon_blue_02
+distance_cannon_blue_03
+distance_cannon_borg_01
+distance_cannon_borg_02
+distance_cannon_borg_03
+distance_cannon_dark_01
+distance_cannon_dark_02
+distance_cannon_dark_03
+distance_cannon_green_01
+distance_cannon_green_02
+distance_cannon_green_03
+distance_cannon_orange_01
+distance_cannon_orange_02
+distance_cannon_orange_03
+distance_cannon_purple_01
+distance_cannon_purple_02
+distance_cannon_purple_03
+distance_cannon_red_01
+distance_cannon_red_02
+distance_cannon_red_03
+distance_cannon_teal_01
+distance_cannon_teal_02
+distance_cannon_teal_03
+distance_cannon_white_01
+distance_cannon_white_02
+distance_cannon_white_03
+distance_cannon_yellow_01
+distance_cannon_yellow_02
+distance_cannon_yellow_03
+
+	
+	######## BOMBARDMENT
+	
+ }
+  
+ compressor = 
+ {
+ enabled = yes
+ pregain = 8.0
+ postgain = -10.5
+ ratio = 10.0
+ threshold = -20.0
+ attacktime = 0.500
+ releasetime = 0.02
+ }
+}

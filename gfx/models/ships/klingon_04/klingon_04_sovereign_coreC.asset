@@ -1,0 +1,33 @@
+@corvette_scale = 10.0
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "klingon_04_sovereign_coreC_entity"
+	pdxmesh = "klingon_04_sovereign_coreC_mesh"
+	locator = {
+		name = "strike_craft_locator_01"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_02"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_03"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_04"
+		rotation = { 0 0 0 }
+	}
+
+ 
+    scale = 1.0
+	game_data = {
+		size = @corvette_scale
+	}
+}

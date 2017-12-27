@@ -1,0 +1,122 @@
+portraits = {
+	# sheliak
+	sheliak_01 = {	
+		entity = "portrait_sheliak_01_entity"	clothes_selector = "sheliak_clothes_01" 	hair_selector = "sheliak_head_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/sheliak/sheliak_body_01.dds"
+		}
+	}
+	sheliak_02 = {	
+		entity = "portrait_sheliak_02_entity"	clothes_selector = "sheliak_clothes_02" 	hair_selector = "sheliak_head_02"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/sheliak/sheliak_body_01.dds"
+		}
+	}	
+	sheliak_03 = {	
+		entity = "portrait_sheliak_03_entity"	clothes_selector = "sheliak_clothes_03" 	hair_selector = "sheliak_head_03"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/sheliak/sheliak_body_01.dds"
+		}
+	}	
+	sheliak_04 = {	
+		entity = "portrait_sheliak_04_entity"	clothes_selector = "sheliak_clothes_04" 	hair_selector = "sheliak_head_04"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/sheliak/sheliak_body_01.dds"
+		}
+	}	
+}
+
+portrait_groups = {
+	sheliak = {
+		default = sheliak_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {	ruler = { gender = male } }
+				portraits = { 
+					sheliak_01 
+					sheliak_02
+					sheliak_03 
+					sheliak_04 
+				}
+			}
+			add = {
+				trigger = {	ruler = { gender = female } }
+				portraits = { 
+					sheliak_01 
+					sheliak_02
+					sheliak_03 
+					sheliak_04 
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sheliak_01 
+					sheliak_02
+					sheliak_03 
+					sheliak_04 
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sheliak_01 
+					sheliak_02
+					sheliak_03 
+					sheliak_04 
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {	gender = male }
+				portraits = {
+					sheliak_01 
+					sheliak_02
+					sheliak_03 
+					sheliak_04 
+				}
+			}
+			add = {
+				trigger = {	gender = female }
+				portraits = {
+					sheliak_01 
+					sheliak_02
+					sheliak_03 
+					sheliak_04 
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {	gender = male }
+				portraits = {
+					sheliak_01 
+					sheliak_02
+					sheliak_03 
+					sheliak_04 
+				}
+			}
+			add = {
+				trigger = {	gender = female }
+				portraits = {
+					sheliak_01 
+					sheliak_02
+					sheliak_03 
+					sheliak_04 
+				}
+			}
+		}
+	}	
+}

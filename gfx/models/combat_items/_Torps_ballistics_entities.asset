@@ -1,0 +1,1646 @@
+
+
+
+
+
+##########   STH   ##########
+
+
+
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_blue_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_blue_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_blue_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_blue_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_blue_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                               
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_blue_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_blue_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_blue_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_blue_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_blue_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_blue_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_blue_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_blue_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_blue_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_blue_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_blue_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_blue_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                               
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_blue_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_borg_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_borg_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_borg_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_borg_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_borg_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_borg_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_borg_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_borg_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_borg_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_borg_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_borg_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                               
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_borg_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_borg_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_borg_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_borg_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_borg_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_borg_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_borg_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_dark_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_dark_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_dark_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_dark_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_dark_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+ 
+ ###shield-hit
+entity = {
+        name = "torp_dark_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_dark_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_dark_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_dark_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_dark_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_dark_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+ 
+ ###shield-hit
+entity = {
+        name = "torp_dark_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_dark_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_dark_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_dark_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_dark_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_dark_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+ 
+ ###shield-hit
+entity = {
+        name = "torp_dark_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_green_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_green_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_green_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_green_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_green_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_green_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_green_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_green_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_green_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_green_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_green_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_green_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_green_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_green_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_green_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_green_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_green_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+ 
+ ###shield-hit
+entity = {
+        name = "torp_green_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_orange_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_orange_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_orange_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_orange_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_orange_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_orange_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_orange_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_orange_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_orange_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_orange_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_orange_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_orange_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_orange_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_orange_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_orange_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_orange_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_orange_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_orange_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_purple_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_purple_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_purple_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_purple_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_purple_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                               
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_purple_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_purple_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_purple_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_purple_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_purple_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_purple_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_purple_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_purple_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_purple_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_purple_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_purple_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_purple_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                               
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_purple_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_red_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_red_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_red_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_red_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_red_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                               
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_red_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_red_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_red_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_red_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_red_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_red_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                               
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_red_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_red_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_red_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_red_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_red_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_red_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                               
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_red_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_teal_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_teal_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_teal_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_teal_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_teal_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_teal_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_teal_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_teal_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_teal_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_teal_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_teal_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+ 
+ ###shield-hit
+entity = {
+        name = "torp_teal_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_teal_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_teal_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_teal_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_teal_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_teal_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+ 
+ ###shield-hit
+entity = {
+        name = "torp_teal_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_white_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_white_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_white_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_white_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_white_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_white_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_white_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_white_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_white_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_white_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_white_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_white_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_white_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_white_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_white_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_white_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_white_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_white_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_yellow_01_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_yellow_01_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_yellow_01_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_yellow_01_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_yellow_01_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_yellow_01_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_yellow_02_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_yellow_02_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_yellow_02_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_yellow_02_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_yellow_02_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}
+ 
+ ###shield-hit
+entity = {
+        name = "torp_yellow_02_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}               
+
+ 
+ 
+ ###muzzle
+entity = {
+        name = "torp_yellow_03_muzzle_entity"
+        cull_radius = 1.0
+        
+        default_state = "idle"
+        state = { name = "idle" state_time = 7 looping = no
+                event = { time = 0 particle = "torp_yellow_03_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_torpedo_fire } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_fire" } } 
+        }
+}                                                                       
+ 
+ 
+ ###entity
+entity = {
+        name = "torp_yellow_03_entity"
+        cull_radius = 1.0
+        
+        default_state = idle
+        state = { name = "idle"
+                event = { time = 0 particle = "torp_yellow_03_idle_particle" keep_particle = yes }
+
+        }
+}                                               
+ 
+ 
+ ###hit
+entity = {
+        name = "torp_yellow_03_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_energy_torpedo_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}                                       
+ 
+ 
+ ###shield-hit
+entity = {
+        name = "torp_yellow_03_shield_hit_entity"
+        cull_radius = 1.0
+        
+        state = { name = "explode_med_hp" state_time = 5 looping = no
+                event = { time = 0.0 particle = "neutron_torpedoes_hit_effect" }
+                event = { time = 0.0 particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+                event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+        }
+        default_state = "explode_med_hp"
+}

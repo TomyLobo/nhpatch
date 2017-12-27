@@ -1,0 +1,122 @@
+portraits = {
+	# vaadwaur
+	vaadwaur_female_01 = {	
+		entity = "portrait_vaadwaur_female_01_entity"	clothes_selector = "vaadwaur_female_clothes_01" 	hair_selector = "vaadwaur_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/vaadwaur/vaadwaur_female_body_01.dds"
+		}
+	}
+	# vaadwaur_female_05 = {	
+		# entity = "portrait_vaadwaur_female_05_entity"	clothes_selector = "vaadwaur_female_clothes_01" 	hair_selector = "vaadwaur_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		# character_textures = {
+			# "gfx/models/portraits/vaadwaur/vaadwaur_female_body_05.dds"
+		# }
+	# }
+	vaadwaur_male_01 = {	
+		entity = "portrait_vaadwaur_male_01_entity"	clothes_selector = "vaadwaur_male_clothes_01" 	hair_selector = "vaadwaur_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/vaadwaur/vaadwaur_male_body_01.dds"
+		}
+	}
+	# vaadwaur_male_04 = {	
+		# entity = "portrait_vaadwaur_male_04_entity"	clothes_selector = "vaadwaur_male_clothes_01" 	hair_selector = "vaadwaur_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		# character_textures = {
+			# "gfx/models/portraits/vaadwaur/vaadwaur_male_body_04.dds"
+		# }
+	# }
+}
+
+portrait_groups = {
+	vaadwaur = {
+		default = vaadwaur_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					vaadwaur_male_01
+					# vaadwaur_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					vaadwaur_female_01
+					# vaadwaur_female_05
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					vaadwaur_male_01
+					# vaadwaur_male_04
+					vaadwaur_female_01
+					# vaadwaur_female_05
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					vaadwaur_male_01
+					# vaadwaur_male_04
+					vaadwaur_female_01
+					# vaadwaur_female_05
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					vaadwaur_male_01
+					# vaadwaur_male_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					vaadwaur_female_01
+					# vaadwaur_female_05
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					vaadwaur_male_01
+					# vaadwaur_male_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					vaadwaur_female_01
+					# vaadwaur_female_05
+				}
+			}
+		}
+	}	
+}

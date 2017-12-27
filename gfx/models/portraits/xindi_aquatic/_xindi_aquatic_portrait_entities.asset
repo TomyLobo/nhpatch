@@ -1,0 +1,12 @@
+
+entity = {
+	name = "portrait_xindi_aquatic_entity"
+	pdxmesh = "portrait_xindi_aquatic_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"       animation = "idle"    animation_speed = 1 chance = 5.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle2"    animation_speed = 1 chance = 1.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle3"    animation_speed = 1 chance = 1.0 looping = no next_state = idle}
+	state = { name = "idle"       animation = "idle4"    animation_speed = 1 chance = 1.0 looping = no next_state = idle}
+	scale = 1.0
+}

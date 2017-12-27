@@ -1,0 +1,114 @@
+portraits = {
+	# durnen
+	durnen_female_01 = {
+		entity = "portrait_durnen_female_01_entity"	clothes_selector = "durnen_female_clothes_01" 	hair_selector = "durnen_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = { "gfx/models/portraits/durnen/durnen_female_body_01.dds" "gfx/models/portraits/durnen/durnen_female_body_01a.dds" }
+	}
+	durnen_female_04 = {	
+		entity = "portrait_durnen_female_04_entity"	clothes_selector = "durnen_female_clothes_01" 	hair_selector = "durnen_female_hair_01"	greeting_sound = "human_female_greetings_01"
+		character_textures = { "gfx/models/portraits/durnen/durnen_female_body_04.dds" "gfx/models/portraits/durnen/durnen_female_body_04a.dds" }
+	}
+	durnen_male_01 = {	
+		entity = "portrait_durnen_male_01_entity"	clothes_selector = "durnen_male_clothes_01" 	hair_selector = "durnen_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/durnen/durnen_male_body_01.dds" "gfx/models/portraits/durnen/durnen_male_body_01a.dds"}
+	}	
+	durnen_male_04 = {	
+		entity = "portrait_durnen_male_04_entity"	clothes_selector = "durnen_male_clothes_01" 	hair_selector = "durnen_male_hair_01"		greeting_sound = "human_male_greetings_01" 
+		character_textures = { "gfx/models/portraits/durnen/durnen_male_body_04.dds" "gfx/models/portraits/durnen/durnen_male_body_04a.dds"}
+	}
+}
+
+portrait_groups = {
+	durnen = {
+		default = durnen_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					durnen_male_01
+					durnen_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					durnen_female_01			
+					durnen_female_04
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					durnen_female_01			
+					durnen_female_04
+					durnen_male_01
+					durnen_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					durnen_female_01			
+					durnen_female_04
+					durnen_male_01
+					durnen_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					durnen_female_01			
+					durnen_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					durnen_male_01
+					durnen_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					durnen_female_01			
+					durnen_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					durnen_male_01
+					durnen_male_04
+				}
+			}
+		}
+	}	
+}

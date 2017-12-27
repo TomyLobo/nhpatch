@@ -1,0 +1,56 @@
+portraits = {
+	# bynar
+	bynar_01 = {	
+		entity = "portrait_bynar_01_entity"	clothes_selector = "bynar_clothes_01" hair_selector = "bynar_hair_01" greeting_sound = "human_female_greetings_03" 
+		character_textures = { "gfx/models/portraits/bynar/bynar_body_01.dds" "gfx/models/portraits/bynar/bynar_body_01b.dds" "gfx/models/portraits/bynar/bynar_body_01c.dds" }
+	}
+}
+
+portrait_groups = {
+	bynar = {
+		default = bynar_01
+		game_setup = {
+			add = {
+				portraits = {
+					bynar_01
+				}
+			}
+		}		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					bynar_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					bynar_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					bynar_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					bynar_01
+				}
+			}
+		}
+	}	
+}

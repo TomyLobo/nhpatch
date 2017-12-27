@@ -1,0 +1,15 @@
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "generic_02_orbital_station_main_entity"
+	pdxmesh = "generic_02_orbital_station_main_mesh"
+	locator = { name = "part1" 			position = { 0 	0 	0 } }	
+
+}	
+
+	
+

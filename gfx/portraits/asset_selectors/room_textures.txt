@@ -1,0 +1,83 @@
+room_selector = {
+	#default = "d_room"	#point to textures that end with "_room.dds" but remove the file ending
+
+	default = "default_room"	#point to textures that end with "_room.dds" but remove the file ending
+
+	#will run with a limited country scope. species and government is set but the country does not actually exist
+	game_setup = {	
+		"personality_hegemonic_imperialists_room" 	= { has_ai_personality = hegemonic_imperialists }
+		"personality_federation_builders_room" 		= { has_ai_personality = federation_builders }
+		"personality_democratic_crusaders_room" 	= { has_ai_personality = democratic_crusaders }
+		"personality_evangelizing_zealots_room" 	= { has_ai_personality = evangelising_zealots }
+		"personality_migrating_flock_room" 			= { has_ai_personality = migrating_flock }
+		"personality_spiritual_seekers_room" 		= { has_ai_personality = spiritual_seekers }
+		"personality_decadent_hierarchy_room" 		= { has_ai_personality = decadent_hierarchy }
+		"personality_slaving_despots_room" 			= { has_ai_personality = slaving_despots }
+		"personality_erudite_explorers_room" 		= { has_ai_personality = erudite_explorers }
+		"personality_fanatic_purifier_room" 		= { has_ai_personality = fanatic_purifiers }
+		"personality_metalheads_room" 				= { has_ai_personality = metalhead }
+		"personality_harmonious_hierarchy_room" 	= { has_ai_personality = harmonious_hierarchy }
+		"personality_peaceful_traders_room" 		= { has_ai_personality = peaceful_traders }
+		"personality_xenophobic_isolationists_room" = { has_ai_personality = xenophobic_isolationists }
+		"personality_ruthless_capitalists_room" 	= { has_ai_personality = ruthless_capitalists }
+		"personality_honorbound_warriors_room" 		= { has_ai_personality = honorbound_warriors }
+		"personality_fanatic_befrienders_room" 		= { has_ai_personality = fanatic_befrienders }	
+		"personality_hive_mind_room" 				= { has_ai_personality = hive_mind }
+	}
+
+	#leader scope
+	ruler = {
+		"personality_hegemonic_imperialists_room" 	= { exists = owner owner = { has_country_flag = terran_empire } }
+		"augments_room"	= { exists = owner owner = { has_country_flag = augmentKhanate } }
+		"personality_fanatic_purifier_room"	= { exists = owner owner = { has_country_flag = xindi_council } }
+		"personality_democratic_crusaders_room"	= { exists = owner owner = { has_country_flag = caitian_union } }
+		"personality_federation_builders_room"	= { exists = owner owner = { has_country_flag = trillius_prime } }
+		"personality_fanatic_befrienders_room"	= { exists = owner owner = { has_country_flag = kraylor_republic } }
+		"personality_ruthless_capitalists_room"	= { exists = owner owner = { has_country_flag = rigellian } }
+		"personality_xenophobic_isolationists_room"	= { exists = owner owner = { has_country_flag = cheronite } }
+		"personality_ruthless_capitalists_room"	= { exists = owner owner = { has_country_flag = denobula } }
+		"personality_harmonious_hierarchy_room"	= { exists = owner owner = { has_country_flag = betazed } }
+		"voth_room"	= { exists = owner owner = { has_country_flag = voth_theocracy } }
+		"bajoran_room"	= { exists = owner owner = { has_country_flag = bajoran_republic } }
+		"dominion_room"	= { exists = owner owner = { has_country_flag = the_dominion } }
+		"earth_room"	= { exists = owner owner = { has_country_flag = united_earth } }
+		"ferengi_room"	= { exists = owner owner = { has_country_flag = ferengi_alliance } }
+		"klingon_room"	= { exists = owner owner = { has_country_flag = klingon_empire } }
+		"romulan_room"	= { exists = owner owner = { has_country_flag = romulan_star_empire } }
+		"suliban_room"	= { exists = owner owner = { has_country_flag = suliban_cabal } }
+		"andorian_room"	= { exists = owner owner = { has_country_flag = andorian_empire } }
+		"vulcan_room"	= { exists = owner owner = { has_country_flag = vulcan_high_command } }
+		"borg_room"	= { exists = owner owner = { is_assimilator = yes } }
+		
+		"personality_peaceful_traders_room"			= { exists = owner owner = { has_country_flag = tellarian_technocracy } }
+		"personality_peaceful_traders_room"			= { exists = owner owner = { has_country_flag = wadi_emirates } }
+		"personality_fanatic_purifier_room"			= { exists = owner owner = { has_country_flag = breen_confederacy } }
+		"personality_hegemonic_imperialists_room"			= { exists = owner owner = { has_country_flag = cardassian_union } }
+		"personality_hegemonic_imperialists_room"			= { exists = owner owner = { has_country_flag = cravic_imperative } }
+		"personality_xenophobic_isolationists_room"			= { exists = owner owner = { has_country_flag = pralor_auxiliary } }
+
+		"personality_hegemonic_imperialists_room" 	= { exists = owner owner = { has_ai_personality = hegemonic_imperialists } }
+		"personality_federation_builders_room" 		= { exists = owner owner = { has_ai_personality = federation_builders } }
+		"personality_democratic_crusaders_room" 	= { exists = owner owner = { has_ai_personality = democratic_crusaders } }
+		"personality_evangelizing_zealots_room" 	= { exists = owner owner = { has_ai_personality = evangelising_zealots } }
+		"personality_migrating_flock_room" 			= { exists = owner owner = { has_ai_personality = migrating_flock } }
+		"personality_spiritual_seekers_room" 		= { exists = owner owner = { has_ai_personality = spiritual_seekers } }
+		"personality_decadent_hierarchy_room" 		= { exists = owner owner = { has_ai_personality = decadent_hierarchy } }
+		"personality_slaving_despots_room" 			= { exists = owner owner = { has_ai_personality = slaving_despots } }
+		"personality_erudite_explorers_room" 		= { exists = owner owner = { has_ai_personality = erudite_explorers } }
+		"personality_fanatic_purifier_room" 		= { exists = owner owner = { has_ai_personality = fanatic_purifiers } }
+		"personality_metalheads_room" 				= { exists = owner owner = { has_ai_personality = metalhead } }
+		"personality_harmonious_hierarchy_room" 	= { exists = owner owner = { has_ai_personality = harmonious_hierarchy } }
+		"personality_peaceful_traders_room" 		= { exists = owner owner = { has_ai_personality = peaceful_traders } }
+		"personality_xenophobic_isolationists_room" = { exists = owner owner = { has_ai_personality = xenophobic_isolationists } }
+		"personality_ruthless_capitalists_room" 	= { exists = owner owner = { has_ai_personality = ruthless_capitalists } }
+		"personality_honorbound_warriors_room" 		= { exists = owner owner = { has_ai_personality = honorbound_warriors } }
+		"personality_fanatic_befrienders_room" 		= { exists = owner owner = { has_ai_personality = fanatic_befrienders } }	
+		"personality_hive_mind_room" 				= { exists = owner owner = { has_ai_personality = hive_mind } }	
+		"personality_fallen_empire_blue_room" = { exists = owner owner = { OR = { has_ai_personality = fallen_empire_xenophile has_ai_personality = awakened_fallen_empire_xenophile } } }
+		"personality_fallen_empire_cyan_room" = { exists = owner owner = { OR = { has_ai_personality = fallen_empire_materialist has_ai_personality = awakened_fallen_empire_materialist } } }
+		"personality_fallen_empire_cyan_room" = { exists = owner owner = { has_country_flag = cytherian_enlightenment } }
+		"personality_fallen_empire_red_room" = { exists = owner owner = { OR = { has_ai_personality = fallen_empire_xenophobe has_ai_personality = awakened_fallen_empire_xenophobe } } }
+		"personality_fallen_empire_teal_room" = { exists = owner owner = { OR = { has_ai_personality = fallen_empire_spiritualist has_ai_personality = awakened_fallen_empire_spiritualist } } }
+	}
+}

@@ -1,0 +1,34 @@
+@saber_scale = 8.0
+###################################################################################
+###																				###
+###							Star Trek New Horizons				    			###
+###																				###
+###################################################################################
+
+entity = {
+	name = "suliban_01_saber_coreB_entity"
+	pdxmesh = "suliban_01_saber_coreB_mesh"
+	locator = {
+		name = "strike_craft_locator_01"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_02"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_03"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_04"
+		rotation = { 0 0 0 }
+	}
+	locator = {
+		name = "part1"
+		rotation = { 0 0 0 }
+	}
+	game_data = {
+		size = @saber_scale
+	}
+}

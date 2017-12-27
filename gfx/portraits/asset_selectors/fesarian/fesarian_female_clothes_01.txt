@@ -1,0 +1,183 @@
+fesarian_female_clothes_01 = { 
+	default = "gfx/models/portraits/fesarian/fesarian_female_clothes_01.dds" 
+   
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist 
+		default = "gfx/models/portraits/fesarian/fesarian_female_clothes_01.dds" 
+	} 
+   
+	#species scope 
+	species = { #generic portrait for a species 
+		default = "gfx/models/portraits/fesarian/fesarian_female_clothes_01.dds"
+	} 
+   
+	#pop scope 
+	pop = { #for a specific pop 
+		random = { 
+			trigger = { uses_native_clothes_pop = yes } 
+			list = { 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_01.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_02.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_03.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_04.dds" 
+			} 
+		}
+		
+		#BORG START
+		random = {  
+			trigger = { uses_borg_prosthetics = yes }  
+			list = { "gfx/models/portraits/borg/borg_female_clothes_01.dds" }
+		}
+		#BORG END
+	}
+  
+	#leader scope   
+	leader = { #scientists, generals, admirals, governor 
+		random = { 
+			trigger = { uses_native_clothes = yes } 
+			list = { 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_01.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_02.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_03.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_04.dds" 
+			} 
+		}
+		
+		#STARFLEET female START
+		"gfx/models/portraits/starfleet_enterprise/ent_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet_enterprise/ent_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet_enterprise/ent_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet_enterprise/ent_human_female_admiral.dds" = { leader_class = governor uses_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet franklin/fra_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet franklin/fra_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet franklin/fra_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet franklin/fra_human_female_admiral.dds" = { leader_class = governor uses_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet kelvin/kel_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet kelvin/kel_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet kelvin/kel_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet kelvin/kel_human_female_admiral.dds" = { leader_class = governor uses_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet_discovery/dis_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes is_medical_leader = no discovery_era = yes }
+		"gfx/models/portraits/starfleet_discovery/dis_human_female_medical.dds" = { leader_class = scientist uses_starfleet_uniform = yes is_medical_leader = yes discovery_era = yes }
+		"gfx/models/portraits/starfleet_discovery/dis_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes discovery_era = yes }
+		"gfx/models/portraits/starfleet_discovery/dis_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes discovery_era = yes }
+		"gfx/models/portraits/starfleet_discovery/dis_human_female_command.dds" = { leader_class = governor uses_starfleet_uniform = yes discovery_era = yes }		
+		"gfx/models/portraits/starfleet_original_series/tos_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_original_series/tos_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_original_series/tos_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_original_series/tos_human_female_command.dds" = { leader_class = governor uses_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet_wrath_of_khan/wok_human_female_command.dds" = { leader_class = governor uses_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet next generation 02/tng2_human_female_admiral.dds" = { leader_class = governor uses_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet_first_contact/fco_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes first_contact_era = yes }
+		"gfx/models/portraits/starfleet_first_contact/fco_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes first_contact_era = yes }
+		"gfx/models/portraits/starfleet_first_contact/fco_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes first_contact_era = yes }
+		"gfx/models/portraits/starfleet_first_contact/fco_human_female_command.dds" = { leader_class = governor uses_starfleet_uniform = yes first_contact_era = yes } 
+		"gfx/models/portraits/starfleet_all_good_things/agt_human_female_science.dds" = { leader_class = scientist uses_starfleet_uniform = yes all_good_things_era = yes }
+		"gfx/models/portraits/starfleet_all_good_things/agt_human_female_security.dds" = { leader_class = general uses_starfleet_uniform = yes all_good_things_era = yes }
+		"gfx/models/portraits/starfleet_all_good_things/agt_human_female_command.dds" = { leader_class = admiral uses_starfleet_uniform = yes all_good_things_era = yes }
+		"gfx/models/portraits/starfleet_all_good_things/agt_human_female_command.dds" = { leader_class = governor uses_starfleet_uniform = yes all_good_things_era = yes } 
+		#STARFLEET female END
+		
+		#TERRAN EMPIRE female START
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes discovery_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes discovery_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes discovery_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes discovery_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet_next_generation_02_mirror/tng2_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet_next_generation_02_mirror/tng2_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet_next_generation_02_mirror/tng2_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet_next_generation_02_mirror/tng2_mirror_human_female_admiral.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet_first_contact_mirror/fco_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes first_contact_era = yes }
+		"gfx/models/portraits/starfleet_first_contact_mirror/fco_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes first_contact_era = yes }
+		"gfx/models/portraits/starfleet_first_contact_mirror/fco_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes first_contact_era = yes }
+		"gfx/models/portraits/starfleet_first_contact_mirror/fco_mirror_human_female_command.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes first_contact_era = yes }
+		"gfx/models/portraits/starfleet_all_good_things_mirror/agt_mirror_human_female_science.dds" = { leader_class = scientist uses_mirror_starfleet_uniform = yes all_good_things_era = yes }
+		"gfx/models/portraits/starfleet_all_good_things_mirror/agt_mirror_human_female_security.dds" = { leader_class = general uses_mirror_starfleet_uniform = yes all_good_things_era = yes }
+		"gfx/models/portraits/starfleet_all_good_things_mirror/agt_mirror_human_female_command.dds" = { leader_class = admiral uses_mirror_starfleet_uniform = yes all_good_things_era = yes }
+		"gfx/models/portraits/starfleet_all_good_things_mirror/agt_mirror_human_female_command.dds" = { leader_class = governor uses_mirror_starfleet_uniform = yes all_good_things_era = yes }
+		#TERRAN EMPIRE female END
+		
+		#BORG female START
+		random = {  
+			trigger = { uses_borg_prosthetics = yes }  
+			list = { "gfx/models/portraits/borg/borg_female_clothes_01.dds" }
+		}
+		#BORG female END
+	}   
+ 
+	#leader scope 
+	ruler = { #for rulers
+		random = { 
+			trigger = { 
+				OR = { 
+					uses_native_clothes = yes 
+					AND = {
+						uses_starfleet_uniform = yes
+						OR = { enterprise_era = yes franklin_era = yes kelvin_era = yes original_series_era = yes }
+					}
+					AND = {
+						uses_starfleet_uniform = yes
+						is_ufp = no
+						OR = { wrath_of_khan_era = yes next_generation_era = yes first_contact_era = yes }
+					}
+				}
+			} 
+			list = { 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_01.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_02.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_03.dds" 
+				"gfx/models/portraits/fesarian/fesarian_female_clothes_04.dds" 
+			} 
+		}
+		
+		#Starfleet
+		random = {
+			trigger = { 
+				uses_starfleet_uniform = yes
+				is_ufp = yes
+				OR = { wrath_of_khan_era = yes next_generation_era = yes first_contact_era = yes }
+			}
+			list = { "gfx/models/portraits/human_civilian/federation_president_female_1.dds" }
+		}
+
+		#Mirror Starfleet
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { uses_mirror_starfleet_uniform = yes enterprise_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { uses_mirror_starfleet_uniform = yes franklin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { uses_mirror_starfleet_uniform = yes kelvin_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { uses_mirror_starfleet_uniform = yes discovery_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { uses_mirror_starfleet_uniform = yes original_series_era = yes }
+		"gfx/models/portraits/starfleet_enterprise_mirror/ent_mirror_human_female_admiral.dds" = { uses_mirror_starfleet_uniform = yes wrath_of_khan_era = yes }
+		"gfx/models/portraits/starfleet_next_generation_02_mirror/tng2_mirror_human_female_admiral.dds" = { uses_mirror_starfleet_uniform = yes next_generation_era = yes }
+		"gfx/models/portraits/starfleet_first_contact_mirror/fco_mirror_human_female_command.dds" = { uses_mirror_starfleet_uniform = yes first_contact_era = yes }
+		"gfx/models/portraits/starfleet_all_good_things_mirror/agt_mirror_human_female_command.dds" = { uses_mirror_starfleet_uniform = yes all_good_things_era = yes }
+		
+		random = {  
+			trigger = { uses_borg_prosthetics = yes }  
+			list = { "gfx/models/portraits/borg/borg_female_clothes_01.dds" }  
+        }
+	}
+} 

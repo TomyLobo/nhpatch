@@ -1,0 +1,40 @@
+animation = {
+	name = "vidiian_01_corvette_frame_idle_animation"
+	file = "vidiian_01_corvette_frame_idle.anim"
+}
+
+animation = {
+	name = "vidiian_01_corvette_frame_death_animation"
+	file = "vidiian_01_corvette_frame_death.anim"
+}
+
+animation = {
+	name = "vidiian_01_corvette_frame_death2_animation"
+	file = "vidiian_01_corvette_frame_death2.anim"
+}
+
+animation = {
+	name = "vidiian_01_corvette_frame_death3_animation"
+	file = "vidiian_01_corvette_frame_death3.anim"
+}
+
+animation = {
+	name = "vidiian_01_corvette_frame_moving_animation"
+	file = "vidiian_01_corvette_frame_moving.anim"
+}
+
+animation = {
+	name = "vidiian_01_construction_idle_animation"
+	file = "vidiian_01_corvette_frame_idle.anim"
+}
+
+animation = {
+	name = "vidiian_01_construction_working_start_animation"
+	file = "vidiian_01_construction_working_start.anim"
+}
+
+animation = {
+	name = "vidiian_01_construction_working_looping_animation"
+	file = "vidiian_01_construction_working.anim"
+}
+

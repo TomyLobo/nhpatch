@@ -1,0 +1,17 @@
+# This is a template which multiple species can use. 
+  
+hero_mei_carter_lin_hair = { default = "gfx/models/portraits/human/human_female_hair_black_style_06.dds" }
+hero_jonathan_archer_hair = { default = "gfx/models/portraits/human/human_male_hair_blonde_style_09.dds" }
+hero_jonathan_esteban_hair = { default = "gfx/models/portraits/human/human_male_hair_jonathan_esteban.dds" }
+hero_matthew_walsh_hair = { default = "gfx/models/portraits/human/human_male_hair_black_style_10.dds" }
+hero_khan_noonien_singh_hair = { default = "gfx/models/portraits/human/human_male_hair_brown_style_04.dds" }
+hero_ben_sisko_hair = { default = "gfx/models/portraits/human/human_male_hair_beard_dark_style_02.dds" }
+hero_jean_luc_picard_hair = { default = "gfx/models/portraits/human/human_male_hair_black_style_06.dds" }
+hero_will_riker_hair = { default = "gfx/models/portraits/human/human_male_hair_black_style_04_and_beard_dark_style_02.dds" }
+hero_miles_obrien_hair = { default = "gfx/models/portraits/human/human_male_hair_blond_style_11.dds" }
+hero_wesley_crusher_hair = { default = "gfx/models/portraits/human/human_male_hair_black_style_04.dds" }
+hero_jennifer_sisko_hair = { default = "gfx/models/portraits/human/human_female_hair_black_style_03.dds" }
+hero_kathryn_janeway_hair = { default = "gfx/models/portraits/human/human_female_hair_blonde_style_06.dds" }
+hero_kassidy_yates_hair = { default = "gfx/models/portraits/human/human_female_hair_black_style_05.dds" }
+hero_annika_hansen_hair = { default = "gfx/models/portraits/human/human_female_hair_blonde_style_01.dds" }
+hero_beverley_crusher_hair = { default = "gfx/models/portraits/human/human_female_hair_red_style_01.dds" }

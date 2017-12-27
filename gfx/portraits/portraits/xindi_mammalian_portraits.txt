@@ -1,0 +1,138 @@
+portraits = {
+	# xindi_mammalian
+	xindi_mammalian_female_01 = {
+		entity = "portrait_xindi_mammalian_female_01_entity"	clothes_selector = "xindi_mammalian_female_clothes_01" 	hair_selector = "xindi_mammalian_female_hair_01"	greeting_sound = "human_female_greetings_01"
+		character_textures = { "gfx/models/portraits/xindi_mammalian/xindi_mammalian_female_body_01.dds" }
+	}
+	xindi_mammalian_female_02 = {	
+		entity = "portrait_xindi_mammalian_female_02_entity"	clothes_selector = "xindi_mammalian_female_clothes_01" 	hair_selector = "xindi_mammalian_female_hair_01"	greeting_sound = "human_female_greetings_02"
+		character_textures = { "gfx/models/portraits/xindi_mammalian/xindi_mammalian_female_body_02.dds" }
+	}
+	xindi_mammalian_female_04 = {	
+		entity = "portrait_xindi_mammalian_female_04_entity"	clothes_selector = "xindi_mammalian_female_clothes_01" 	hair_selector = "xindi_mammalian_female_hair_01"	greeting_sound = "human_female_greetings_04"
+		character_textures = { "gfx/models/portraits/xindi_mammalian/xindi_mammalian_female_body_04.dds" }
+	}
+	xindi_mammalian_female_05 = {	
+		entity = "portrait_xindi_mammalian_female_05_entity"	clothes_selector = "xindi_mammalian_female_clothes_01" 	hair_selector = "xindi_mammalian_female_hair_01"	greeting_sound = "human_female_greetings_05"
+		character_textures = { "gfx/models/portraits/xindi_mammalian/xindi_mammalian_female_body_05.dds" }
+	}
+	xindi_mammalian_male_01 = {	
+		entity = "portrait_xindi_mammalian_male_01_entity"	clothes_selector = "xindi_mammalian_male_clothes_01" 	hair_selector = "xindi_mammalian_male_hair_01"		greeting_sound = "human_male_greetings_01" 
+		character_textures = { "gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_body_01.dds" }
+	}	
+	xindi_mammalian_male_02 = {	
+		entity = "portrait_xindi_mammalian_male_02_entity"	clothes_selector = "xindi_mammalian_male_clothes_01" 	hair_selector = "xindi_mammalian_male_hair_01"		greeting_sound = "human_male_greetings_02" 
+		character_textures = { "gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_body_02.dds" }
+	}
+	xindi_mammalian_male_04 = {	
+		entity = "portrait_xindi_mammalian_male_04_entity"	clothes_selector = "xindi_mammalian_male_clothes_01" 	hair_selector = "xindi_mammalian_male_hair_01"		greeting_sound = "human_male_greetings_04" 
+		character_textures = { "gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_body_04.dds" }
+	}
+	xindi_mammalian_male_05 = {	
+		entity = "portrait_xindi_mammalian_male_05_entity"	clothes_selector = "xindi_mammalian_male_clothes_01" 	hair_selector = "xindi_mammalian_male_hair_01"	greeting_sound = "human_male_greetings_05"
+		character_textures = { "gfx/models/portraits/xindi_mammalian/xindi_mammalian_male_body_05.dds" }
+	}
+}
+
+portrait_groups = {
+	xindi_mammalian = {
+		default = xindi_mammalian_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = { ruler = { gender = male } }
+				portraits = {
+					xindi_mammalian_male_01
+					xindi_mammalian_male_02
+					xindi_mammalian_male_04
+					xindi_mammalian_male_05
+				}
+			}
+			add = {
+				trigger = { ruler = { gender = female } }
+				portraits = {
+					xindi_mammalian_female_01
+					xindi_mammalian_female_02
+					xindi_mammalian_female_04
+					xindi_mammalian_female_05
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					xindi_mammalian_female_01
+					xindi_mammalian_female_02				
+					xindi_mammalian_female_04
+					xindi_mammalian_female_05
+					xindi_mammalian_male_01
+					xindi_mammalian_male_02				
+					xindi_mammalian_male_04
+					xindi_mammalian_male_05
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					xindi_mammalian_female_01
+					xindi_mammalian_female_02				
+					xindi_mammalian_female_04
+					xindi_mammalian_female_05
+					xindi_mammalian_male_01
+					xindi_mammalian_male_02		
+					xindi_mammalian_male_04
+					xindi_mammalian_male_05
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {	gender = female	}
+				portraits = {
+					xindi_mammalian_female_01
+					xindi_mammalian_female_02					
+					xindi_mammalian_female_04
+					xindi_mammalian_female_05
+				}
+			}
+			add = {
+				trigger = {	gender = male }
+				portraits = {
+					xindi_mammalian_male_01
+					xindi_mammalian_male_02			
+					xindi_mammalian_male_04
+					xindi_mammalian_male_05
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = { gender = female }
+				portraits = {
+					xindi_mammalian_female_01
+					xindi_mammalian_female_02				
+					xindi_mammalian_female_04
+					xindi_mammalian_female_05
+				}
+			}
+			add = {
+				trigger = { gender = male }
+				portraits = {
+					xindi_mammalian_male_01
+					xindi_mammalian_male_02				
+					xindi_mammalian_male_04
+					xindi_mammalian_male_05
+				}
+			}
+		}
+	}	
+}

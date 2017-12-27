@@ -1,0 +1,166 @@
+# This is a template which multiple species can use. 
+
+klingon_male_clothes_combined = {
+	default = "gfx/models/portraits/klingon/klingon_male_clothes_01.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/klingon/klingon_male_clothes_01.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		"gfx/models/portraits/klingon/klingon_male_clothes_01.dds" = { 
+			NOT = {
+				years_passed > 99
+			}
+		}
+		"gfx/models/portraits/klingon original series/tos_klingon_male_clothes_01.dds" = { 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		"gfx/models/portraits/klingon/klingon_male_clothes_01.dds" = { 
+			AND = {
+				years_passed > 139
+			}
+		}
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/klingon civilian/civ_klingon_male_clothes_01.dds"
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/klingon civilian/civ_klingon_male_clothes_01.dds"
+				"gfx/models/portraits/klingon civilian/civ_klingon_male_clothes_02.dds"
+				"gfx/models/portraits/klingon civilian/civ_klingon_male_clothes_03.dds"
+				"gfx/models/portraits/klingon civilian/civ_klingon_male_clothes_04.dds"
+				"gfx/models/portraits/klingon civilian/civ_klingon_male_clothes_05.dds"
+			}
+		}
+
+        random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_male_clothes_01.dds"
+	        } 
+        } 
+	}
+	
+	#leader scope	
+	leader = { #scientists, generals, admirals, governor
+		#Ent
+		"gfx/models/portraits/klingon/klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			NOT = { years_passed > 99 }
+		}
+		"gfx/models/portraits/klingon/klingon_male_clothes_02.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			NOT = { years_passed > 99 }
+		}
+		"gfx/models/portraits/klingon/klingon_male_clothes_03.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral 
+			NOT = { years_passed > 99 }
+		}
+		"gfx/models/portraits/klingon/klingon_male_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			NOT = { years_passed > 99 }
+		}
+		#TOS
+		"gfx/models/portraits/klingon original series/tos_klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		"gfx/models/portraits/klingon original series/tos_klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		"gfx/models/portraits/klingon original series/tos_klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		"gfx/models/portraits/klingon original series/tos_klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		#TNG
+		"gfx/models/portraits/klingon/klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = scientist 
+			NOT = { years_passed > 99 }
+		}
+		"gfx/models/portraits/klingon/klingon_male_clothes_02.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = general 
+			NOT = { years_passed > 99 }
+		}
+		"gfx/models/portraits/klingon/klingon_male_clothes_03.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = admiral 
+			NOT = { years_passed > 99 }
+		}
+		"gfx/models/portraits/klingon/klingon_male_clothes_04.dds" = { 
+			uses_borg_prosthetics = no
+			leader_class = governor 
+			NOT = { years_passed > 99 }
+		}	
+        random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_male_clothes_01.dds"
+	        } 
+        } 
+	}	
+
+	#leader scope 
+	ruler = { #for rulers
+		#default = "gfx/models/portraits/klingon/klingon_male_clothes_01.dds"
+		"gfx/models/portraits/klingon/klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			NOT = {
+				years_passed > 99
+			}
+		}
+		"gfx/models/portraits/klingon original series/tos_klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			AND = {
+				years_passed > 99
+				years_passed < 140
+			}
+		}
+		"gfx/models/portraits/klingon/klingon_male_clothes_01.dds" = { 
+			uses_borg_prosthetics = no
+			AND = {
+				years_passed > 139
+			}
+		}
+        random = { 
+	        trigger = { uses_borg_prosthetics = yes } 
+	        list = {
+		        "gfx/models/portraits/borg/borg_male_clothes_01.dds"
+	        } 
+        } 
+	}
+}

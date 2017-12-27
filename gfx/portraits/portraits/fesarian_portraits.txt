@@ -1,0 +1,125 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Human
+	fesarian_female_01 = { 
+		entity = "portrait_fesarian_female_01_entity" clothes_selector = "fesarian_female_clothes_01" hair_selector = "fesarian_female_hair_01" greeting_sound = "human_female_greetings_03" 
+		character_textures = { "gfx/models/portraits/fesarian/fesarian_female_body_01.dds" }
+	}
+	fesarian_female_04 = { 
+		entity = "portrait_fesarian_female_04_entity" clothes_selector = "fesarian_female_clothes_01" hair_selector = "fesarian_female_hair_01" greeting_sound = "human_female_greetings_01" 
+		character_textures = { "gfx/models/portraits/fesarian/fesarian_female_body_04.dds" }
+	}
+	fesarian_male_01 = { 
+		entity = "portrait_fesarian_male_01_entity" clothes_selector = "fesarian_male_clothes_01" hair_selector = "fesarian_male_hair_01" greeting_sound = "human_male_greetings_03" 
+		character_textures = { "gfx/models/portraits/fesarian/fesarian_male_body_01.dds" }
+	}
+	fesarian_male_04 = { 
+		entity = "portrait_fesarian_male_04_entity" clothes_selector = "fesarian_male_clothes_01" hair_selector = "fesarian_male_hair_01" greeting_sound = "human_male_greetings_01" 
+		character_textures = { "gfx/models/portraits/fesarian/fesarian_male_body_04.dds" }
+	}
+}
+
+portrait_groups = {
+	fesarian = {
+		default = fesarian_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					fesarian_male_01
+					fesarian_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					fesarian_female_01
+					fesarian_female_04
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					fesarian_female_01
+					fesarian_female_04
+					fesarian_male_01
+					fesarian_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					fesarian_female_01
+					fesarian_female_04
+					fesarian_male_01
+					fesarian_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fesarian_female_01				
+					fesarian_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fesarian_male_01				
+					fesarian_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fesarian_female_01				
+					fesarian_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fesarian_male_01				
+					fesarian_male_04
+				}
+			}
+		}
+	}
+}
