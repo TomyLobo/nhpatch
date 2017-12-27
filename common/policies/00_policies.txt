@@ -1401,7 +1401,7 @@ purge = {
 	potential = {
 		NOR = { 
 			has_ethic = "ethic_gestalt_consciousness"
-			is_species_class = BRG
+			#is_species_class = BRG
 		}
 		NOT = { has_valid_civic = civic_fanatic_purifiers }
 	}
