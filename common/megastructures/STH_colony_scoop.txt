@@ -36,8 +36,17 @@ STH_colony_scoop_0 = {
 			}
 			custom_tooltip_fail = {
 				text = "requires_nonassimilated_or_underpopped"
-				NOT = {
-					is_planet_class = pc_unimatrix
+				OR = {
+					AND = {
+						num_pops < 2
+						is_planet_class = pc_assimilated
+					}
+					AND = {
+						NOR = { 
+							is_planet_class = pc_unimatrix
+							is_planet_class = pc_assimilated 
+						}
+					}
 				}
 			}
 		}
