@@ -875,19 +875,6 @@ country_event = {
 }
 
 
-country_event = {
-	id = nhTest.10000
-	title = nhTest.10000.name
-	desc = nhTest.10000.desc
-	picture = GFX_evt_smugglers_in_bar
-	mean_time_to_happen = { months = 1 }
-	fire_only_once = yes
-	trigger = { has_country_flag = sheliak_corporate }
-	immediate = { set_graphical_culture = sheliak_01 }
-	option = {
-		name = "Change G Culture"
-	}
-}
 
 fleet_event = {
 	id = nhTest.10001
@@ -916,9 +903,69 @@ country_event = {
 	desc = nhTest.10002.desc
 	picture = GFX_evt_smugglers_in_bar
 	is_triggered_only = yes
-	immediate = {  }
+	immediate = { }
+	# option = {
+		# name = "Add 250 prosperity"
+		# add_modifier = { modifier = em_sth_policy_ufp_cultural_25 days = -1 }
+	# }
 	option = {
-		name = "Add 250 prosperity"
-		add_modifier = { modifier = em_sth_policy_ufp_cultural_25 days = -1 }
+		name = "[Root.GetName] [Root.variable1]"
+		change_variable = { which = variable1 value = 1 }
+		country_event = { id = nhTest.10002 scopes = { from = from } }
+	}
+	option = {
+		name = "[From.GetName] [From.variable1]"
+		if = {
+			limit = { NOT = { any_country = { check_variable = { which = variable1 value > 0 } } } }
+			random_country = { 
+				limit = { NOT = { is_same_value = Root } }
+				change_variable = { which = variable1 value = 1 } 
+				Root = { country_event = { id = nhTest.10002 scopes = { from = prev } } }
+			}
+			else = {
+				random_country = { 
+					limit = { check_variable = { which = variable1 value > 0 } NOT = { is_same_value = Root } }
+					change_variable = { which = variable1 value = 1 }
+					Root = { country_event = { id = nhTest.10002 scopes = { from = prev } } }
+				}
+			}
+		} 
+		
 	}
 }
+
+country_event = {
+	id = nhTest.10005
+	title = nhTest.10005.name
+	desc = nhTest.10005.desc
+	fire_only_once = yes
+	picture = GFX_evt_smugglers_in_bar
+	is_triggered_only = yes
+	trigger = { 
+		# years_passed > 30
+		# any_country = {
+		# 	NOT = { has_country_flag = the_dominion }
+		# 	any_owned_pop_species = {
+		# 		is_species_class = "VOR"
+		# 	}	 
+		# }
+	}	
+	immediate = { 
+		every_country = {
+			limit = {
+				NOT = { has_country_flag = the_dominion }
+				any_owned_pop_species = {
+					is_species_class = "VOR"
+				}	 
+			}
+			every_owned_pop = {
+				limit = { species = { is_species_class = "VOR" } }
+				kill_pop = yes
+			}				
+		}
+	}
+	option = {
+		name = "purge non dominion vorta"
+	}
+}
+

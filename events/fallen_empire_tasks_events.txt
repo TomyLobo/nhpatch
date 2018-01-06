@@ -482,7 +482,7 @@ country_event = {
 						}
 						effect = {
 							set_owner = ROOT
-							create_ship = { name = random random_existing_design = strike graphical_culture = root prefix = no }
+							create_ship = { name = random random_existing_design = strike graphical_culture = event_target:FallenEmpireTaskOrigin prefix = no }
 							last_created_ship = { 
 								if = {
 									limit = { owner = { OR = { has_country_flag = starfleet_tos has_country_flag = klingon_tos has_country_flag = romulan_tos has_country_flag = generic_tos has_country_flag = borg_tos } } }
@@ -501,7 +501,7 @@ country_event = {
 									add_modifier = { modifier = "erabuff_tng2" days = -1 } 
 								}
 							}
-							create_ship = { name = random random_existing_design = strike graphical_culture = root prefix = no }
+							create_ship = { name = random random_existing_design = strike graphical_culture = event_target:FallenEmpireTaskOrigin prefix = no }
 							last_created_ship = { 
 								if = {
 									limit = { owner = { OR = { has_country_flag = starfleet_tos has_country_flag = klingon_tos has_country_flag = romulan_tos has_country_flag = generic_tos has_country_flag = borg_tos } } }
@@ -520,7 +520,7 @@ country_event = {
 									add_modifier = { modifier = "erabuff_tng2" days = -1 } 
 								}
 							}
-							create_ship = { name = random random_existing_design = strike graphical_culture = root prefix = no }
+							create_ship = { name = random random_existing_design = strike graphical_culture = event_target:FallenEmpireTaskOrigin prefix = no }
 							last_created_ship = { 
 								if = {
 									limit = { owner = { OR = { has_country_flag = starfleet_tos has_country_flag = klingon_tos has_country_flag = romulan_tos has_country_flag = generic_tos has_country_flag = borg_tos } } }
@@ -561,7 +561,7 @@ country_event = {
 						}
 						effect = {
 							set_owner = ROOT
-							create_ship = { name = random random_existing_design = assault_cruiser graphical_culture = root prefix = no }
+							create_ship = { name = random random_existing_design = assault_cruiser graphical_culture = event_target:FallenEmpireTaskOrigin prefix = no }
 							last_created_ship = { 
 								if = {
 									limit = { owner = { OR = { has_country_flag = starfleet_tos has_country_flag = klingon_tos has_country_flag = romulan_tos has_country_flag = generic_tos has_country_flag = borg_tos } } }
@@ -580,7 +580,7 @@ country_event = {
 									add_modifier = { modifier = "erabuff_tng2" days = -1 } 
 								}
 							}
-							create_ship = { name = random random_existing_design = assault_cruiser graphical_culture = root prefix = no }
+							create_ship = { name = random random_existing_design = assault_cruiser graphical_culture = event_target:FallenEmpireTaskOrigin prefix = no }
 							last_created_ship = { 
 								if = {
 									limit = { owner = { OR = { has_country_flag = starfleet_tos has_country_flag = klingon_tos has_country_flag = romulan_tos has_country_flag = generic_tos has_country_flag = borg_tos } } }
@@ -599,7 +599,7 @@ country_event = {
 									add_modifier = { modifier = "erabuff_tng2" days = -1 } 
 								}
 							}
-							create_ship = { name = random random_existing_design = assault_cruiser graphical_culture = root prefix = no }
+							create_ship = { name = random random_existing_design = assault_cruiser graphical_culture = event_target:FallenEmpireTaskOrigin prefix = no }
 							last_created_ship = { 
 								if = {
 									limit = { owner = { OR = { has_country_flag = starfleet_tos has_country_flag = klingon_tos has_country_flag = romulan_tos has_country_flag = generic_tos has_country_flag = borg_tos } } }

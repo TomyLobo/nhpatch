@@ -1361,7 +1361,7 @@ country_event = {
 	id = country.50
 	title = "country.50.name"
 	desc = {
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		text = "country.50.desc.borg"
 	}
 	desc = {
@@ -1369,11 +1369,11 @@ country_event = {
 		text = "country.50.desc.dominion"
 	}
 	desc = {
-		trigger = { is_xenophobic = yes is_borg_empire = no is_changeling_empire = no }
+		trigger = { is_xenophobic = yes is_assimilator = no is_changeling_empire = no }
 		text = "country.50.desc.xenophobe"
 	}
 	desc = {
-		trigger = { is_borg_empire = no is_changeling_empire = no is_xenophobic = no }
+		trigger = { is_assimilator = no is_changeling_empire = no is_xenophobic = no }
 		text = "country.50.desc"
 	}
 	picture = GFX_evt_microscopic_life
@@ -1398,7 +1398,7 @@ country_event = {
 
 	option = {
 		name = "country.50.a"
-		trigger = { is_borg_empire = no }
+		trigger = { is_assimilator = no }
 		begin_event_chain = {
 			event_chain = "survey_habitable_worlds_chain"
 			target = ROOT
@@ -1406,12 +1406,12 @@ country_event = {
 	}
 	option = {
 		name = "country.50.b"
-		trigger = { is_borg_empire = no }
+		trigger = { is_assimilator = no }
 		add_influence = 20
 	}
 	option = {
 		name = "country.50.a.borg"
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		begin_event_chain = {
 			event_chain = "survey_habitable_worlds_chain"
 			target = ROOT
@@ -1419,7 +1419,7 @@ country_event = {
 	}
 	option = {
 		name = "country.50.b.borg"
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		add_unity = 50
 	}
 }
@@ -1429,7 +1429,7 @@ country_event = {
 	id = country.51
 	title = "country.51.name"
 	desc = {
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		text = "country.51.desc.borg"
 	}
 	desc = {
@@ -1437,11 +1437,11 @@ country_event = {
 		text = "country.51.desc.dominion"
 	}
 	desc = {
-		trigger = { is_xenophobic = yes is_borg_empire = no is_changeling_empire = no }
+		trigger = { is_xenophobic = yes is_assimilator = no is_changeling_empire = no }
 		text = "country.51.desc.xenophobe"
 	}
 	desc = {
-		trigger = { is_borg_empire = no is_changeling_empire = no is_xenophobic = no }
+		trigger = { is_assimilator = no is_changeling_empire = no is_xenophobic = no }
 		text = "country.51.desc"
 	}
 	picture = GFX_evt_society_research
@@ -1465,7 +1465,7 @@ country_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { is_borg_empire = no }
+		trigger = { is_assimilator = no }
 		end_event_chain = "survey_habitable_worlds_chain"
 		add_monthly_resource_mult = { resource = society_research value = @tier4researchreward min = @tier4researchmin max = @tier4researchmax }
 		add_monthly_resource_mult = { resource = energy value = @tier1materialreward min = @tier1materialmin max = @tier1materialmax }
@@ -1473,7 +1473,7 @@ country_event = {
 	}
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		end_event_chain = "survey_habitable_worlds_chain"
 		add_monthly_resource_mult = { resource = society_research value = @tier4researchreward min = @tier4researchmin max = @tier4researchmax }
 		add_monthly_resource_mult = { resource = energy value = @tier1materialreward min = @tier1materialmin max = @tier1materialmax }
@@ -1510,11 +1510,11 @@ country_event = {
 	id = country.53
 	title = "country.53.name"
 	desc = {
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		text = "country.53.desc.borg"
 	}
 	desc = {
-		trigger = { is_borg_empire = no }
+		trigger = { is_assimilator = no }
 		text = "country.53.desc"
 	}
 	picture = GFX_evt_society_research
@@ -1681,7 +1681,7 @@ country_event = {
 	immediate = { remove_country_flag = museum_of_exobiology }
 	option = {
 		name = "country.53.a"
-		trigger = { is_borg_empire = no }
+		trigger = { is_assimilator = no }
 		begin_event_chain = { event_chain = "specimen_procurement_chain" target = ROOT }
 		hidden_effect = {
 			random_planet = { # TARBLAC
@@ -1807,11 +1807,11 @@ country_event = {
 	}
 	option = {
 		name = "country.53.b"
-		trigger = { is_borg_empire = no }
+		trigger = { is_assimilator = no }
 	}
 	option = {
 		name = "country.53.a.borg"
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		begin_event_chain = { event_chain = "specimen_procurement_chain" target = ROOT }
 		hidden_effect = {
 			random_planet = { # TARBLAC
@@ -1937,7 +1937,7 @@ country_event = {
 	}
 	option = {
 		name = "country.53.b.borg"
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 	}
 }
 
@@ -1946,11 +1946,11 @@ ship_event = {
 	id = country.54
 	title = "country.54.name"
 	desc = { 
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		text = "country.54.desc.borg"
 	}
 	desc = { 
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		text = "country.54.desc"
 	}
 	picture = GFX_evt_society_research
@@ -1961,7 +1961,7 @@ ship_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -1990,7 +1990,7 @@ ship_event = {
 	}
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2024,11 +2024,11 @@ ship_event = {
 	id = country.55
 	title = "country.55.name"
 	desc = { 
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		text = "country.55.desc.borg"
 	}
 	desc = { 
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		text = "country.55.desc"
 	}
 	picture = GFX_evt_society_research
@@ -2039,7 +2039,7 @@ ship_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2069,7 +2069,7 @@ ship_event = {
 	
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2103,11 +2103,11 @@ ship_event = {
 	id = country.56
 	title = "country.56.name"
 	desc = { 
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		text = "country.56.desc.borg"
 	}
 	desc = { 
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		text = "country.56.desc"
 	}
 	picture = GFX_evt_society_research
@@ -2118,7 +2118,7 @@ ship_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2148,7 +2148,7 @@ ship_event = {
 	
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2182,11 +2182,11 @@ ship_event = {
 	id = country.57
 	title = "country.57.name"
 	desc = { 
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		text = "country.57.desc.borg"
 	}
 	desc = { 
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		text = "country.57.desc"
 	}
 	picture = GFX_evt_society_research
@@ -2197,7 +2197,7 @@ ship_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2227,7 +2227,7 @@ ship_event = {
 	
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2261,11 +2261,11 @@ ship_event = {
 	id = country.58
 	title = "country.58.name"
 	desc = {
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		text = "country.58.desc.borg"
 	}
 	desc = {
-		trigger = { owner = { is_borg_empire = on } }
+		trigger = { owner = { is_assimilator = on } }
 		text = "country.58.desc"
 	}
 	picture = GFX_evt_society_research
@@ -2276,7 +2276,7 @@ ship_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2305,7 +2305,7 @@ ship_event = {
 	}
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2339,11 +2339,11 @@ ship_event = {
 	id = country.59
 	title = "country.59.name"
 	desc = { 
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		text = "country.59.desc.borg" 
 	}
 	desc = { 
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		text = "country.59.desc" 
 	}
 	picture = GFX_evt_society_research
@@ -2354,7 +2354,7 @@ ship_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2383,7 +2383,7 @@ ship_event = {
 	}
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2417,11 +2417,11 @@ ship_event = {
 	id = country.60
 	title = "country.60.name"
 	desc = {
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		text = "country.60.desc.borg"
 	}
 	desc = {
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		text = "country.60.desc"
 	}
 	picture = GFX_evt_society_research
@@ -2432,7 +2432,7 @@ ship_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { owner = { is_borg_empire = no } }
+		trigger = { owner = { is_assimilator = no } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2461,7 +2461,7 @@ ship_event = {
 	}
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { owner = { is_borg_empire = yes } }
+		trigger = { owner = { is_assimilator = yes } }
 		owner = {
 			add_event_chain_counter = { 
 				event_chain = "specimen_procurement_chain" 
@@ -2495,11 +2495,11 @@ country_event = {
 	id = country.61
 	title = "country.61.name"
 	desc = {
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		text = "country.61.desc.borg"
 	}
 	desc = {
-		trigger = { is_borg_empire = no }
+		trigger = { is_assimilator = no }
 		text = "country.61.desc"
 	}
 	picture = GFX_evt_society_research
@@ -2524,7 +2524,7 @@ country_event = {
 
 	option = {
 		name = "EXCELLENT"
-		trigger = { is_borg_empire = no }
+		trigger = { is_assimilator = no }
 		end_event_chain = "specimen_procurement_chain"
 		add_monthly_resource_mult = {
 			resource = society_research
@@ -2551,7 +2551,7 @@ country_event = {
 	}
 	option = {
 		name = "BORG_UNDERSTOOD"
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		end_event_chain = "specimen_procurement_chain"
 		add_monthly_resource_mult = { resource = society_research value = @tier4researchreward min = @tier4researchmin max = @tier4researchmax }
 		add_monthly_resource_mult = { resource = energy value = @tier1materialreward min = @tier1materialmin max = @tier1materialmax }

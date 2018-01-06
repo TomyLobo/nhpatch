@@ -87,7 +87,7 @@ country_event = {
 
 		# War in Heaven
 		if = {
-			limit = { host_has_dlc = "Leviathans Story Pack" }
+			limit = { host_has_dlc = "Leviathans Story Pack" always = no }
 			random_list = {
 				40 = { # War in Heaven with Fallen Empire of opposing ethos
 					random_country = {

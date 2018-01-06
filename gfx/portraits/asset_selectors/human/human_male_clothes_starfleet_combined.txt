@@ -19,7 +19,11 @@ human_male_clothes_starfleet_combined = {
 	#pop scope 
 	pop = { #for a specific pop 
 		random = { 
-			trigger = { uses_borg_prosthetics = no } 
+			trigger = { has_pop_flag = cowboy_pop } 
+			list = { "gfx/models/portraits/all/humanoid_male_cowboy_clothes_01.dds" "gfx/models/portraits/all/humanoid_male_cowboy_clothes_02.dds" "gfx/models/portraits/all/humanoid_male_cowboy_clothes_03.dds" }
+		}
+		random = { 
+			trigger = { uses_native_clothes_pop = yes } 
 			list = { "gfx/models/portraits/human_civilian/civ_human_male_clothes_01.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_02.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_03.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_04.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_05.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_06.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_07.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_08.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_09.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_10.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_11.dds" "gfx/models/portraits/human_civilian/civ_human_male_clothes_12.dds" } 
 		}
         random = {  

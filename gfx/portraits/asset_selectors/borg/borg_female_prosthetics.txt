@@ -10,28 +10,51 @@ borg_female_prosthetics = {
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
+		"gfx/models/portraits/all/human_female_hair_cyan_style_08.dds" = { uses_borg_prosthetics = no }
 	}
 	
 	#pop scope
 	pop = { #for a specific pop
 		default = "gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
 		random = {
+			trigger = { uses_borg_prosthetics = yes } 
 			list = {
 				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
 				"gfx/models/portraits/borg/borg_female_prosthetic_02.dds"	
 				"gfx/models/portraits/borg/borg_female_prosthetic_03.dds"
 			}
-		}	
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/all/human_female_hair_cyan_style_01.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_05.dds"	
+				"gfx/models/portraits/all/human_female_hair_cyan_style_06.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_08.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_09.dds"	
+			}
+		}
 	}
 	
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
 		default = "gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
 		random = {
+			trigger = { uses_borg_prosthetics = yes } 
 			list = {
 				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
 				"gfx/models/portraits/borg/borg_female_prosthetic_02.dds"
 				"gfx/models/portraits/borg/borg_female_prosthetic_03.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/all/human_female_hair_cyan_style_01.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_05.dds"	
+				"gfx/models/portraits/all/human_female_hair_cyan_style_06.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_08.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_09.dds"	
 			}
 		}
 	}
@@ -40,10 +63,21 @@ borg_female_prosthetics = {
 	ruler = { #for rulers
 		default = "gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
 		random = {
+			trigger = { uses_borg_prosthetics = yes } 
 			list = {
 				"gfx/models/portraits/borg/borg_female_prosthetic_01.dds"
 				"gfx/models/portraits/borg/borg_female_prosthetic_02.dds"
 				"gfx/models/portraits/borg/borg_female_prosthetic_03.dds"
+			}
+		}
+		random = {
+			trigger = { uses_borg_prosthetics = no } 
+			list = {
+				"gfx/models/portraits/all/human_female_hair_cyan_style_01.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_05.dds"	
+				"gfx/models/portraits/all/human_female_hair_cyan_style_06.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_08.dds"
+				"gfx/models/portraits/all/human_female_hair_cyan_style_09.dds"	
 			}
 		}		
 	}

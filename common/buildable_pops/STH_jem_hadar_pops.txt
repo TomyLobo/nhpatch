@@ -1,136 +1,14 @@
-#####################################################
-#	Test for building the Dominion and Jem'Hadar	#
-#####################################################
-
-###Jem"Hadar
-# pop_jem'hadar_1 = {
-		
-	# prerequisites = {
-		# "tech_jem_hadar_cloning"
-	# }
-	# cost = {
-		# minerals = 150
-		# energy = 50
-		# sr_ketracel_13 = 150
-	# }
-	# allow = {
-		# OR = {
-			# has_country_flag = the_dominion
-			# has_country_flag = vortan_assembly
-		# }
-	# }
-	# potential_build = {
-		# always = yes
-	# }
-
-	# tile_potential = {
-		# always = yes
-	# }
-
-	# tile_allow = {
-		# always = yes
-	# }
-
-	# species = {
-		# name = "Jem'Hadar"
-		# name_list = "JEM"
-		# class = "JEM"
-		# portrait = "jem'hadar_male_01"
-		# traits = {
-			# trait = "trait_clone"
-			# trait = "trait_bred_for_war"
-			# trait = "trait_ketracel_white_addiction"
-			# trait = "trait_pc_ocean_preference"
-			# trait = "trait_pop_jem'hadar_1"
-		# }
-		# new_pop_resource_requirement = {
-			# type = clone_food
-			# value = 10
-		# }
-		# pops_auto_upgrade_to = pop_alpha_2
-		# pops_auto_growth = 1.0
-		# pops_can_be_colonizers = no	
-		# pops_can_migrate = no	
-		# pops_can_join_factions = no	
-		# can_generate_leaders  = yes	
-		# pops_can_be_slaves = no	
-		# pops_have_happiness = yes	
-		# pop_ethics  = random	
-		# pops_can_reproduce = no
-		# pop_maintenance = 1
-		# can_be_modified = no
-	# }
-# }
-
-##Alpha Jem"Hadar
-# pop_alpha_2 = {
-		
-	# prerequisites = {
-		# "tech_society_enhanced_478"
-	# }
-	# cost = {
-		# minerals = 150
-		# energy = 50
-		# sr_ketracel_13 = 150
-	# }
-	
-	# potential_build = {
-		# always = yes
-	# }
-	# species = {
-		# name = "Jem'Hadar"
-		# name_list = "JEM"
-		# class = "JEM"
-		# portrait = "jem'hadar_male_01"
-		# traits = {
-			# trait = "trait_clone"
-			# trait = "trait_bred_for_war"
-			# trait = "trait_ketracel_white_addiction"
-			# trait = "trait_pc_ocean_preference"
-			# trait = "trait_pop_alpha_2"	
-		# }
-		# new_pop_resource_requirement = {
-			# type = clone_food
-			# value = 10
-		# }
-		# pops_auto_growth = 1.0
-		# pops_can_be_colonizers = no	
-		# pops_can_migrate = no	
-		# pops_can_join_factions = no	
-		# can_generate_leaders  = no	
-		# pops_can_be_slaves = no	
-		# pops_have_happiness = yes	
-		# pop_ethics  = no
-		# pops_can_reproduce = no
-		# pop_maintenance = 1
-		# can_be_modified = no	
-	# }
-# }
-
 buildable_vorta = {
 	cost = { minerals = 100 }
+	prerequisites = { "tech_jem_hadar_cloning" }
 	potential_build = { always = yes }
 	species_class = VOR
 }
+
 buildable_jem_hadar = {
 	cost = { minerals = 100 }
 	potential_build = { always = yes }
+	prerequisites = { "tech_jem_hadar_cloning" }
 	allow = { OR = { has_country_strategic_resource = { type = sr_ketracel_13 amount > 1 } has_country_strategic_resource = { type = sr_ketracel_13 amount = 1 } } }
 	species_class = JEM
 }
-
-# buildable_jem_hadar_ai = {
-	# cost = { minerals = 100 }
-	# potential_build = { is_ai = yes }
-	# allow = { has_country_strategic_resource = { type = sr_ketracel_13 amount > 1 } }
-	# species_class = JEM
-# }
-
-
-
-# buildable_vorta_ai = {
-	# cost = { minerals = 100 }
-	# potential_build = { is_ai = yes }
-	# species_class = VOR
-# }
-

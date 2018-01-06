@@ -171,43 +171,43 @@ country_event = {
 	id = country.999
 	title = "country.999.name"
 	desc = {
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		text = country.999.desc.borg
 	}
 	desc = {
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_materialist }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_materialist }
 		text = country.999.desc.material
 	}
 	desc = {
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_spiritualist }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_spiritualist }
 		text = country.999.desc.spirit
 	}
 	desc = {
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_militarist }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_militarist }
 		text = country.999.desc.mil
 	}
 	desc = {
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_pacifist }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_pacifist }
 		text = country.999.desc.pac
 	}
 	desc = {
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_xenophile }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_xenophile }
 		text = country.999.desc.phile
 	}
 	desc = {
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_xenophobe }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_xenophobe }
 		text = country.999.desc.phobe
 	}
 	desc = {
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_authoritarian }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_authoritarian }
 		text = country.999.desc.coll
 	}
 	desc = {
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_egalitarian }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_egalitarian }
 		text = country.999.desc.ind
 	}
 	desc = {
-		trigger = { is_borg_empire = no NOR = { has_ethic = ethic_fanatic_materialist has_ethic = ethic_fanatic_spiritualist has_ethic = ethic_fanatic_militarist has_ethic = ethic_fanatic_pacifist has_ethic = ethic_fanatic_xenophile has_ethic = ethic_fanatic_xenophobe has_ethic = ethic_fanatic_authoritarian has_ethic = ethic_fanatic_egalitarian } }
+		trigger = { is_assimilator = no NOR = { has_ethic = ethic_fanatic_materialist has_ethic = ethic_fanatic_spiritualist has_ethic = ethic_fanatic_militarist has_ethic = ethic_fanatic_pacifist has_ethic = ethic_fanatic_xenophile has_ethic = ethic_fanatic_xenophobe has_ethic = ethic_fanatic_authoritarian has_ethic = ethic_fanatic_egalitarian } }
 		text = country.999.desc.material
 	}
 	picture = GFX_evt_atmospheric_entry
@@ -220,13 +220,13 @@ country_event = {
 	immediate = { set_country_flag = had_comet }
 	option = {
 		name = BORG_UNDERSTOOD
-		trigger = { is_borg_empire = yes }
+		trigger = { is_assimilator = yes }
 		add_monthly_resource_mult = { resource = minerals value = @tier1materialreward min = 10 max = 40 }
 	}
 	option = {
 		name = country.999.a
 		trigger = {
-			is_borg_empire = no
+			is_assimilator = no
 			NOR = {
 				has_ethic = ethic_fanatic_pacifist
 				has_ethic = ethic_fanatic_militarist
@@ -248,7 +248,7 @@ country_event = {
 
 	option = {
 		name = country.999.a.pac
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_pacifist }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_pacifist }
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -259,7 +259,7 @@ country_event = {
 
 	option = {
 		name = country.999.a.mil
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_militarist }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_militarist }
 		capital_scope = {
 			add_modifier = {
 				modifier = comet_sighted_positive
@@ -270,7 +270,7 @@ country_event = {
 
 	option = {
 		name = country.999.a.spirit
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_spiritualist }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_spiritualist }
 		capital_scope = {
 			add_modifier = {
 				modifier = comet_sighted_positive
@@ -281,12 +281,12 @@ country_event = {
 
 	option = {
 		name = country.999.a.material
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_materialist }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_materialist }
 	}
 
 	option = {
 		name = country.999.a.phile
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_xenophile }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_xenophile }
 		add_monthly_resource_mult = {
 			resource = unity
 			value = @tier1unityreward
@@ -297,7 +297,7 @@ country_event = {
 
 	option = {
 		name = country.999.a.phobe
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_xenophobe }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_xenophobe }
 		capital_scope = {
 			add_modifier = {
 				modifier = comet_sighted_negative
@@ -308,7 +308,7 @@ country_event = {
 
 	option = {
 		name = country.999.a.coll
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_authoritarian }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_authoritarian }
 		capital_scope = {
 			add_modifier = {
 				modifier = comet_sighted_negative
@@ -319,7 +319,7 @@ country_event = {
 
 	option = {
 		name = country.999.a.ind
-		trigger = { is_borg_empire = no has_ethic = ethic_fanatic_egalitarian }
+		trigger = { is_assimilator = no has_ethic = ethic_fanatic_egalitarian }
 		capital_scope = {
 			add_modifier = {
 				modifier = comet_sighted_positive

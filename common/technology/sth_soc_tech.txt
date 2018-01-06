@@ -7094,7 +7094,20 @@
    }
    }
    
-
+### The Secret History of the D'Arsay
+   tech_darsay_history = {
+   
+   cost = 0
+   area = society
+   category = { statecraft }
+   tier = 0
+   
+   ### Unlocks building a unique museam
+   
+   weight = 0
+   
+   }
+   
 ### Zero-G Landscaping
    tech_society_biology_1090 = {
    

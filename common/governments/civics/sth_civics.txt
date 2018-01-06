@@ -90,6 +90,20 @@ civic_cooperative = { ### unique for cooperative borg faction
 	}
 }
 
+civic_korgano = { ### Unique civic for the D'Arsay culture
+	modification = no
+	pickable_at_start = no
+	random_weight = { base = 0 }
+	description = civic_tooltip_korgano_effects
+}
+
+civic_masaka = { ### Unique civic for the D'Arsay culture
+	modification = no
+	pickable_at_start = no
+	random_weight = { base = 0 }
+	description = civic_tooltip_masaka_effects
+}
+
 civic_telepath_hunters = {
 	modification = no
 	possible = { }

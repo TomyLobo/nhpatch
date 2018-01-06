@@ -7,7 +7,7 @@ country_event = {
 	trigger = {
 		is_ai = no
 		is_normal_country = yes
-		FROM = { is_borg_empire = yes }
+		FROM = { is_assimilator = yes }
 	}
 	immediate = {
 		establish_communications = FROM

@@ -66,7 +66,6 @@ l_default:
  format.pralor_auxiliary:0 "Pralor Auxiliary"
  format.cravic_imperative:0 "Cravic Imperative"
  format.kelpien_dutchies:0 "Kelpien Duchies"
- format.trabe_alliance:0 "Trabe Alliance"
  PRESCRIPTED_ship_prefix_UnitedEarth:0 "USS"
  PRESCRIPTED_species_name_UnitedEarth:0 "Human"
  PRESCRIPTED_species_plural_UnitedEarth:0 "Humans"

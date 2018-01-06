@@ -4422,6 +4422,7 @@ ship_event = {
 	hide_window = yes
 	
 	trigger = {
+		exists = from 
 		FROM = {
 			AND = {
 				has_owner = yes
@@ -5301,8 +5302,11 @@ ship_event = {
 	hide_window = yes
 
 	is_triggered_only = yes
+	trigger = { exists = from } 
 
 	immediate = {
+	#log = "action.24 log"
+	#print_scope_effect = yes
 		if = {
 			limit = {
 				from = { is_planet_class = pc_desert }
@@ -5368,10 +5372,196 @@ ship_event = {
 		}
 		if = {
 			limit = {
+				from = { is_planet_class = pc_l2_class }
+				owner = { NOT = { has_country_flag = pc_l2_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_l2_class }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_m1_class }
+				owner = { NOT = { has_country_flag = pc_m1_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_m1_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_g_class }
+				owner = { NOT = { has_country_flag = pc_g_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_g_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_class_q_variable }
+				owner = { NOT = { has_country_flag = pc_class_q_variable_surveyed } }
+			}
+			owner = { set_country_flag = pc_class_q_variable_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_thegreatlink }
+				owner = { NOT = { has_country_flag = pc_thegreatlink_surveyed } }
+			}
+			owner = { set_country_flag = pc_thegreatlink_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_class_q_geo }
+				owner = { NOT = { has_country_flag = pc_class_q_geo_surveyed } }
+			}
+			owner = { set_country_flag = pc_class_q_geo_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_r_class }
+				owner = { NOT = { has_country_flag = pc_r_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_r_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_f_class }
+				owner = { NOT = { has_country_flag = pc_f_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_f_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_k_class }
+				owner = { NOT = { has_country_flag = pc_k_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_k_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_y_class }
+				owner = { NOT = { has_country_flag = pc_y_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_y_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_x_class }
+				owner = { NOT = { has_country_flag = pc_x_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_x_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_class_d_barren }
+				owner = { NOT = { has_country_flag = pc_class_d_barren_surveyed } }
+			}
+			owner = { set_country_flag = pc_class_d_barren_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_class_e }
+				owner = { NOT = { has_country_flag = pc_class_e_surveyed } }
+			}
+			owner = { set_country_flag = pc_class_e_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_class_k_trans }
+				owner = { NOT = { has_country_flag = pc_class_k_trans_surveyed } }
+			}
+			owner = { set_country_flag = pc_class_k_trans_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_class_n_titan }
+				owner = { NOT = { has_country_flag = pc_class_n_titan_surveyed } }
+			}
+			owner = { set_country_flag = pc_class_n_titan_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_class_o_sulfar }
+				owner = { NOT = { has_country_flag = pc_class_o_sulfar_surveyed } }
+			}
+			owner = { set_country_flag = pc_class_o_sulfar_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_assimilated }
+				owner = { NOT = { has_country_flag = pc_assimilated_surveyed } }
+			}
+			owner = { set_country_flag = pc_assimilated_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_b_class }
+				owner = { NOT = { has_country_flag = pc_b_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_b_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_planet_remnant }
+				owner = { NOT = { has_country_flag = pc_planet_remnant_surveyed } }
+			}
+			owner = { set_country_flag = pc_planet_remnant_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_barren_broken }
+				owner = { NOT = { has_country_flag = pc_barren_broken_surveyed } }
+			}
+			owner = { set_country_flag = pc_barren_broken_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_machine }
+				owner = { NOT = { has_country_flag = pc_machine_surveyed } }
+			}
+			owner = { set_country_flag = pc_machine_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_cybrex }
+				owner = { NOT = { has_country_flag = pc_cybrex_surveyed } }
+			}
+			owner = { set_country_flag = pc_cybrex_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_portal }
+				owner = { NOT = { has_country_flag = pc_portal_surveyed } }
+			}
+			owner = { set_country_flag = pc_portal_surveyed }
+		}
+		
+		
+		
+		
+		if = {
+			limit = {
 				from = { is_planet_class = pc_gas_giant }
 				owner = { NOT = { has_country_flag = gas_giant_surveyed } }
 			}
 			owner = { set_country_flag = gas_giant_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_i_class }
+				owner = { NOT = { has_country_flag = pc_i_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_i_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_s_class }
+				owner = { NOT = { has_country_flag = pc_s_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_s_class_surveyed }
+		}
+		if = {
+			limit = {
+				from = { is_planet_class = pc_u_class }
+				owner = { NOT = { has_country_flag = pc_u_class_surveyed } }
+			}
+			owner = { set_country_flag = pc_u_class_surveyed }
 		}
 		if = {
 			limit = {
@@ -6460,7 +6650,7 @@ planet_event = {
 		NOT = { exists = fromfrom }
 		owner = {
 			OR = {
-				is_country_type = default
+				is_normal_country = yes
 				is_country_type = fallen_empire
 				is_country_type = primitive
 			}

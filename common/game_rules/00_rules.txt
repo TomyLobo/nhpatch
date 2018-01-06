@@ -19,7 +19,8 @@ species_has_citizenship = {
 #This = pop
 #also evaluates true if pop_can_live_planet is false on current planet
 can_auto_migrate_pop = {
-	root = { is_country_type = default }
+	root = { is_normal_country = yes }
+	uses_borg_prosthetics = no
 	is_sapient = yes
 	is_enslaved = no
 	is_being_purged = no
@@ -44,7 +45,7 @@ pop_can_live_on_planet = {
 		is_robot_pop = yes
 		AND = {
 			exists = owner
-			owner = { NOT = { is_country_type = default } }
+			owner = { NOT = { is_normal_country = yes } }
 		}
 		AND = {
 			has_citizenship_type = { type = citizenship_purge }
@@ -95,7 +96,9 @@ pop_can_live_on_planet = {
 #Root = country
 #This = pop
 pop_can_flee_to_country = {
-	root = { is_country_type = default }
+	root = { is_normal_country = yes }
+	root = { is_assimilator = no }
+	uses_borg_prosthetics = no
 	NOT = { root = { has_policy_flag = refugees_not_allowed } }
 	OR = {
 		has_citizenship_type = { type = citizenship_full country = root }
@@ -321,7 +324,7 @@ can_take_hostile_actions = {
 					if = {
 						limit = {
 							ROOT = { 
-								is_country_type = default
+								is_normal_country = yes
 								OR = { 
 									has_policy_flag = interference_passive 
 									has_policy_flag = interference_active
@@ -337,7 +340,7 @@ can_take_hostile_actions = {
 							if = {
 								limit = {
 									is_primitive = yes
-									ROOT = { is_country_type = default }
+									ROOT = { is_normal_country = yes }
 									capital_scope = {
 										any_country = {
 											NOT = { is_same_value = root }
@@ -448,7 +451,7 @@ can_colonize_with_pop = {
 # This = Pop
 pop_has_no_happiness = {
 	FROM = {
-		is_country_type = default
+		is_normal_country = yes
 	}
 	OR = {
 		AND = {

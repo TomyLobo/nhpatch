@@ -15,7 +15,7 @@ STH_unicomplex = {
     }
 
     potential = {
-        is_borg_empire = yes
+		is_assimilator = yes
     }
 
     possible = {
@@ -58,7 +58,7 @@ STH_unicomplex = {
         }
         custom_tooltip = {
             fail_text = "requires_no_more_unicomplex"
-            from = { NOT = { check_variable = { which = "unicomplex_count" value > 4 } } }
+            from = { NOT = { check_variable = { which = "unicomplex_count" value > 2 } } }
         }
     }
 
@@ -85,10 +85,11 @@ STH_unicomplex = {
 
     
     on_build_start = {
-        from = { change_variable = { which = "unicomplex_count" value = 1 } }
+        # from = { change_variable = { which = "unicomplex_count" value = 1 } }
     }
     on_build_cancel = {
-        from = { change_variable = { which = "unicomplex_count" value = -1 } }}
+        # from = { change_variable = { which = "unicomplex_count" value = -1 } }
+	}
     on_build_complete = {
         every_system_planet = { 
             #limit = { is_star = no }
@@ -110,6 +111,7 @@ STH_unicomplex = {
 
             #add_modifier = { modifier = "em_unicomplex_border" }
         }
+		from = { change_variable = { which = "unicomplex_count" value = 1 } }
     }
 }
 
@@ -135,6 +137,7 @@ STH_unimatrix_finished = {
         influence = 40
     }
 	possible = {
+		from = { is_assimilator = yes }
 		custom_tooltip = {
 			fail_text = "requires_no_more_unicomplex_subsection"
 			OR = {

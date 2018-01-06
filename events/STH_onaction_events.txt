@@ -41,7 +41,7 @@ country_event = {
 	}
 }
 
-#Meet Borg
+#Meet Borg - DELETE?
 country_event = {
 	id = STH_onaction.2
 	title = "action.10.name"
@@ -397,17 +397,27 @@ country_event = {
 		OR = { 
 			is_assimilator = yes
 			AND = { is_species_class = VID NOT = { has_global_flag = phageCure } }
+			FROM = { species = { has_trait = trait_darsay_personality } }
 		}
 	}
 	immediate = {
 		if = {
 			limit = { is_assimilator = yes }
-			FROM = { 
+			FROM = {
 				add_trait = leader_trait_assimilated
 				set_borg_name = yes
 			}
 			every_pool_leader = { limit = { NOT = { has_trait = leader_trait_assimilated } } add_trait = leader_trait_assimilated }
 			every_owned_leader = { limit = { NOT = { has_trait = leader_trait_assimilated } } add_trait = leader_trait_assimilated }
+		}
+		if = {
+			limit = { FROM = { species = { has_trait = trait_darsay_personality } } }
+			FROM = { 
+				# add_trait = leader_trait_assimilated
+				set_darsay_name = yes
+			}
+			# every_pool_leader = { limit = { NOT = { has_trait = leader_trait_assimilated } } add_trait = leader_trait_assimilated }
+			# every_owned_leader = { limit = { NOT = { has_trait = leader_trait_assimilated } } add_trait = leader_trait_assimilated }
 		}
 		if = {
 			limit = { is_species_class = VID NOT = { has_global_flag = phageCure } }
@@ -617,7 +627,7 @@ event = {
 	}
 }
 
-
+#Remove Borg subjects
 country_event = {
 	id = STH_onaction.600
 	hide_window = yes
@@ -636,12 +646,34 @@ country_event = {
 	hide_window = yes
 	trigger = {
 		exists = FROM
-		has_non_swapped_tradition = tr_discovery_planetary_survey_corps
+		OR = {
+			AND = {
+				has_swapped_tradition = tr_perfection_3
+				FROM = { has_trait = leader_trait_assimilated }
+			}
+			FROM = { species = { is_species_class = DOM } }
+		}
 	}
 	immediate = {
-		every_owned_leader = { 
-			limit = { NOT = { is_same_value = FROM } }
-			add_experience = 100
+		if = {
+			limit = { has_swapped_tradition = tr_perfection_3 FROM = { has_trait = leader_trait_assimilated } }
+			every_owned_leader = { 
+				limit = { 
+					NOT = { is_same_value = FROM } 
+					has_trait = leader_trait_assimilated
+				}
+				add_experience = 100
+			}
+		}
+		if = {
+			limit = { FROM = { species = { is_species_class = DOM } } }
+			every_owned_leader = {
+				limit = { 
+					NOT = { is_same_value = FROM } 
+					species = { is_species_class = DOM }
+				}
+				add_experience = 100
+			}
 		}
 	}
 }
@@ -852,6 +884,9 @@ country_event = {
 	trigger = { exists = from }
 	immediate = { set_appropriate_vassal_status = yes }
 }
+
+
+
 
 
 

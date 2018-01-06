@@ -57,7 +57,7 @@ Human_tos = {
 			"El Alamein" Gaugamela Kadesh Kursk Masada Normandy Salamis Sedan Tannenberg Ticonderoga Thermopylae Marengo Leipzig Shiloh Königgrätz Ypres 
 			Somme Suomussalmi Kharkov Guadalcanal "Leyte Gulf" "Dien Bien Phu" Thymbra Manassas Blenheim Unicorn Adelphi Angel Borealis Bounty Emancipator 
 			"Morning Star" "Shi Lang" Vikramaditya Viraat Vikrant Vishal Napoleon Kongo Oriskany "Bunker Hill" Farragut "Kitty Hawk" "Royal Oak" Thunderbolt 
-			"Royal Sovereign" Marathon "Frederick II" Nimitz Eisenhower Roland "Tran Hung Dao" Themistocles
+			"Royal Sovereign" Marathon "Frederick II" Nimitz Eisenhower Roland "Tran Hung Dao" Themistocles Callister
 		}
 		
 		steamrunner = {

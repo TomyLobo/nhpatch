@@ -32,7 +32,7 @@ Human = {
 		}
 		
 		science = {
-			Daedalus Intrepid Grissom Oberth Aldrin Armstrong Columbus Copernicus Cortez Drake Hubble Goddard Galileo Einstein Gagarin Tereshkova "Zheng He" "Leif Ericson" Magellan "James Cook"
+			Daedalus Intrepid Grissom Oberth Aldrin Armstrong Columbus Copernicus Cortez Drake Hubble Goddard Galileo Einstein Gagarin Tereshkova "Zheng He" "Leif Ericson" "James Cook"
 			"Marco Polo" Newton Tesla "Von Braun" "Walter Raleigh" Asimov Clark Sagan "Ibn Battuta" Kepler Ptolemy Pytheas Azophi Discovery Voyager Tradewind Scout 
 			Pioneer Explorer Sojourner "Santa Maria" Hawking Earhart Nobel Kelvin Fahrenheit Equinox Lagrange Tsiolkovsky Shenzhou Jaeger Buran Edison Ride Europa Clarke Walker
 		}
@@ -57,19 +57,19 @@ Human = {
 			"El Alamein" Gaugamela Kadesh Kursk Masada Normandy Salamis Sedan Tannenberg Ticonderoga Thermopylae Marengo Leipzig Shiloh Königgrätz Ypres 
 			Somme Suomussalmi Kharkov Guadalcanal "Leyte Gulf" "Dien Bien Phu" Thymbra Manassas Blenheim Unicorn Adelphi Angel Borealis Bounty Emancipator 
 			"Morning Star" "Shi Lang" Vikramaditya Viraat Vikrant Vishal Napoleon Kongo Oriskany "Bunker Hill" Farragut "Kitty Hawk" "Royal Oak" Thunderbolt 
-			"Royal Sovereign" Marathon "Frederick II" Nimitz Eisenhower Roland "Tran Hung Dao" Themistocles
+			"Royal Sovereign" Marathon "Frederick II" Nimitz Eisenhower Roland "Tran Hung Dao" Themistocles Callister 
 		}
 		
 		steamrunner = {
 			Ulysses Xenophon Xerxes Nelson Hercules Icarus Atlas Apollo Ajax Bellerophon Excalibur Agrippa Alexander Belisarius Hannibal Washington Saladin 
-			Bismarck Yamato Actium Agincourt Austerlitz Gettysburg Jutland Trafalgar Tsushima "Valley Forge" Verdun Waterloo Granicus Pharsalus Akira Charlemagne
+			Bismarck Actium Agincourt Austerlitz Gettysburg Jutland Trafalgar Tsushima "Valley Forge" Verdun Waterloo Granicus Pharsalus Akira Charlemagne
 			"Black Prince" Hood Potemkin Musashi Warspite Victory Courage Dauntless Endeavor Excelsior Formidable Indefatigable Chivalrous Valiant Monitor 
 			Bulwark Defender Endurance Vigilant Resolute Fortitude Yamamoto Lexington Midway Saratoga Yorktown "Coral Sea" Hermes Wasp Hornet "Ark Royal" 
-			Essex Akagi Kaga Illustrious Intrepid Invincible Enterprise Constellation Constitution Ranger Andromeda Aquila Century Concord Defiant Galaxy 
-			Odyssey Orion Providence Reliant Pegasus
+			Essex Akagi Kaga Illustrious Intrepid Invincible Constellation Constitution Ranger Andromeda Aquila Century Concord 
+			Orion Providence Reliant Pegasus Glenn
 		}
 		adv_cruiser = {
-			Galaxy Odyssey Venture Yamato Gandhi Madison Magellan
+			Galaxy Odyssey Venture Yamato Gandhi Madison Magellan Dana Kerala
 		}
 		strike = {
 			Defiant Venture "Sau Paulo"

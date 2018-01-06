@@ -104,6 +104,27 @@ gov_borg_cyborg = {
 	weight = { base = 10000 }
 }
 
+# Unique variant of Divine Empire, for D'Arsay culture
+gov_darsay_converts = {
+	ruler_title = RT_GOD_EMPEROR
+	ruler_title_female = RT_GOD_EMPRESS
+	heir_title = HT_SAINT
+	heir_title_female = HT_SAINT_FEMALE
+
+	use_regnal_names = yes
+	dynastic_last_names = yes
+
+	possible = {
+		has_authority = auth_imperial
+		OR = {
+			has_valid_civic = civic_korgano
+			has_valid_civic = civic_masaka
+		}
+	}
+
+	weight = { base = 10000 }
+}
+
 # Unique variant of Moral Democracy for Kelpian
 gov_elder_council = {
 	ruler_title = RT_HIGH_ELDER

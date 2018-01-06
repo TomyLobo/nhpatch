@@ -208,7 +208,7 @@ l_english:
 
  TRADITIONALIST_SWORDKAHLESS:0 "Sword of Kahless"
  TRADITIONALIST_NO_SWORDKAHLESS:0 "$TRADITIONALIST_SWORDKAHLESS$"
- TRADITIONALIST_SWORDKAHLESS_DESC:0 "The Sword of Kahless unifies our traditions like never before. This especially please the [Root.GetName]"
+ TRADITIONALIST_SWORDKAHLESS_DESC:0 "The Sword of Kahless unifies our traditions like never before. This especially pleases the [Root.GetName]"
 
  ISOLATIONIST_STRONG_FLEET:0 "The Fleet is our Wall" 
  ISOLATIONIST_NO_STRONG_FLEET:0 "$ISOLATIONIST_STRONG_FLEET$"

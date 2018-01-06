@@ -480,89 +480,90 @@ system = { id = "464" name = "Durna" position = { x = -162 y = 79 } initializer 
 system = { id = "465" name = "Arkushanangarushashutu" position = { x = -85 y = 159 } initializer = sck_b }
 system = { id = "466" name = "Theta Cephei" position = { x = 179 y = 24 } initializer = sca_b }
 system = { id = "467" name = "Balduk" position = { x = -177 y = 31 } initializer = sca_b }
-system = { id = "468" name = "Tau Lacertae" position = { x = -79 y = 155 } initializer = gorn_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = gorn_empire } } }
-system = { id = "469" name = "Tholia" position = { x = 156 y = 98 } initializer = tholian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = tholian_assembly } } }
-system = { id = "470" name = "Konnoria" position = { x = 170 y = 72 } initializer = konnoria_b }
-system = { id = "471" name = "15 Lyncis" position = { x = 73 y = 181 } initializer = caitian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = caitian_union } } }
-system = { id = "472" name = "Fesarius" position = { x = 126 y = -162 } initializer = first_federation_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = first_federation } } }
-system = { id = "473" name = "Sergane" position = { x = -186 y = -87 } initializer = MoraliHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = morali_states } } }
-system = { id = "474" name = "Beta Renner" position = { x = 157 y = 132 } initializer = antican_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = antican_packs } } }
-system = { id = "475" name = "Beta Renner Secunda" position = { x = 153 y = 137 } initializer = selay_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = selay_clutches } } }
-system = { id = "476" name = "Zakdorn" position = { x = -170 y = -115 } initializer = zakdorn_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = zakdorn_alliance } } }
-system = { id = "477" name = "Kelai" position = { x = -36 y = 202 } initializer = kelpian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = kelpian_duchies } } }
-system = { id = "478" name = "Metronia" position = { x = -124 y = 164 } initializer = metron_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = metron_consortium } } }
-system = { id = "479" name = "Valt" position = { x = -200 y = 65 } initializer = scb_b }
-system = { id = "480" name = "Krios" position = { x = -190 y = 93 } initializer = scg_b }
-system = { id = "481" name = "" position = { x = 0 y = -152 } initializer = BrunaliHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = brunali_empire } } }
-system = { id = "482" name = "" position = { x = 27 y = -152 } initializer = devorian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = devorian_solidarity } } }
-system = { id = "483" name = "" position = { x = 53 y = -147 } initializer = FenDomarHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = fen_domar_states } } }
-system = { id = "484" name = "" position = { x = 79 y = -138 } initializer = hirogen_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = hirogen_hunters } } }
-system = { id = "485" name = "" position = { x = 103 y = -124 } initializer = kazon_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = kazon_sects } } }
-system = { id = "486" name = "" position = { x = 124 y = -106 } initializer = kraylor_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = kraylor_republic } } }
-system = { id = "487" name = "" position = { x = 142 y = -84 } initializer = krenim_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = krenim_imperium } } }
-system = { id = "488" name = "" position = { x = 157 y = -59 } initializer = LyridianHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = lyridian_diaspora } } }
-system = { id = "489" name = "" position = { x = 167 y = -32 } initializer = NorcadianHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = norcadian_harmony } } }
-system = { id = "490" name = "" position = { x = 172 y = -3 } initializer = talaxian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = talaxian_empire } } }
-system = { id = "491" name = "" position = { x = 172 y = 27 } initializer = vaadwaur_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = vaadwaur_supremacy } } }
-system = { id = "492" name = "" position = { x = 166 y = 57 } initializer = voth_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = voth_theocracy } } }
-system = { id = "493" name = "" position = { x = 156 y = 86 } initializer = borg_initializer  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = the_borg_collective } } }
-system = { id = "494" name = "" position = { x = 141 y = 113 } initializer = zahl_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = zahl_technocracy } } }
-system = { id = "495" name = "" position = { x = 121 y = 137 } initializer = ArgrathianHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = argrathian_commonwealth } } }
-system = { id = "496" name = "" position = { x = 96 y = 157 } initializer = dosi_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = dosi_confederacy } } }
-system = { id = "497" name = "" position = { x = 69 y = 173 } initializer = founders_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = the_dominion } } }
-system = { id = "498" name = "" position = { x = 38 y = 185 } initializer = hurq_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = hurq_stagnancy } } }
-system = { id = "499" name = "" position = { x = 6 y = 191 } initializer = karemma_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = karemman_foundation } } }
-system = { id = "500" name = "" position = { x = -27 y = 191 } initializer = nyberrite_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = nyberrite_alliance } } }
-system = { id = "501" name = "" position = { x = -60 y = 185 } initializer = rakharian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = rakharian_free_states } } }
-system = { id = "502" name = "" position = { x = -92 y = 174 } initializer = TRogoranHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = trogoran_empire } } }
-system = { id = "503" name = "" position = { x = -122 y = 157 } initializer = WadiHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = wadi_emirates } } }
-system = { id = "504" name = "" position = { x = -149 y = 135 } initializer = yaderan_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = yaderan_republic } } }
-system = { id = "505" name = "" position = { x = -172 y = 109 } initializer = vidiian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = vidiian_sodality } } }
-system = { id = "506" name = "" position = { x = -190 y = 79 } initializer = kobali_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = kobali_republic } } }
-system = { id = "507" name = "" position = { x = -202 y = 45 } initializer = pralor_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = pralor_auxiliary } } }
-system = { id = "508" name = "" position = { x = -209 y = 10 } initializer = cravic_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = cravic_imperative } } }
-system = { id = "509" name = "" position = { x = -219 y = -67 } initializer = oschean_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = oschean_hunters } } }
-system = { id = "510" name = "" position = { x = -213 y = -109 } initializer = skrreean_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = skrreean_republic } } }
-system = { id = "511" name = "" position = { x = -174 y = -131 } initializer = signum_ab3 }
-system = { id = "512" name = "" position = { x = -150 y = -160 } initializer = signum_ab3 }
-system = { id = "513" name = "" position = { x = -122 y = -185 } initializer = signum_ab3 }
-system = { id = "514" name = "" position = { x = -89 y = -205 } initializer = signum_ab3 }
-system = { id = "515" name = "" position = { x = -53 y = -219 } initializer = signum_ab3 }
-system = { id = "516" name = "" position = { x = -14 y = -227 } initializer = signum_ab3 }
-system = { id = "517" name = "" position = { x = 25 y = -228 } initializer = banean_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = united_congress_of_banea } } }
-system = { id = "518" name = "" position = { x = 65 y = -222 } initializer = trabe_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = trabe_alliance } } }
-system = { id = "519" name = "" position = { x = 0 y = 152 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "520" name = "" position = { x = -27 y = 152 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "521" name = "" position = { x = -53 y = 147 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "522" name = "" position = { x = -79 y = 138 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "523" name = "" position = { x = -103 y = 124 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "524" name = "" position = { x = -124 y = 106 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "525" name = "" position = { x = -142 y = 84 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "526" name = "" position = { x = -157 y = 59 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "527" name = "" position = { x = -167 y = 32 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "528" name = "" position = { x = -172 y = 3 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "529" name = "" position = { x = -172 y = -27 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "530" name = "" position = { x = -166 y = -57 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "531" name = "" position = { x = -156 y = -86 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "532" name = "" position = { x = -141 y = -113 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "533" name = "" position = { x = -121 y = -137 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "534" name = "" position = { x = -96 y = -157 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "535" name = "" position = { x = -69 y = -173 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "536" name = "" position = { x = -38 y = -185 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "537" name = "" position = { x = -6 y = -191 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "538" name = "" position = { x = 27 y = -191 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "539" name = "" position = { x = 60 y = -185 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "540" name = "" position = { x = 92 y = -174 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "541" name = "" position = { x = 122 y = -157 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "542" name = "" position = { x = 149 y = -135 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "543" name = "" position = { x = 172 y = -109 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "544" name = "" position = { x = 190 y = -79 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "545" name = "" position = { x = 202 y = -45 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "546" name = "" position = { x = 209 y = -10 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "547" name = "" position = { x = 210 y = 26 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "548" name = "" position = { x = 204 y = 63 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "549" name = "" position = { x = 192 y = 98 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
-system = { id = "550" name = "" position = { x = 174 y = 131 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "468" name = "D'Asray" position = { x = -180 y = 9 } initializer = dasray_b }
+system = { id = "469" name = "Tau Lacertae" position = { x = -79 y = 155 } initializer = gorn_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = gorn_empire } } }
+system = { id = "470" name = "Tholia" position = { x = 156 y = 98 } initializer = tholian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = tholian_assembly } } }
+system = { id = "471" name = "Konnoria" position = { x = 170 y = 72 } initializer = konnoria_b }
+system = { id = "472" name = "15 Lyncis" position = { x = 73 y = 181 } initializer = caitian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = caitian_union } } }
+system = { id = "473" name = "Fesarius" position = { x = 126 y = -162 } initializer = first_federation_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = first_federation } } }
+system = { id = "474" name = "Sergane" position = { x = -186 y = -87 } initializer = MoraliHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = morali_states } } }
+system = { id = "475" name = "Beta Renner" position = { x = 157 y = 132 } initializer = antican_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = antican_packs } } }
+system = { id = "476" name = "Beta Renner Secunda" position = { x = 153 y = 137 } initializer = selay_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = selay_clutches } } }
+system = { id = "477" name = "Zakdorn" position = { x = -170 y = -115 } initializer = zakdorn_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = zakdorn_alliance } } }
+system = { id = "478" name = "Kelai" position = { x = -36 y = 202 } initializer = kelpian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = kelpian_duchies } } }
+system = { id = "479" name = "Metronia" position = { x = -124 y = 164 } initializer = metron_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = metron_consortium } } }
+system = { id = "480" name = "Valt" position = { x = -200 y = 65 } initializer = scb_b }
+system = { id = "481" name = "Krios" position = { x = -190 y = 93 } initializer = scg_b }
+system = { id = "482" name = "" position = { x = 0 y = -152 } initializer = BrunaliHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = brunali_empire } } }
+system = { id = "483" name = "" position = { x = 27 y = -152 } initializer = devorian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = devorian_solidarity } } }
+system = { id = "484" name = "" position = { x = 53 y = -147 } initializer = FenDomarHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = fen_domar_states } } }
+system = { id = "485" name = "" position = { x = 79 y = -138 } initializer = hirogen_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = hirogen_hunters } } }
+system = { id = "486" name = "" position = { x = 103 y = -124 } initializer = kazon_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = kazon_sects } } }
+system = { id = "487" name = "" position = { x = 124 y = -106 } initializer = kraylor_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = kraylor_republic } } }
+system = { id = "488" name = "" position = { x = 142 y = -84 } initializer = krenim_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = krenim_imperium } } }
+system = { id = "489" name = "" position = { x = 157 y = -59 } initializer = LyridianHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = lyridian_diaspora } } }
+system = { id = "490" name = "" position = { x = 167 y = -32 } initializer = NorcadianHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = norcadian_harmony } } }
+system = { id = "491" name = "" position = { x = 172 y = -3 } initializer = talaxian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = talaxian_empire } } }
+system = { id = "492" name = "" position = { x = 172 y = 27 } initializer = vaadwaur_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = vaadwaur_supremacy } } }
+system = { id = "493" name = "" position = { x = 166 y = 57 } initializer = voth_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = voth_theocracy } } }
+system = { id = "494" name = "" position = { x = 156 y = 86 } initializer = borg_initializer  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = the_borg_collective } } }
+system = { id = "495" name = "" position = { x = 141 y = 113 } initializer = zahl_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = zahl_technocracy } } }
+system = { id = "496" name = "" position = { x = 121 y = 137 } initializer = ArgrathianHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = argrathian_commonwealth } } }
+system = { id = "497" name = "" position = { x = 96 y = 157 } initializer = dosi_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = dosi_confederacy } } }
+system = { id = "498" name = "" position = { x = 69 y = 173 } initializer = founders_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = the_dominion } } }
+system = { id = "499" name = "" position = { x = 38 y = 185 } initializer = hurq_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = hurq_stagnancy } } }
+system = { id = "500" name = "" position = { x = 6 y = 191 } initializer = karemma_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = karemman_foundation } } }
+system = { id = "501" name = "" position = { x = -27 y = 191 } initializer = nyberrite_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = nyberrite_alliance } } }
+system = { id = "502" name = "" position = { x = -60 y = 185 } initializer = rakharian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = rakharian_free_states } } }
+system = { id = "503" name = "" position = { x = -92 y = 174 } initializer = TRogoranHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = trogoran_empire } } }
+system = { id = "504" name = "" position = { x = -122 y = 157 } initializer = WadiHomeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = wadi_emirates } } }
+system = { id = "505" name = "" position = { x = -149 y = 135 } initializer = yaderan_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = yaderan_republic } } }
+system = { id = "506" name = "" position = { x = -172 y = 109 } initializer = vidiian_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = vidiian_sodality } } }
+system = { id = "507" name = "" position = { x = -190 y = 79 } initializer = kobali_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = kobali_republic } } }
+system = { id = "508" name = "" position = { x = -202 y = 45 } initializer = pralor_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = pralor_auxiliary } } }
+system = { id = "509" name = "" position = { x = -209 y = 10 } initializer = cravic_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = cravic_imperative } } }
+system = { id = "510" name = "" position = { x = -219 y = -67 } initializer = oschean_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = oschean_hunters } } }
+system = { id = "511" name = "" position = { x = -213 y = -109 } initializer = skrreean_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = skrreean_republic } } }
+system = { id = "512" name = "" position = { x = -174 y = -131 } initializer = signum_ab3 }
+system = { id = "513" name = "" position = { x = -150 y = -160 } initializer = signum_ab3 }
+system = { id = "514" name = "" position = { x = -122 y = -185 } initializer = signum_ab3 }
+system = { id = "515" name = "" position = { x = -89 y = -205 } initializer = signum_ab3 }
+system = { id = "516" name = "" position = { x = -53 y = -219 } initializer = signum_ab3 }
+system = { id = "517" name = "" position = { x = -14 y = -227 } initializer = signum_ab3 }
+system = { id = "518" name = "" position = { x = 25 y = -228 } initializer = banean_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = united_congress_of_banea } } }
+system = { id = "519" name = "" position = { x = 65 y = -222 } initializer = trabe_homeworld  spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = trabe_alliance } } }
+system = { id = "520" name = "" position = { x = 0 y = 152 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "521" name = "" position = { x = -27 y = 152 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "522" name = "" position = { x = -53 y = 147 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "523" name = "" position = { x = -79 y = 138 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "524" name = "" position = { x = -103 y = 124 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "525" name = "" position = { x = -124 y = 106 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "526" name = "" position = { x = -142 y = 84 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "527" name = "" position = { x = -157 y = 59 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "528" name = "" position = { x = -167 y = 32 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "529" name = "" position = { x = -172 y = 3 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "530" name = "" position = { x = -172 y = -27 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "531" name = "" position = { x = -166 y = -57 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "532" name = "" position = { x = -156 y = -86 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "533" name = "" position = { x = -141 y = -113 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "534" name = "" position = { x = -121 y = -137 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "535" name = "" position = { x = -96 y = -157 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "536" name = "" position = { x = -69 y = -173 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "537" name = "" position = { x = -38 y = -185 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "538" name = "" position = { x = -6 y = -191 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "539" name = "" position = { x = 27 y = -191 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "540" name = "" position = { x = 60 y = -185 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "541" name = "" position = { x = 92 y = -174 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "542" name = "" position = { x = 122 y = -157 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "543" name = "" position = { x = 149 y = -135 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "544" name = "" position = { x = 172 y = -109 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "545" name = "" position = { x = 190 y = -79 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "546" name = "" position = { x = 202 y = -45 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "547" name = "" position = { x = 209 y = -10 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "548" name = "" position = { x = 210 y = 26 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "549" name = "" position = { x = 204 y = 63 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "550" name = "" position = { x = 192 y = 98 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
+system = { id = "551" name = "" position = { x = 174 y = 131 } initializer = STH_empire_init_01  spawn_weight = { base = 0 modifier = { add = 100000 STH_starting_country = no } } }
 nebula = { name = "Agosoria Nebula" position = { x = -18 y = 38 } radius = 20 }
 nebula = { name = "Arachnid Nebula" position = { x = 18 y = 61 } radius = 20 }
 nebula = { name = "Tibor Nebula" position = { x = 37 y = 64 } radius = 10 }

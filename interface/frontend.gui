@@ -200,7 +200,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "stnh_version"
 				font = "cg_16b"
-				text = "NHV 1712 Victory is Life - Beta (f9ced3)"   #### DO NOT FORGET TO UPDATE WHEN UPLOADING!
+				text = "NHV 1801 Victory is Life - Beta (c87728)"   #### DO NOT FORGET TO UPDATE WHEN UPLOADING!
 				position = { x= -350 y = -38  }
 				maxWidth = 400
 				maxHeight = 35

@@ -95,7 +95,6 @@ country_event = {
 			else = { set_subject_of = { who = event_target:the_dominion subject_type = dominion_member } }
 			#Add Unhappy Pops Modifier
 		}
-		set_country_type = dominion_member_world
 		hidden_effect = {
 			every_country = {
 				limit = { has_communications = root is_assimilator = no NOR = { is_same_value = root is_same_value = from } }

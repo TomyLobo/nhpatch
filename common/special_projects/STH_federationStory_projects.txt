@@ -90,3 +90,54 @@ special_project = {
 		}
 	}
 }
+
+
+
+special_project = {
+	key = "FED_MEDIATE_DISPUTE_PROJECT_1A"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = sth_GFX_evt_federationCouncil
+	timelimit = 720
+	event_scope = ship_event
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		# has_component = REQUIRED_SCIENCE_MODULE_DIPLOMATIC_0
+	}
+	on_success = { 
+		owner = { country_event = { id = theFederation.129 scopes = { from = event_target:fedCouncilMediateA fromfrom = event_target:fedCouncilMediateB fromfromfrom = root.from } } }
+		clear_global_event_target = fedCouncilMediateA
+		clear_global_event_target = fedCouncilMediateB
+	}
+	on_fail = { 
+		country_event = { id = theFederation.130 scopes = { from = event_target:fedCouncilMediateA fromfrom = event_target:fedCouncilMediateB fromfromfrom = root.from } }
+		clear_global_event_target = fedCouncilMediateA
+		clear_global_event_target = fedCouncilMediateB
+	}
+}
+special_project = {
+	key = "FED_MEDIATE_DISPUTE_PROJECT_1B"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = sth_GFX_evt_federationCouncil
+	timelimit = 720
+	event_scope = ship_event
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		# has_component = REQUIRED_SCIENCE_MODULE_DIPLOMATIC_0
+	}
+	on_success = { 
+		owner = { country_event = { id = theFederation.129 scopes = { from = event_target:fedCouncilMediateA fromfrom = event_target:fedCouncilMediateB fromfromfrom = root.from } } }
+		clear_global_event_target = fedCouncilMediateA
+		clear_global_event_target = fedCouncilMediateB
+	}
+	on_fail = { 
+		country_event = { id = theFederation.130 scopes = { from = event_target:fedCouncilMediateA fromfrom = event_target:fedCouncilMediateB fromfromfrom = root.from } }
+		clear_global_event_target = fedCouncilMediateA
+		clear_global_event_target = fedCouncilMediateB
+	}
+}

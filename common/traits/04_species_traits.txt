@@ -1075,3 +1075,13 @@ trait_vor_optimised = {
 		leader_age = 40
 	}
 }
+
+trait_darsay_personality = {
+	cost = 0
+	initial = no
+	randomized = no
+	modifier = {
+		tile_resource_society_research_mult = 0.1
+		species_leader_exp_gain = -0.25
+	}
+}

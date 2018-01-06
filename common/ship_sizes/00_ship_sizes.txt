@@ -61,9 +61,8 @@
 
 @build_block_radius_none = 0
 @build_block_radius_tiny = 10
-@build_block_radius_small = 100
-@build_block_radius_medium = 90
-@build_block_radius_large = 150
+@build_block_radius_small = 75
+@build_block_radius_large = 125
 
 
 
@@ -80,10 +79,10 @@ corvette = {
 	collision_radius = @corvette_collision_radius
 	modifier = {
 		ship_armor_add = 5 
-		ship_evasion_add = 40
+		ship_evasion_add = 35
 	}
 
-  	max_hitpoints = 800 
+  	max_hitpoints = 750
   	size_multiplier = 4
  
   	fleet_slot_size = 1

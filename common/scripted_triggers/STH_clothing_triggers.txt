@@ -6,6 +6,7 @@ uses_native_clothes = {
 
 uses_native_clothes_pop = {
 	uses_borg_prosthetics = no
+	NOT = { has_pop_flag = cowboy_pop }
 }
 
 uses_starfleet_uniform = {

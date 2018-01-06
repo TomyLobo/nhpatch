@@ -11,4 +11,10 @@ named_lists = {
 			plural = Cardassians
 		}
 	}
+	darsay_name = {
+		Darsay = {
+			name = "D'Arsay"
+			plural = "D'Arsay"
+		}
+	}
 }

@@ -707,7 +707,7 @@ Unquietwiki
 Walshicus
 West086
 xginocazinox
-Zoomimpulse
+ZoomImpulse
 
 
 Lead Devs:
@@ -716,9 +716,9 @@ Shaggo
 Walshicus
 Harel
 Osito
-Oninoni
+Kodiak
 Janack
-Zoomimpulse
+ZoomImpulse
 
 Permissions:
 =======================

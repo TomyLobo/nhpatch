@@ -46,7 +46,7 @@ klingon_homeworld = {
 					civics = { civic = "civic_warrior_culture" civic = "civic_great_houses" }
 					authority = auth_oligarchic
 					name_list = "Klingon"
-					ethos = { ethic = "ethic_fanatic_militarist" ethic = "ethic_spiritualist" }
+					ethos = { ethic = "ethic_militarist" ethic = "ethic_spiritualist" ethic = "ethic_authoritarian" }
 					species = event_target:klingonSpecies
 					flag = {
 						icon = { category = "trek" file = "Klingon.dds" }

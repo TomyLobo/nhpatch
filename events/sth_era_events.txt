@@ -49,7 +49,6 @@ country_event = {
 			traits = {
 				trait = leader_trait_spark_of_genius
 				trait = leader_trait_expertise_materials
-				trait = leader_trait_expertise_voidcraft
 			}
 		}
 		if = {
@@ -121,7 +120,6 @@ country_event = {
 			traits = {
 				trait = leader_trait_spark_of_genius
 				trait = leader_trait_expertise_materials
-				trait = leader_trait_expertise_voidcraft
 			}
 		}
 		if = {
@@ -390,7 +388,6 @@ country_event = {
 			traits = {
 				trait = leader_trait_spark_of_genius
 				trait = leader_trait_expertise_materials
-				trait = leader_trait_expertise_voidcraft
 			}
 		}
 		if = {
@@ -580,7 +577,6 @@ country_event = {
 			traits = {
 				trait = leader_trait_spark_of_genius
 				trait = leader_trait_expertise_materials
-				trait = leader_trait_expertise_voidcraft
 			}
 		}
 	}
@@ -611,7 +607,7 @@ country_event = {
 			name = "Valda"
 			skill = 100
 			traits = {
-				trait = leader_trait_expertise_voidcraft
+				trait = leader_trait_spark_of_genius
 			}
 		}
 	}
@@ -770,7 +766,6 @@ country_event = {
 			skill = 1000
 			traits = {
 				trait = leader_trait_expertise_materials
-				trait = leader_trait_expertise_voidcraft
 			}
 		}
 		last_created_leader = {

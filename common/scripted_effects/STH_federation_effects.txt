@@ -44,6 +44,10 @@ federation_accession_progress_from_root = {
 
 federation_accession = {	
 	remove_country_flag = federationAccessionState
+	if = {	
+		limit = { is_country_type = minorRace }
+		remove_modifier = em_minor_race_borders
+	}
 	add_modifier = { modifier = em_federation_member_world }
 	set_country_flag = transfer_mines
 	set_variable = { which = "accession_progress" value = 0 }

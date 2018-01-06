@@ -167,13 +167,29 @@
    
 #### Other static modifiers
 
+#D'Arsay - The Waxing Cycle - Korgano
+em_darsay_korgano = {
+	icon = "gfx/interface/icons/empire_modifiers/em_darsay_korgano.dds"
+	icon_frame = 1 # green frame
+	country_resource_unity_mult = 0.20
+	pop_growth_speed = 0.25
+	country_resource_influence_add = 1
+}
+
+###D'Arsay - The Waxing Cycle - Masaka
+em_darsay_masaka = {
+	icon = "gfx/interface/icons/empire_modifiers/em_darsay_masaka.dds"
+	icon_frame = 1 # green frame
+	ship_fire_rate_mult = 0.33
+	army_damage_mult = 0.33
+	spaceport_ship_build_cost_mult = -0.15
+}
+
 #Mining Boost
 em_ancient_mining_boost = {
 	country_resource_minerals_mult = 0.025
 	country_resource_minerals_add = 2
 }
-
-
 
 #AI buff
 em_ai_borg = {
@@ -359,11 +375,10 @@ em_meditations_on_a_crimson_shadow = {
 
 #Minor Race
 em_minor_race_borders = {
-	planet_border_mult  = -0.7
+	planet_border_mult  = -0.6
 }
 
 em_fallen_empire = {
-	planet_border_mult  = -0.25
 	country_resource_minerals_add = 500
 	country_resource_energy_add = 500
 	ship_hitpoints_mult = 0.25
@@ -567,7 +582,7 @@ em_fed_beacon_of_democracy = {
 }
 #Federation Member
 em_federation_member_world = {
-	planet_border_mult  = -0.5
+	planet_border_mult  = -0.4
 }
 #Federation Formed
 em_federation_formed = {
@@ -632,11 +647,11 @@ mars_colony = {
 
 mars_colony_2 = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_green_mars.dds"
-	pop_environment_tolerance = 0.45
+	pop_environment_tolerance = 0.70
 }
 mars_colony_3 = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_blue_mars.dds"
-	pop_environment_tolerance = 0.10
+	pop_environment_tolerance = 0.50
 }
 
 space_mirror = {

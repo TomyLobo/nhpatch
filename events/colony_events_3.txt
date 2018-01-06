@@ -839,6 +839,7 @@ ship_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		exists = from
 		FROM = {
 			has_modifier = "titanic_life"
 			NOT = { has_planet_flag = titanic_blocker_setup }

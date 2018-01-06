@@ -239,31 +239,23 @@ valid_espionage_target = {
 	NOT = { has_country_flag = iconian_empire }
 	is_normal_country = yes
 	has_communications = Root
-	NOT = { is_country = Root }
+	NOT = { is_same_value = Root }
 }
 
 valid_diplomacy_espionage_target = {
-	NOT = { has_country_flag = borg_collective }
-	NOT = { has_country_flag = the_borg_collective }
+	is_assimilator = no
 	NOT = { has_country_flag = undine }
 	NOT = { has_country_flag = iconian_empire }
-	OR = {
-		is_country_type = default
-		is_country_type = minorRace
-	}
+	is_normal_country = yes
 	has_communications = Root
-	NOT = { is_country = Root }
+	NOT = { is_same_value = Root }
 	any_country = {
-		NOT = { has_country_flag = borg_collective }
-		NOT = { has_country_flag = the_borg_collective }
+		is_assimilator = no
 		NOT = { has_country_flag = undine }
 		NOT = { has_country_flag = iconian_empire }
-		NOT = { is_country = Root }
-		NOT = { is_country = prev }
-		OR = {
-			is_country_type = default
-			is_country_type = minorRace
-		}
+		NOT = { is_same_value = Root }
+		NOT = { is_same_value = prev }
+		is_normal_country = yes
 		has_communications = prev
 	}
 }
@@ -273,10 +265,7 @@ valid_loan_target = {
 	NOT = { has_country_flag = the_borg_collective }
 	NOT = { has_country_flag = undine }
 	NOT = { has_country_flag = iconian_empire }
-	OR = {
-		is_country_type = default
-		is_country_type = minorRace
-	}
+	is_normal_country = yes
 	has_communications = Root
 	NOT = { is_country = Root }
 }
@@ -287,20 +276,14 @@ valid_privateer_target = {
 	NOT = { has_country_flag = the_borg_collective }
 	NOT = { has_country_flag = undine }
 	NOT = { has_country_flag = iconian_empire }
-	OR = {
-		is_country_type = default
-		is_country_type = minorRace
-	}
+	is_normal_country = yes
 	has_communications = Root
 	NOT = { is_country = Root }
 }
 
 
 minorMajorEmpire = {
-	OR = {
-		is_country_type = default
-		is_country_type = minorRace
-	}
+	is_normal_country = yes
 }
 
 minorMajorRebelEmpire = {

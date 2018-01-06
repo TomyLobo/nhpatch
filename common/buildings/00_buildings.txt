@@ -243,6 +243,9 @@
       prerequisites = { "tech_physics_computing_40" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -302,6 +305,9 @@
       prerequisites = { "tech_physics_omicron_28" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1037,7 +1043,7 @@
       }
    
       produced_resources = {
-         energy = 25
+         energy = 100
       }
       prerequisites = { "tech_physics_omega_117" }
    
@@ -1199,6 +1205,9 @@
       prerequisites = { "tech_society_interstellar_446" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1282,6 +1291,9 @@
       prerequisites = { "tech_society_university_452" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1364,6 +1376,9 @@
       prerequisites = { "tech_society_university_452" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1446,6 +1461,9 @@
       prerequisites = { "tech_society_university_452" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1519,6 +1537,9 @@
       prerequisites = { "tech_society_bank_373" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1564,6 +1585,9 @@
       prerequisites = { "tech_society_biology_1021" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1653,6 +1677,9 @@
       prerequisites = { "tech_society_biology_1026" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1742,6 +1769,9 @@
       prerequisites = { "tech_society_interstellar_427" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -1795,6 +1825,9 @@
       prerequisites = { "tech_society_interstellar_427" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -2523,6 +2556,9 @@
       prerequisites = { "tech_society_consensus-shaped_384" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             any_tile = {
@@ -2582,6 +2618,9 @@
       prerequisites = { "tech_society_galactic_388" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             is_capital = yes
@@ -2635,6 +2674,9 @@
       prerequisites = { "tech_society_new_worlds_1162" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -2688,6 +2730,9 @@
       prerequisites = { "tech_society_distributed_390" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -2743,6 +2788,9 @@
       prerequisites = { "tech_society_new_worlds_1166" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -2796,6 +2844,9 @@
       prerequisites = { "tech_society_cultural_391" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             is_capital = yes
@@ -2998,6 +3049,9 @@
       prerequisites = { "tech_society_the_380" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3039,6 +3093,9 @@
       prerequisites = { "tech_society_new_worlds_1163" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3088,6 +3145,9 @@
       prerequisites = { "tech_society_new_worlds_1165" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3143,6 +3203,9 @@
       prerequisites = { "tech_society_new_worlds_1168" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3195,6 +3258,9 @@
       prerequisites = { "tech_society_biology_1066" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3248,6 +3314,9 @@
       prerequisites = { "tech_society_new_worlds_1161" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             any_tile = {
@@ -3426,6 +3495,9 @@
       }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             any_tile = {
@@ -3500,6 +3572,9 @@
       prerequisites = { "tech_society_new_worlds_1169" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             any_tile = {
@@ -3576,6 +3651,9 @@
       prerequisites = { "tech_society_new_worlds_1172" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3629,12 +3707,15 @@
          society_research = 6
       }
       planet_modifier = {
-         pop_happiness = 0.01
+         pop_happiness = 0.02
          tile_resource_unity_mult = 0.1
       }
       prerequisites = { "tech_society_new_worlds_1174" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3669,6 +3750,68 @@
       }
    }
    
+### The Hall of Masaka and Korgano
+   building_museam_darsay = { 
+      base_buildtime = 720
+      show_tech_unlock_if = { is_nomadic_empire = no }
+      tags = { cultural_building }
+      icon = "building_museum_3"
+   
+      cost = {
+         minerals = 500
+         influence = 100
+      }
+   
+      required_resources = {
+         energy = 5
+      }
+      produced_resources = {
+         unity = 12
+      }
+      planet_modifier = {
+         tile_resource_unity_mult = 0.1
+      }
+      prerequisites = { "tech_darsay_history" }
+   
+      potential = {
+         owner = {
+            is_borg_empire = no
+         }
+         planet = {
+            is_artificial_planet = no
+         }
+      }
+   
+      produced_resource_trigger = {
+         modifier = {
+            has_valid_civic = civic_prophet_2
+            resources = {
+               unity = 0.5
+            }
+         }
+         modifier = {
+            has_valid_civic = civic_museums_2
+            resources = {
+               unity = 5
+            }
+         }
+      }
+      destroy_if = {
+         exists = owner
+         owner = { is_borg_empire = yes }
+      }
+      allow = {
+         custom_tooltip = {
+            fail_text = "requires_capital_1"
+            planet = { has_at_least_capital_1 = yes }
+       }
+      }
+      ai_allow = {
+         has_resource_block = no
+         is_slave_tile_or_planet = no
+      }
+   }
+   
 ### Military Academy - Uses vanilla icon
    building_military_academy = { 
       base_buildtime = 360
@@ -3692,6 +3835,9 @@
       prerequisites = { "tech_society_centralized_403" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3739,6 +3885,9 @@
       prerequisites = { "tech_society_distributed_405" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3785,6 +3934,9 @@
       prerequisites = { "tech_society_holographic_414" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             is_capital = yes
@@ -3850,6 +4002,9 @@
       prerequisites = { "tech_society_virtual_415" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -3899,6 +4054,9 @@
       prerequisites = { "tech_society_statecraft_981" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -4502,6 +4660,9 @@
       prerequisites = { "tech_society_biology_1005" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -4553,6 +4714,9 @@
       prerequisites = { "tech_society_code_431" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             is_capital = yes
@@ -4618,6 +4782,9 @@
       prerequisites = { "tech_society_biology_1013" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -4676,6 +4843,9 @@
       prerequisites = { "tech_society_counter-intelligence_438" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             is_capital = yes
@@ -5260,6 +5430,9 @@
       prerequisites = { "tech_society_mars_503" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             any_tile = {
@@ -5539,6 +5712,9 @@
       prerequisites = { "tech_society_science_455" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -5591,6 +5767,9 @@
       prerequisites = { "tech_society_galactic_456" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -5650,6 +5829,9 @@
       prerequisites = { "tech_society_global_459" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -5811,6 +5993,9 @@
       prerequisites = { "tech_society_mass_471" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -6658,6 +6843,9 @@
       prerequisites = { "tech_society_frontier_497" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -6725,6 +6913,9 @@
       prerequisites = { "tech_society_new_worlds_1102" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -6798,6 +6989,9 @@
       prerequisites = { "tech_society_intergalactic_499" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -6871,6 +7065,9 @@
       prerequisites = { "tech_society_new_worlds_1104" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -6941,6 +7138,9 @@
       prerequisites = { "tech_society_new_worlds_1105" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -7879,6 +8079,9 @@
       prerequisites = { "tech_physics_transporters_23" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -7914,6 +8117,9 @@
       }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -7955,6 +8161,9 @@
       prerequisites = { "tech_society_steam_515" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             fit_for_tholian_dome = yes
          }
@@ -7999,6 +8208,9 @@
       prerequisites = { "tech_society_new_worlds_1136" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             fit_for_tholian_dome = yes
          }
@@ -8051,6 +8263,9 @@
       prerequisites = { "tech_society_hyperonic_660" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             fit_for_sheliak_dome = yes
          }
@@ -8095,6 +8310,9 @@
       prerequisites = { "tech_society_new_worlds_1140" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             fit_for_sheliak_dome = yes
          }
@@ -8150,6 +8368,9 @@
       prerequisites = { "tech_society_freeze_666" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             fit_for_breen_dome = yes
          }
@@ -8197,6 +8418,9 @@
       prerequisites = { "tech_society_new_worlds_1150" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             fit_for_breen_dome = yes
          }
@@ -8251,6 +8475,9 @@
       prerequisites = { "tech_engineering_materials_1439" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             any_tile = {
@@ -8324,6 +8551,9 @@
       prerequisites = { "tech_engineering_materials_1440" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -8380,6 +8610,9 @@
       prerequisites = { "tech_engineering_materials_1441" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -8436,6 +8669,9 @@
       prerequisites = { "tech_engineering_materials_1442" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -8491,6 +8727,9 @@
       prerequisites = { "tech_engineering_materials_1443" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             is_capital = yes
@@ -8550,6 +8789,9 @@
       prerequisites = { "tech_society_statecraft_930" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -8597,6 +8839,9 @@
       }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -8631,6 +8876,9 @@
       }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
          }
@@ -8765,6 +9013,9 @@
       prerequisites = { "tech_society_teaching_375" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_artificial_planet = no
             is_capital = yes
@@ -9017,6 +9268,9 @@
       prerequisites = { "tech_physics_holodeck_26" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -9060,6 +9314,9 @@
       prerequisites = { "tech_physics_holographic_27" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -9632,6 +9889,9 @@
       prerequisites = { "tech_society_interstellar_446" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -9712,6 +9972,9 @@
       prerequisites = { "tech_society_university_452" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -9789,6 +10052,9 @@
       prerequisites = { "tech_society_university_452" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -9866,6 +10132,9 @@
       prerequisites = { "tech_society_university_452" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -9945,6 +10214,9 @@
       prerequisites = { "tech_society_biology_1021" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -10035,6 +10307,9 @@
       prerequisites = { "tech_society_biology_1026" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -10125,6 +10400,9 @@
       prerequisites = { "tech_society_interstellar_427" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -10179,6 +10457,9 @@
       prerequisites = { "tech_society_interstellar_427" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -10232,6 +10513,9 @@
       prerequisites = { "tech_society_galactic_388" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
             is_capital = yes
@@ -10790,6 +11074,9 @@
       prerequisites = { "tech_society_new_worlds_1162" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -10835,6 +11122,9 @@
       prerequisites = { "tech_society_distributed_390" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -10880,6 +11170,9 @@
       prerequisites = { "tech_society_new_worlds_1166" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -10923,6 +11216,9 @@
       prerequisites = { "tech_society_cultural_391" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
             is_capital = yes
@@ -11018,6 +11314,9 @@
       prerequisites = { "tech_society_new_worlds_1163" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11056,6 +11355,9 @@
       prerequisites = { "tech_society_new_worlds_1165" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11100,6 +11402,9 @@
       prerequisites = { "tech_society_new_worlds_1168" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11141,6 +11446,9 @@
       prerequisites = { "tech_society_biology_1066" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11182,6 +11490,9 @@
       prerequisites = { "tech_society_centralized_403" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11220,6 +11531,9 @@
       prerequisites = { "tech_society_distributed_405" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11259,6 +11573,9 @@
       prerequisites = { "tech_society_holographic_414" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
             is_capital = yes
@@ -11306,6 +11623,9 @@
       prerequisites = { "tech_society_virtual_415" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11390,6 +11710,9 @@
       prerequisites = { "tech_society_biology_1005" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11431,6 +11754,9 @@
       prerequisites = { "tech_society_code_431" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
             is_capital = yes
@@ -11479,6 +11805,9 @@
       prerequisites = { "tech_society_biology_1013" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -11527,6 +11856,9 @@
       prerequisites = { "tech_society_counter-intelligence_438" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
             is_capital = yes
@@ -12304,6 +12636,9 @@
       prerequisites = { "tech_society_science_455" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -12353,6 +12688,9 @@
       prerequisites = { "tech_society_galactic_456" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -12401,6 +12739,9 @@
       prerequisites = { "tech_society_global_459" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -12447,6 +12788,9 @@
       prerequisites = { "tech_society_mass_471" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -12801,6 +13145,9 @@
       prerequisites = { "tech_society_frontier_497" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -12866,6 +13213,9 @@
       prerequisites = { "tech_society_new_worlds_1102" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -12937,6 +13287,9 @@
       prerequisites = { "tech_society_intergalactic_499" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -13008,6 +13361,9 @@
       prerequisites = { "tech_society_new_worlds_1104" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -13076,6 +13432,9 @@
       prerequisites = { "tech_society_new_worlds_1105" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -14002,6 +14361,9 @@
       prerequisites = { "tech_engineering_materials_1439" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
             any_tile = {
@@ -14075,6 +14437,9 @@
       prerequisites = { "tech_engineering_materials_1440" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -14131,6 +14496,9 @@
       prerequisites = { "tech_engineering_materials_1441" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -14187,6 +14555,9 @@
       prerequisites = { "tech_engineering_materials_1442" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }
@@ -14242,6 +14613,9 @@
       prerequisites = { "tech_engineering_materials_1443" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
             is_capital = yes
@@ -14295,6 +14669,9 @@
       prerequisites = { "tech_society_statecraft_930" }
    
       potential = {
+         owner = {
+            is_borg_empire = no
+         }
          planet = {
             is_habitat_planet = yes
          }

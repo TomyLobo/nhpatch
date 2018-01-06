@@ -47,6 +47,7 @@ borg_initializer = {
 					traits = {
 						trait = "trait_quick_learners"
 						trait = "trait_strong"
+						trait = "trait_pc_alpine_preference"
 						ideal_planet_class = "pc_assimilated"
 					}
 				} 
@@ -80,7 +81,13 @@ borg_initializer = {
 				limit = { has_country_flag = the_borg_collective }
 				save_global_event_target_as = borgCollective
 				add_appropriate_start_techs = yes
-				species = { save_global_event_target_as = borgSpecies }
+				if = {
+					limit = { NOT = { has_trait = "trait_pc_alpine_preference" } }
+					modify_species = { species = this add_trait = "trait_pc_alpine_preference" }
+				}
+				species = { 
+					save_global_event_target_as = borgSpecies					
+				}
 				change_government = {
 					authority = auth_cybernetic_consciousness
 					civics = { civic = "civic_assimilators" civic = "civic_functional_architecture" }

@@ -15,6 +15,10 @@ human_male_hair_04 = {
 	#pop scope
 	pop = { #for a specific pop
 		default = "gfx/models/portraits/human/human_male_hair_brown_style_03_and_beard_dark_style_01.dds"
+		random = { 
+			trigger = { has_pop_flag = cowboy_pop } 
+			list = { "gfx/models/portraits/all/humanoid_male_cowboy_hat_01.dds" "gfx/models/portraits/all/humanoid_male_cowboy_hat_02.dds" "gfx/models/portraits/all/humanoid_male_cowboy_hat_03.dds" }
+		}
 		random = {
 			trigger = { uses_borg_prosthetics = no } 
 			list = {				

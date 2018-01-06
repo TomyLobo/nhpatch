@@ -854,6 +854,7 @@ ship_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		exists = from 
 		from = { has_planet_flag = vultaum_homeworld }
 		owner = { 
 			is_ai = no 
@@ -941,6 +942,7 @@ ship_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		exists = from
 		from = { has_planet_flag = vultaum_homeworld }
 		owner = { 
 			is_ai = no
@@ -1644,6 +1646,7 @@ ship_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		exists = from
 		from = { has_planet_flag = yuht_homeworld }
 		owner = { 
 			is_ai = no 
@@ -1718,6 +1721,7 @@ ship_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		exists = from
 		from = { has_planet_flag = yuht_homeworld }
 		owner = { 
 			is_ai = no 
@@ -2707,6 +2711,7 @@ ship_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		exists = from
 		from = { has_planet_flag = first_league_homeworld }
 		owner = { 
 			is_ai = no 
@@ -2802,6 +2807,7 @@ ship_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		exists = from
 		from = { has_planet_flag = first_league_homeworld }
 		owner = { 
 			is_ai = no
@@ -3622,6 +3628,7 @@ ship_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		exists = from
 		from = { has_planet_flag = irassian_homeworld }
 		owner = { 
 			is_ai = no 
@@ -3703,6 +3710,7 @@ ship_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		exists = from
 		from = { has_planet_flag = irassian_homeworld }
 		owner = { 
 			is_ai = no 

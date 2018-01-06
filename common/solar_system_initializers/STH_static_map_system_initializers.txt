@@ -13262,6 +13262,91 @@ spica_b = {
 		has_ring = no								
 	}									
 }
+
+# D'Arsay
+dasray_b = {										
+	name = "D'Arsay"									
+	class = sc_m								
+	planet = {									
+		name = "D'Arsay"								
+		class = star								
+		orbit_distance = 0								
+		orbit_angle = 1								
+		size = 15								
+		has_ring = no								
+	}									
+	change_orbit = {min = 100 max = 130 }								
+	planet = {									
+		class = pc_class_d_barren
+		orbit_angle = { min = 90 max = 270 }								
+		size = { min = 8 max = 16 }								
+		init_effect = {
+			random_list = {
+				33 = {
+					orbital_deposit_tile = {
+						clear_deposits = yes
+						add_deposit = d_rich_physics_deposit
+						}
+				}
+				33 = {
+					orbital_deposit_tile = {
+						clear_deposits = yes
+						add_deposit = d_rich_engineering_deposit
+					}
+				}
+				33 = {
+					orbital_deposit_tile = {
+						clear_deposits = yes
+						add_deposit = d_rich_society_deposit
+					}
+				}
+			}
+		}
+	}	
+}
+
+# Mecatol
+mecatol_b = {										
+	name = "Mecatol"									
+	planet = {									
+		name = "D'Arsay"	
+		size = { min = 50 max = 100 }
+		class = star								
+		orbit_distance = 0								
+		orbit_angle = 1								
+		has_ring = no								
+	}									
+	change_orbit = {min = 60 max = 90}
+	planet = {									
+		name = "Rex"
+		class = pc_nuked
+		orbit_angle = { min = 90 max = 270 }								
+		size = { min = 8 max = 16 }								
+		init_effect = {
+			random_list = {
+				33 = {
+					orbital_deposit_tile = {
+						clear_deposits = yes
+						add_deposit = d_rich_physics_deposit
+						}
+				}
+				33 = {
+					orbital_deposit_tile = {
+						clear_deposits = yes
+						add_deposit = d_rich_engineering_deposit
+					}
+				}
+				33 = {
+					orbital_deposit_tile = {
+						clear_deposits = yes
+						add_deposit = d_rich_society_deposit
+					}
+				}
+			}
+		}
+	}	
+}
+
 # New Earth - star system name unknown, therefore left blank
 new_earth_b = {										
 	class = sc_g									

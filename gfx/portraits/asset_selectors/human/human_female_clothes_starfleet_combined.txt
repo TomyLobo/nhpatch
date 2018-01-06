@@ -17,9 +17,13 @@ human_female_clothes_starfleet_combined = {
 	}
    
   #pop scope 
-	pop = { #for a specific pop 
+	pop = { #for a specific pop
 		random = { 
-			trigger = { uses_borg_prosthetics = no } 
+			trigger = { has_pop_flag = cowboy_pop } 
+			list = { "gfx/models/portraits/all/humanoid_female_cowboy_clothes_01.dds" "gfx/models/portraits/all/humanoid_female_cowboy_clothes_02.dds" "gfx/models/portraits/all/humanoid_female_cowboy_clothes_03.dds" }
+		}
+		random = { 
+			trigger = { uses_native_clothes_pop = yes } 
 			list = { "gfx/models/portraits/human_civilian/civ_human_female_clothes_01.dds" "gfx/models/portraits/human_civilian/civ_human_female_clothes_02.dds" "gfx/models/portraits/human_civilian/civ_human_female_clothes_03.dds" "gfx/models/portraits/human_civilian/civ_human_female_clothes_04.dds" "gfx/models/portraits/human_civilian/civ_human_female_clothes_05.dds" "gfx/models/portraits/human_civilian/civ_human_female_clothes_06.dds" }
 		}		
 		random = {  

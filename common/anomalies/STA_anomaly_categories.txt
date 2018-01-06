@@ -85,7 +85,7 @@ anomaly_category = {
 anomaly_category = {
 	key = "STA_silence_category"
 	desc = "STA_silence_category_desc"
-	picture = GFX_evt_black_hole
+	picture = sth_GFX_evt_blackHole
 	level = 3
 	#risk = 0
 	

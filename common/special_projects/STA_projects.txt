@@ -23,8 +23,7 @@ special_project = {
 		#ship_event = { id = STA_SecondChance_event.1 }
 	}
 	
-	on_fail{	
-	}
+	on_fail = { }
 }
 
 special_project = {
@@ -33,7 +32,7 @@ special_project = {
 	days_to_research = 90
 	tech_department = physics_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
-	picture = GFX_evt_black_hole
+	picture = sth_GFX_evt_blackHole
 	
 	event_scope = ship_event
 	
@@ -43,9 +42,8 @@ special_project = {
 	}
 	
 	on_success = {
-		#ship_event = { id = STA_silence_event.100 }
+		ship_event = { id = STA_silence_event.100 }
 	}
 	
-	on_fail{	
-	}
+	on_fail = { }
 }

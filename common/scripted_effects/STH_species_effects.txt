@@ -135,63 +135,110 @@ set_jem_hadar_name = {
 		10 = { set_name = "Arak'Igan" }
 	}
 }
-
-set_borg_name = {
-	random_list = {
-		10 = { set_name = "One of Seven" }
-		10 = { set_name = "Two of Seven" }
-		10 = { set_name = "Three of Seven" }
-		10 = { set_name = "Four of Seven" }
-		10 = { set_name = "Five of Seven" }
-		10 = { set_name = "Six of Seven" }
-		10 = { set_name = "Seven of Seven" }
-		10 = { set_name = "One of Eight" }
-		10 = { set_name = "Two of Eight" }
-		10 = { set_name = "Three of Eight" }
-		10 = { set_name = "Four of Eight" }
-		10 = { set_name = "Five of Eight" }
-		10 = { set_name = "Six of Eight" }
-		10 = { set_name = "Seven of Eight" }
-		10 = { set_name = "Eight of Eight" }
-		10 = { set_name = "One of Nine" }
-		10 = { set_name = "Two of Nine" }
-		10 = { set_name = "Three of Nine" }
-		10 = { set_name = "Four of Nine" }
-		10 = { set_name = "Five of Nine" }
-		10 = { set_name = "Six of Nine" }
-		10 = { set_name = "Seven of Nine" }
-		10 = { set_name = "Eight of Nine" }
-		10 = { set_name = "Nine of Nine" }
-		10 = { set_name = "One of Ten" }
-		10 = { set_name = "Two of Ten" }
-		10 = { set_name = "Three of Ten" }
-		10 = { set_name = "Four of Ten" }
-		10 = { set_name = "Five of Ten" }
-		10 = { set_name = "Six of Ten" }
-		10 = { set_name = "Seven of Ten" }
-		10 = { set_name = "Eight of Ten" }
-		10 = { set_name = "Nine of Ten" }
-		10 = { set_name = "Ten of Ten" }
-		10 = { set_name = "One of Twenty" }
-		10 = { set_name = "Two of Twenty" }
-		10 = { set_name = "Three of Twenty" }
-		10 = { set_name = "Four of Twenty" }
-		10 = { set_name = "Five of Twenty" }
-		10 = { set_name = "Six of Twenty" }
-		10 = { set_name = "Seven of Twenty" }
-		10 = { set_name = "Eight of Twenty" }
-		10 = { set_name = "Nine of Twenty" }
-		10 = { set_name = "Ten of Twenty" }
-		10 = { set_name = "Eleven of Twenty" }
-		10 = { set_name = "Twelve of Twenty" }
-		10 = { set_name = "Thirteen of Twenty" }
-		10 = { set_name = "Fourteen of Twenty" }
-		10 = { set_name = "Fifteen of Twenty" }
-		10 = { set_name = "Sixteen of Twenty" }
-		10 = { set_name = "Seventeen of Twenty" }
-		10 = { set_name = "Eighteen of Twenty" }
-		10 = { set_name = "Nineteen of Twenty" }
+set_borg_name = { 
+	random_list = { 
+		10 = { set_name = "One of Seven" } 
+		10 = { set_name = "Two of Seven" } 
+		10 = { set_name = "Three of Seven" } 
+		10 = { set_name = "Four of Seven" } 
+		10 = { set_name = "Five of Seven" } 
+		10 = { set_name = "Six of Seven" } 
+		10 = { set_name = "Seven of Seven" } 
+		10 = { set_name = "One of Eight" } 
+		10 = { set_name = "Two of Eight" } 
+		10 = { set_name = "Three of Eight" } 
+		10 = { set_name = "Four of Eight" } 
+		10 = { set_name = "Five of Eight" } 
+		10 = { set_name = "Six of Eight" } 
+		10 = { set_name = "Seven of Eight" } 
+		10 = { set_name = "Eight of Eight" } 
+		10 = { set_name = "One of Nine" } 
+		10 = { set_name = "Two of Nine" } 
+		10 = { set_name = "Three of Nine" } 
+		10 = { set_name = "Four of Nine" } 
+		10 = { set_name = "Five of Nine" } 
+		10 = { set_name = "Six of Nine" } 
+		10 = { set_name = "Seven of Nine" } 
+		10 = { set_name = "Eight of Nine" } 
+		10 = { set_name = "Nine of Nine" } 
+		10 = { set_name = "One of Ten" } 
+		10 = { set_name = "Two of Ten" } 
+		10 = { set_name = "Three of Ten" } 
+		10 = { set_name = "Four of Ten" } 
+		10 = { set_name = "Five of Ten" } 
+		10 = { set_name = "Six of Ten" } 
+		10 = { set_name = "Seven of Ten" } 
+		10 = { set_name = "Eight of Ten" } 
+		10 = { set_name = "Nine of Ten" } 
+		10 = { set_name = "Ten of Ten" } 
+		10 = { set_name = "One of Twenty" } 
+		10 = { set_name = "Two of Twenty" } 
+		10 = { set_name = "Three of Twenty" } 
+		10 = { set_name = "Four of Twenty" } 
+		10 = { set_name = "Five of Twenty" } 
+		10 = { set_name = "Six of Twenty" } 
+		10 = { set_name = "Seven of Twenty" } 
+		10 = { set_name = "Eight of Twenty" } 
+		10 = { set_name = "Nine of Twenty" } 
+		10 = { set_name = "Ten of Twenty" } 
+		10 = { set_name = "Eleven of Twenty" } 
+		10 = { set_name = "Twelve of Twenty" } 
+		10 = { set_name = "Thirteen of Twenty" } 
+		10 = { set_name = "Fourteen of Twenty" } 
+		10 = { set_name = "Fifteen of Twenty" } 
+		10 = { set_name = "Sixteen of Twenty" } 
+		10 = { set_name = "Seventeen of Twenty" } 
+		10 = { set_name = "Eighteen of Twenty" } 
+		10 = { set_name = "Nineteen of Twenty" } 
 		10 = { set_name = "Twenty of Twenty" }
+	}
+}
+
+set_darsay_name = {
+	if = {
+		limit = { gender = male }
+		random_list = {
+			10 = { set_name = "Ihat" }
+			10 = { set_name = "Korgano" }
+			10 = { set_name = "Mahat" }
+			10 = { set_name = "Korhat" }
+			10 = { set_name = "Margano" }
+			10 = { set_name = "Marganat" }
+			10 = { set_name = "Igano" }
+			10 = { set_name = "D'Iha" }
+			10 = { set_name = "D'argat" }
+			10 = { set_name = "Korha" }
+			10 = { set_name = "D'Iho" }
+			10 = { set_name = "I'argat" }
+			10 = { set_name = "Gano" }
+			10 = { set_name = "R'gat" }
+			10 = { set_name = "D'ar" }
+			10 = { set_name = "R'Orhan" }
+			10 = { set_name = "Iganor'a" }
+			10 = { set_name = "Margan'Orh" }
+		}
+		else = {
+			random_list = {
+				10 = { set_name = "Masaka" }
+				10 = { set_name = "Iha" }
+				10 = { set_name = "Kora" }
+				10 = { set_name = "Seka" }
+				10 = { set_name = "Lesaka" }
+				10 = { set_name = "Lora" }
+				10 = { set_name = "Makara" }
+				10 = { set_name = "D'Irsa" }
+				10 = { set_name = "D'gana" }
+				10 = { set_name = "Masrana" }
+				10 = { set_name = "Mana" }
+				10 = { set_name = "Masagana" }
+				10 = { set_name = "Lona" }
+				10 = { set_name = "Sekna" }
+				10 = { set_name = "M'Masakaa" }
+				10 = { set_name = "Maoe Ko" }
+				10 = { set_name = "Masak Lor" }
+				10 = { set_name = "Ko'ganna" }
+			}
+		}
 	}
 }
 
